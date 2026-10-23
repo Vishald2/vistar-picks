@@ -7,8 +7,6 @@ import { products } from "@/lib/products";
 import styles from "./productdetails.module.css";
 import { productContent } from "@/lib/product-content";
 
-export const instant = false;
-
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
