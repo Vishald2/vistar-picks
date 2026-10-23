@@ -68,7 +68,7 @@ const copy = productContent[product.slug] ?? {
   <div className="product-image-panel">
     <div className="product-image-stage">
       <Image
-        src={product.image}
+        src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}${product.image}`}
         alt={product.name}
         width={700}
         height={700}
