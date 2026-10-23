@@ -1,0 +1,80 @@
+
+"use client";
+
+import { useState, type ComponentProps } from "react";
+import { categories } from "@/lib/products";
+
+export default function Header() {
+
+
+const [category, setCategory] = useState("All Categories");
+const [query, setQuery] = useState("");
+
+function handleSearch(
+  event: Parameters<
+    NonNullable<ComponentProps<"form">["onSubmit"]>
+  >[0]
+) {
+  event.preventDefault();
+
+  console.log("SUBMIT FIRED");
+  console.log("Query:", query);
+  console.log("Category:", category);
+
+  const params = new URLSearchParams();
+
+  if (query.trim()) params.set("q", query.trim());
+
+  if (category !== "All Categories") {
+    params.set("category", category);
+  }
+
+  const url = params.toString()
+    ? `/search?${params.toString()}`
+    : "/search";
+
+  console.log("Navigating to:", url);
+  window.location.href = url;
+}
+
+
+  return (
+    <header className="site-header">
+      <div className="header-inner">
+        <a className="brand" href="/" aria-label="Vistar Picks home">
+          <span className="brand-name">Vistar Picks</span>
+          <span className="brand-tagline">Smart product choices</span>
+        </a>
+
+        <form className="search-form" onSubmit={handleSearch}>
+          <select
+  aria-label="Choose category"
+  value={category}
+  onChange={(event) => {
+    console.log("Category changed:", event.target.value);
+    setCategory(event.target.value);
+  }}
+>
+  <option value="All Categories">All Categories</option>
+  {categories.map((item) => (
+    <option key={item} value={item}>
+      {item}
+    </option>
+  ))}
+</select>
+
+          <input
+            aria-label="Search products"
+            placeholder="Search products..."
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+          />
+
+          <button type="submit" aria-label="Search">
+            Search
+          </button>
+        </form>
+      </div>
+    </header>
+  );
+}
