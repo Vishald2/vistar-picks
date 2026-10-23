@@ -79,16 +79,15 @@ export const products: Product[] = [
     description: "Explore mice for productivity and everyday work.",
     image: "/products/mouse.jpg",
     slug: "computer-mouse",
+    amazonUrl:"https://link.amazon/B01Rb0rVW"},
+  {
+    id: "7",
+    name: "Dell 15 Laptop, 14th Gen Intel Core i3/Core 3 100U Processor",
+    category: "Electronics",
+    description: "Dell 15 (Previously Inspiron) Laptop, 14th Gen Intel Core i3/Core 3 100U Processor, 16GB DDR4, 512 SSD, Intel UHD Graphics, 15.6\" FHD 120Hz IPS AG 250 nit Display, Win 11 + Office 2024, Black, 1.63Kg",
+    image: "/products/7-Dell-15-Laptop-71rhZEheSZL_SL1500.jpg",
+    slug: "7-Dell-15-Laptop-71rhZEheSZL_SL1500",
     amazonUrl:
-      "https://link.amazon/B01Rb0rVW"},
-      {
-        id: "7",
-        name: "Dell 15 Laptop, 14th Gen Intel Core i3/Core 3 100U Processor",
-        category: "Electronics",
-        description: "Dell 15 (Previously Inspiron) Laptop, 14th Gen Intel Core i3/Core 3 100U Processor, 16GB DDR4, 512 SSD, Intel UHD Graphics, 15.6\" FHD 120Hz IPS AG 250 nit Display, Win 11 + Office 2024, Black, 1.63Kg",
-        image: "/products/7-Dell-15-Laptop-71rhZEheSZL_SL1500.jpg",
-        slug: "7-Dell-15-Laptop-71rhZEheSZL_SL1500",
-        amazonUrl:
-          "https://link.amazon/B02u0Xj11"
-      },
+      "https://link.amazon/B02u0Xj11"
+  },
 ];
