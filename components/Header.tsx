@@ -3,6 +3,7 @@
 
 import { useState, type ComponentProps } from "react";
 import { categories } from "@/lib/products";
+import Link from "next/link";
 
 export default function Header() {
 
@@ -41,11 +42,14 @@ function handleSearch(
   return (
     <header className="site-header">
       <div className="header-inner">
-        <a className="brand" href="/" aria-label="Vistar Picks home">
-          <span className="brand-name">Vistar Picks</span>
-          <span className="brand-tagline">Smart product choices</span>
-        </a>
-
+      <Link
+        className="brand"
+        href="/"
+        aria-label="Vistar Picks home"
+      >
+        <span className="brand-name">Vistar Picks</span>
+        <span className="brand-tagline">Smart product choices</span>
+      </Link>
         <form className="search-form" onSubmit={handleSearch}>
           <select
   aria-label="Choose category"
