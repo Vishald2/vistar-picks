@@ -181,7 +181,7 @@ const copy = productContent[product.slug] ?? {
       >
         <div className="similar-product-image">
           <Image
-            src={item.image}
+          src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}${item.image}`}
             alt={item.name}
             width={220}
             height={180}
