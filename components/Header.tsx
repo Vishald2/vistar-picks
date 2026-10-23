@@ -30,9 +30,10 @@ function handleSearch(
     params.set("category", category);
   }
 
-  const url = params.toString()
-    ? `/search?${params.toString()}`
-    : "/search";
+const searchPath = "/vistar-picks/search";
+const url = params.toString()
+  ? `${searchPath}?${params.toString()}`
+  : searchPath;
 
   console.log("Navigating to:", url);
   window.location.href = url;
