@@ -4,7 +4,7 @@ import Header from "@/components/Header";
 import SearchResults from "./SearchResults";
 
 export default function SearchPage() {
-  return (
+  return ( 
     <>
       <Header />
       <main className="search-results-page">
