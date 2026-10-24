@@ -8,9 +8,9 @@ export type Product = {
   amazonUrl: string;
   asin?: string | null;
   currency?: string | null;
-  price?: number | null;
+  price: number;
   rating?: number | null;
-  reviewCount?: number | null;
+  reviewCount: number;
   lastVerifiedAt?: string | null;
 
 };

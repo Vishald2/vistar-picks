@@ -29,7 +29,6 @@ export default function ProductCard({
       </Link>
 
       <div className="product-card-body">
-        <span className="product-category">{product.category}</span>
 
         <Link
           href={`/product/${product.slug}`}
@@ -38,7 +37,38 @@ export default function ProductCard({
           {product.name}
         </Link>
 
-        <p>{product.description}</p>
+            {product.price != null && (
+  <div className="product-price">
+        <span className="product-price-currency">
+      {product.currency}
+    </span>
+    <span></span>
+    <span className="product-price-amount">
+      {new Intl.NumberFormat("en-IN", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      }).format(product.price)}
+    </span>
+
+  </div>
+)}
+
+    {product.rating != null && (
+      <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
+        <span className="product-rating-stars" aria-hidden="true">
+  {"★".repeat(Math.floor(product.rating))}
+  {"☆".repeat(5 - Math.floor(product.rating))}
+        </span>
+
+        <span className="product-rating-score">{product.rating.toFixed(1)}/5</span>
+
+        {product.reviewCount != null && (
+          <span className="product-rating-count">
+            ({product.reviewCount.toLocaleString("en-IN")} ratings)
+          </span>
+        )}
+      </div>
+    )}
 
         <Link
           href={`/product/${product.slug}`}

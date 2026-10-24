@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import PopularPicks from "@/components/PopularPicks";

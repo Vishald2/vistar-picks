@@ -833,7 +833,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  margin: 12px 0 18px;
+  margin: 5px 0 18px;
   font-size: 15px;
 }
 
@@ -1030,7 +1030,7 @@ a {
   display: flex;
   align-items: baseline;
   gap: 8px;
-  margin: 12px 0;
+  margin: 5px 0;
   font-size: 1.6rem;
   font-weight: 700;
   color: #222;

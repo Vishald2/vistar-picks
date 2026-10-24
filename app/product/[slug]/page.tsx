@@ -106,11 +106,11 @@ const copy = productContent[product.slug] ?? {
         <span className="product-price-currency">
       {product.currency}
     </span>
-    <span> </span>
+    <span></span>
     <span className="product-price-amount">
       {new Intl.NumberFormat("en-IN", {
-        minimumFractionDigits: 2,
-        maximumFractionDigits: 2,
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
       }).format(product.price)}
     </span>
 
@@ -209,8 +209,41 @@ const copy = productContent[product.slug] ?? {
             height={180}
           />
         </div>
-
         <h3>{item.name}</h3>
+        
+{item.price != null && (
+  <div className="product-price">
+        <span className="product-price-currency">
+      {item.currency}
+    </span>
+    <span></span>
+    <span className="product-price-amount">
+      {new Intl.NumberFormat("en-IN", {
+        minimumFractionDigits: 0,
+        maximumFractionDigits: 0,
+      }).format(item.price)}
+    </span>
+
+  </div>
+)}
+
+    {item.rating != null && (
+      <div className="product-rating" aria-label={`Rated ${item.rating} out of 5`}>
+        <span className="product-rating-stars" aria-hidden="true">
+  {"★".repeat(Math.floor(item.rating))}
+  {"☆".repeat(5 - Math.floor(item.rating))}
+        </span>
+
+        <span className="product-rating-score">{item.rating.toFixed(1)}/5</span>
+
+        {item.reviewCount != null && (
+          <span className="product-rating-count">
+            ({item.reviewCount.toLocaleString("en-IN")} ratings)
+          </span>
+        )}
+      </div>
+    )}
+
         <span className="similar-product-link">
           View Product →
         </span>

@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState, type ComponentProps } from "react";
+import { useEffect, useState, type ComponentProps } from "react";
 import { categories } from "@/lib/products";
 import Link from "next/link";
 
@@ -10,6 +10,21 @@ export default function Header() {
 
 const [category, setCategory] = useState("All Categories");
 const [query, setQuery] = useState("");
+
+useEffect(() => {
+  const params = new URLSearchParams(window.location.search);
+
+  const urlCategory = params.get("category");
+  const urlQuery = params.get("q");
+
+  if (urlCategory && categories.includes(urlCategory)) {
+    setCategory(urlCategory);
+  } else {
+    setCategory("All Categories");
+  }
+
+  setQuery(urlQuery ?? "");
+}, []);
 
 function handleSearch(
   event: Parameters<
@@ -30,10 +45,10 @@ function handleSearch(
     params.set("category", category);
   }
 
-const searchPath = "/vistar-picks/search";
-const url = params.toString()
-  ? `${searchPath}?${params.toString()}`
-  : searchPath;
+  const searchPath = "/search";
+  const url = params.toString()
+    ? `${searchPath}?${params.toString()}`
+    : searchPath;
 
   console.log("Navigating to:", url);
   window.location.href = url;

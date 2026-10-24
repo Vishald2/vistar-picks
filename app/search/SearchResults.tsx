@@ -72,7 +72,7 @@ export default function SearchResults() {
               >
                 <div className="search-result-image">
                   <Image
-                    src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}${product.image}`}
+                    src={`/products/${product.image}`}
                     alt={product.name}
                     width={300}
                     height={240}
