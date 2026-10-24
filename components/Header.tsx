@@ -48,7 +48,7 @@ const url = params.toString()
         href="/"
         aria-label="Vistar Picks home"
       >
-        <span className="brand-name">Vistar Picks</span>
+        <span className="brand-name">Selective Kart</span>
         <span className="brand-tagline">Smart product choices</span>
       </Link>
         <form className="search-form" onSubmit={handleSearch}>

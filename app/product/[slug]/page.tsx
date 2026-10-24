@@ -203,7 +203,7 @@ const copy = productContent[product.slug] ?? {
       >
         <div className="similar-product-image">
           <Image
-          src={`/products/${product.image}`}
+          src={`/products/${item.image}`}
             alt={item.name}
             width={220}
             height={180}
