@@ -1,0 +1,11 @@
+1. embed real amazon product. done.
+2. amazon link working. done.
+3. review display. done
+4. how to manage data. Single source of data. may be text files. done.
+5. search dropdown working . done.
+6. Publish
+7. Custom domain
+
+
+
+<img src={`/products/${product.image}`} alt={product.name} />

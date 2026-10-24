@@ -1025,3 +1025,30 @@ a {
     grid-template-columns: minmax(0, 1fr);
   }
 }
+
+.product-price {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin: 12px 0;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.product-price-amount {
+  font-variant-numeric: tabular-nums;
+}
+
+.product-price-currency {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #666;
+}
+
+.product-last-verified {
+  margin-top: 4px;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+  color: #666;
+}

@@ -68,7 +68,7 @@ const copy = productContent[product.slug] ?? {
   <div className="product-image-panel">
     <div className="product-image-stage">
       <Image
-        src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}${product.image}`}
+        src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}/products/${product.image}`}
         alt={product.name}
         width={700}
         height={700}
@@ -100,6 +100,28 @@ const copy = productContent[product.slug] ?? {
         )}
       </div>
     )}
+
+    {product.price != null && (
+  <div className="product-price">
+        <span className="product-price-currency">
+      {product.currency}
+    </span>
+    <span> </span>
+    <span className="product-price-amount">
+      {new Intl.NumberFormat("en-IN", {
+        minimumFractionDigits: 2,
+        maximumFractionDigits: 2,
+      }).format(product.price)}
+    </span>
+
+  </div>
+)}
+
+{product.lastVerifiedAt && (
+  <div className="product-last-verified">
+    Last reviewed: {product.lastVerifiedAt}
+  </div>
+)}
 
     <p className="product-introduction">{copy.introduction}</p>
 
@@ -181,7 +203,7 @@ const copy = productContent[product.slug] ?? {
       >
         <div className="similar-product-image">
           <Image
-          src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}${item.image}`}
+          src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}/products/${item.image}`}
             alt={item.name}
             width={220}
             height={180}
