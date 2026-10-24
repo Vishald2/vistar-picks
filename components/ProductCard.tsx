@@ -18,7 +18,7 @@ export default function ProductCard({
         
         <div className="product-image">
         <Image
-            src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}/products/${product.image}`}
+            src={`/products/${product.image}`}
             alt={product.name}
             fill
             sizes="(max-width: 700px) 50vw, 240px"

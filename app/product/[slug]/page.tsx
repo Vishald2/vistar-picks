@@ -68,7 +68,7 @@ const copy = productContent[product.slug] ?? {
   <div className="product-image-panel">
     <div className="product-image-stage">
       <Image
-        src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}/products/${product.image}`}
+        src={`/products/${product.image}`}
         alt={product.name}
         width={700}
         height={700}
@@ -203,7 +203,7 @@ const copy = productContent[product.slug] ?? {
       >
         <div className="similar-product-image">
           <Image
-          src={`${process.env.NODE_ENV === "production" ? "/vistar-picks" : ""}/products/${item.image}`}
+          src={`/products/${product.image}`}
             alt={item.name}
             width={220}
             height={180}

@@ -8,7 +8,6 @@ export default function HomePage() {
   return (
     <>
       <Header />
-
       <main className="page-container">
         <div className="section-heading">
           <div>
