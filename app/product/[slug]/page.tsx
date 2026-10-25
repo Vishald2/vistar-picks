@@ -82,8 +82,6 @@ const copy = productContent[product.slug] ?? {
   <div className="product-info">
     <span className="product-category">{product.category}</span>
 
-    <h1 id="product-title">{product.name}</h1>
-
     {product.rating != null && (
       <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
         <span className="product-rating-stars" aria-hidden="true">
