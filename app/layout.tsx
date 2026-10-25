@@ -4,7 +4,7 @@ import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
-  title: "Vistar Picks | Smart Product Choices",
+  title: "Selective Kart | Smart Product Choices",
   description:
     "Discover useful products, compare features, and make informed buying decisions.",
 };
