@@ -12,4 +12,5 @@ export const categories = [
   "Books",
   "Sports & Fitness",
   "Beauty",
+  "Automotive",
 ];

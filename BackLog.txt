@@ -3,9 +3,34 @@
 3. review display. done
 4. how to manage data. Single source of data. may be text files. done.
 5. search dropdown working . done.
-6. Publish
-7. Custom domain
+6. Publish. done.
+7. app title still shows vistar picks.done
+8. Product content management
 
 
 
-<img src={`/products/${product.image}`} alt={product.name} />
+
+
+
+Sujata MG03 Mixer Grinder|1000 Watts Double Ball Bearing Motor Polycarbonate|24000 RPM|Non-Stop 90 Mins|4 Jars including 1750ml Blender with Coconut Milk Extractor, 1500ml, 1000ml, 500ml Jar| (Black)
+
+
+Click to see full view
+Sujata Dynamix mixer grinder in white with three jars: a large clear blending jar mounted on the motor base, a medium stainless steel jar, and a smaller jar with clear lid. Base features a rotary knob and purple button.
+Product Video
+11 VIDEOS
+Sujata Dynamix mixer grinder in white with three jars: a 1.5 Ltr dome blending jar, a 1 Ltr stainless steel grinding jar, and a 500 ml chutney jar. Labeled callouts highlight motor unit, overload protector, and 3-speed control with pulse mode.
+Sujata Dynamix white mixer grinder on a light countertop. Promotional text highlights: 22,000 RPM, Non-Stop 90 Mins Running, Double Ball Bearings, 100% Copper, and Powered by 900W Motor. Header reads 'Heavy Duty Performance, Smooth Results.'
+Sujata dome jar grinder on light gray background with three labeled callouts: heavy duty grinding, interlock dome lid design, and 3 changeable blades. Three inset images show turmeric, hummus, and a creamy dip as example uses.
+Sujata mixer grinder jar shown in an infographic with the headline 'Grind Anything, Anytime.' Features labeled include food grade stainless steel jar, hardened SS blades, sturdy metal socket, and ergonomic soft-grip handle. Side panels show dry spices and dosas for wet grinding use cases.
+Sujata chutney jar infographic titled 'Big on Performance' showing a stainless steel jar with clear lid and locking clips. Labels point to food grade stainless steel jar, hardened SS blades, and lid locks. Side panels show blending wet chutneys and grinding dry masalas., 4+ more images are available4+
+ Ask Rufus
+
+Can it grind spices?
+ 
+Does it have a safety lock?
+ 
+Is it easy to clean?
+ 
+Ask something else
+Sujata Dynamix 900 Watts Mixer Grinder | 22000 Rotations Per Min | 90 Minutes Continuous Running | 3 Versatile Jars 1500 ml, 1000 ml and 500 ml (White)

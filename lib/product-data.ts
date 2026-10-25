@@ -106,6 +106,21 @@ const productData: Product[] = [
  reviewCount: 1422,
  lastVerifiedAt: "24-Oct-2026",
   },
+  {
+ id: "18",
+ name: "Motul Chain Lube & Chain Cleaner",
+ category: "Automotive",
+ description: "Motul Chain Lube & Chain Cleaner Combo for Bikes – C2 Lubrication + C1 Deep Cleaning Spray for Superior Chain Care, Suitable for All Motorcycles, 150 ml Each",
+ image: "Motul_Chain_Lube_Chain_Cleaner_81kD7t3z+LL_SL1500.jpg",
+ slug: "motul-chain-lube-chain-cleaner-8a20ded6",
+ amazonUrl: "https://link.amazon/B03qKoJ9M",
+ asin: "B01ESPB2WM",
+ currency: "INR",
+ price: 440.00,
+ rating: 4.40,
+ reviewCount: 24726,
+ lastVerifiedAt: "25-Oct-2026",
+  },
 ];
 
 export default productData;
