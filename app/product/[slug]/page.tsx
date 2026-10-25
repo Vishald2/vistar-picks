@@ -27,7 +27,7 @@ export default async function ProductDetailsPage({ params }: PageProps) {
   }
 
 const copy = productContent[product.slug] ?? {
-  introduction: "Explore the product's design and features.",
+  introduction: "",
   overview: product.description,
   whatToCheck: "Compare specifications, quality and value before buying.",
 };
@@ -124,9 +124,13 @@ const copy = productContent[product.slug] ?? {
   </div>
 )}
 
+{copy.introduction?.trim() && (
+  <>
     <p className="product-introduction">{copy.introduction}</p>
 
     <div className="product-divider" />
+  </>
+)}
 
     <section className="product-info-section">
       <h2>Product overview</h2>
