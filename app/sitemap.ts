@@ -2,6 +2,8 @@
 import type { MetadataRoute } from "next";
 import { products } from "@/lib/products";
 
+export const dynamic = "force-static";
+
 const SITE_URL = "https://selectivekart.com";
 
 export default function sitemap(): MetadataRoute.Sitemap {
