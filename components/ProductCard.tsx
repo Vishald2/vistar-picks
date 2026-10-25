@@ -37,19 +37,17 @@ export default function ProductCard({
           {product.name}
         </Link>
 
-            {product.price != null && (
-  <div className="product-price">
-        <span className="product-price-currency">
+{product.price != null && (
+  
+  <div className="product-card-price">
+      <span className="product-price-currency">
       {product.currency}
-    </span>
-    <span></span>
-    <span className="product-price-amount">
-      {new Intl.NumberFormat("en-IN", {
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
-      }).format(product.price)}
-    </span>
-
+  </span>
+  <span> </span>
+    {new Intl.NumberFormat("en-IN", {
+      minimumFractionDigits: 0,
+      maximumFractionDigits: 0,
+    }).format(product.price)}
   </div>
 )}
 

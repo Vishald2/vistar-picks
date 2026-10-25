@@ -80,7 +80,10 @@ const copy = productContent[product.slug] ?? {
 
   {/* Right column: product details */}
   <div className="product-info">
-    <span className="product-category">{product.category}</span>
+
+  <h1 className="product-detail-title">
+    {product.name}
+  </h1>
 
     {product.rating != null && (
       <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
@@ -101,7 +104,7 @@ const copy = productContent[product.slug] ?? {
 
     {product.price != null && (
   <div className="product-price">
-        <span className="product-price-currency">
+    <span className="product-price-currency">
       {product.currency}
     </span>
     <span></span>

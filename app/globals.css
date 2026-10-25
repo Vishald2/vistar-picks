@@ -426,8 +426,7 @@ a {
   display: flex;
   min-width: 0;
   min-height: 445px;
-  align-items: center;
-  justify-content: center;
+  align-items: top;
   padding: 22px;
   overflow: hidden;
   border-radius: 18px;
@@ -544,11 +543,6 @@ a {
   .product-hero {
     grid-template-columns: minmax(0, 1fr);
     gap: 24px;
-  }
-
-  .product-image-panel {
-    min-height: 380px;
-    padding: 16px;
   }
 
   .product-image-stage {
@@ -833,7 +827,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   gap: 10px;
-  margin: 5px 0 18px;
+  margin: 5px 0 9px;
   font-size: 15px;
 }
 
@@ -1029,7 +1023,7 @@ a {
 .product-price {
   display: flex;
   align-items: baseline;
-  gap: 8px;
+  gap: 3px;
   margin: 5px 0;
   font-size: 1.6rem;
   font-weight: 700;
@@ -1058,5 +1052,31 @@ a {
   .container {
     margin-left: 5px;
     margin-right: 5px;
+  }
+}
+
+
+.product-card-price {
+  margin: 10px 0;
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #222;
+  font-variant-numeric: tabular-nums;
+}
+
+
+.product-detail-title {
+  margin: 12px 0 16px;
+  font-size: 1.8rem;
+  line-height: 1.3;
+  font-weight: 700;
+  color: #1f2937;
+}
+
+@media (max-width: 768px) {
+  .product-detail-title {
+    font-size: 1.4rem;
+    margin: 8px 0 12px;
   }
 }
