@@ -253,7 +253,7 @@ const copy = productContent[product.slug] ?? {
 </section>
 
   <p className="details-disclosure">
-    <strong>Affiliate disclosure:</strong> Vistar Picks may earn a
+    <strong>Affiliate disclosure:</strong> Selective Kart may earn a
     commission from qualifying purchases made through affiliate links.
     Product details and availability should be confirmed with the seller.
   </p>

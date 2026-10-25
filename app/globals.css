@@ -1052,3 +1052,11 @@ a {
   font-size: 0.85rem;
   color: #666;
 }
+
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
