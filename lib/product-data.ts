@@ -3,7 +3,7 @@ import type { Product } from "./product-types";
 const productData: Product[] = [
   {
  id: "10",
- name: "Insulated Water Bottle New",
+ name: "Insulated Water Bottle",
  category: "Home & Kitchen",
  description: "Insulated bottle for everyday use and travel.",
  image: "water-bottle.jpg",
