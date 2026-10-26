@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "33",
+ name: "The 7 Habits Of Highly Effective People Updated",
+ category: "Books",
+ description: "New York Times bestseller ? over 25 million copies sold the no. 1 most influential business book of the twentieth century ?[thirty] years after it first appeared, the wisdom of the 7 habits is more relevant than ever.",
+ image: "Books-B0hv1MUw3-B07WF972WK.jpg",
+ slug: "the-7-habits-of-highly-df065458",
+ amazonUrl: "https://link.amazon/B0hv1MUw3",
+ asin: "B07WF972WK",
+ currency: "INR",
+ price: 323.00,
+ rating: 4.50,
+ reviewCount: 16859,
+ lastVerifiedAt: "26-Oct-2026",
+  },
+  {
  id: "32",
  name: "Samsung Galaxy S25 Ultra 5G AI",
  category: "Electronics",
