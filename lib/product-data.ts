@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "31",
+ name: "Apple iPhone 17 Pro Max 2 TB",
+ category: "Electronics",
+ description: "Apple iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver",
+ image: "Electronics-B0cfrvgqU-B0FQF9ZLD7.jpg",
+ slug: "apple-iphone-17-pro-max-f03d02c5",
+ amazonUrl: "https://link.amazon/B0cfrvgqU",
+ asin: "B0FQF9ZLD7",
+ currency: "INR",
+ price: 224900.00,
+ rating: 4.70,
+ reviewCount: 694,
+ lastVerifiedAt: "26-Oct-2026",
+  },
+  {
  id: "10",
  name: "Insulated Water Bottle",
  category: "Home & Kitchen",
@@ -259,7 +274,7 @@ const productData: Product[] = [
   {
  id: "28",
  name: "Apple iPhone 16 128 GB 5G",
- category: "Home & Kitchen",
+ category: "Electronics",
  description: "Apple iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
  image: "B0j95yVAX-B0DGJHBX5Y.jpg",
  slug: "apple-iphone-16-128-gb-98413ff7",
