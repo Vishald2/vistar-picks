@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "38",
+ name: "How to win friends and Influence People",
+ category: "Books",
+ description: "You can achieve whatever you want- be it your job, a thing or person. You go behind a job and you get it. You can take it and improve it with each passing day.",
+ image: "Books-B0dGWdl3n-B09ST4JLBQ.jpg",
+ slug: "how-to-win-friends-and-9de6eebf",
+ amazonUrl: "https://link.amazon/B0dGWdl3n",
+ asin: "B09ST4JLBQ",
+ currency: "INR",
+ price: 29.91,
+ rating: 4.50,
+ reviewCount: 101147,
+ lastVerifiedAt: "26-Oct-2026",
+  },
+  {
  id: "37",
  name: "Rich Dad Poor Dad",
  category: "Books",
