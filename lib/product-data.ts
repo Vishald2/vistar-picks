@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "34",
+ name: "Think and Grow Rich",
+ category: "Books",
+ description: "Napoleon Hill's \"Think and Grow Rich\" is far more than a traditional manual for financial accumulation; it is a profound, deeply humane exploration of human potential and the immense power of the mind. Written in 1937 after Hill spent two decades studying some of the most successful individuals of his era, the book strips away the illusion that wealth and achievement are merely products of luck or privilege.",
+ image: "Books-B05EpeDjz-B01BT0ISHQ.jpg",
+ slug: "think-and-grow-rich-04565e6b",
+ amazonUrl: "https://link.amazon/B05EpeDjz",
+ asin: "B01BT0ISHQ",
+ currency: "INR",
+ price: 98.70,
+ rating: 4.50,
+ reviewCount: 7028,
+ lastVerifiedAt: "26-Oct-2026",
+  },
+  {
  id: "33",
  name: "The 7 Habits Of Highly Effective People Updated",
  category: "Books",
