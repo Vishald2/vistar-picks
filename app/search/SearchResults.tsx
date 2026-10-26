@@ -79,12 +79,38 @@ export default function SearchResults() {
                   />
                 </div>
 
-                <span className="search-result-category">
-                  {product.category}
-                </span>
+          <h2>{product.name}</h2>
+              {product.rating != null && (
+                <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
+                  <span className="product-rating-stars" aria-hidden="true">
+            {"★".repeat(Math.floor(product.rating))}
+            {"☆".repeat(5 - Math.floor(product.rating))}
+                  </span>
 
-                <h2>{product.name}</h2>
-                <p>{product.description}</p>
+                  <span className="product-rating-score">{product.rating.toFixed(1)}/5</span>
+
+                  {product.reviewCount != null && (
+                    <span className="product-rating-count">
+                      ({product.reviewCount.toLocaleString("en-IN")} ratings)
+                    </span>
+                  )}
+                </div>
+              )}
+
+              {product.price != null && (
+
+              <div className="product-card-price">
+                <span className="product-price-currency">
+                {product.currency}
+                </span>
+                <span> </span>
+                    {new Intl.NumberFormat("en-IN", {
+                    minimumFractionDigits: 0,
+                    maximumFractionDigits: 0,
+                }).format(product.price)}
+              </div>
+              )}
+
                 <span className="search-result-link">View Product →</span>
               </Link>
             ))}

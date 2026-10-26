@@ -32,18 +32,12 @@ const copy = productContent[product.slug] ?? {
   whatToCheck: "Compare specifications, quality and value before buying.",
 };
 
-  const similarProducts = products
+const similarProducts = products
   .filter(
     (item) =>
       item.slug !== product.slug &&
-      item.category === product.category
-  )
-  .concat(
-    products.filter(
-      (item) =>
-        item.slug !== product.slug &&
-        item.category !== product.category
-    )
+      item.category?.trim().toLowerCase() ===
+        product.category?.trim().toLowerCase()
   )
   .slice(0, 3);
 
@@ -197,7 +191,9 @@ const copy = productContent[product.slug] ?? {
   </section>
 
   <section className="similar-products-section">
+{similarProducts.length > 0 && (
   <h2>Similar Products</h2>
+)}
 
   <div className="similar-products-grid">
     {similarProducts.map((item) => (
