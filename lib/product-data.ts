@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "32",
+ name: "Samsung Galaxy S25 Ultra 5G AI",
+ category: "Electronics",
+ description: "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Whitesilver, 12GB RAM, 512GB Storage), 200MP Camera, 5000mAh Ultra Long Battery, QHD+ Dynamic AMOLED 2X, Galaxy AI, Knox Security, S Pen Included",
+ image: "Electronics-B04CkEa67-B0DSKLSV63.jpg",
+ slug: "samsung-galaxy-s25-ultra-5g-3350d874",
+ amazonUrl: "https://link.amazon/B04CkEa67",
+ asin: "B0DSKLSV63",
+ currency: "INR",
+ price: 111999.00,
+ rating: 4.40,
+ reviewCount: 3920,
+ lastVerifiedAt: "26-Oct-2026",
+  },
+  {
  id: "31",
  name: "Apple iPhone 17 Pro Max 2 TB",
  category: "Electronics",
