@@ -2,7 +2,7 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
-    id: 10,
+    id: "10",
     name: "Insulated Water Bottle New",
     category: "Home \u0026 Kitchen",
     description: "Insulated bottle for everyday use and travel.",
@@ -17,7 +17,7 @@ const productData: Product[] = [
     lastVerifiedAt: "23-Oct-2026",
   },
   {
-    id: 12,
+    id: "12",
     name: "Kitchen Storage Containers",
     category: "Home \u0026 Kitchen",
     description: "Find practical storage options for your kitchen.",
@@ -32,7 +32,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 13,
+    id: "13",
     name: "iPhone 18 Pro (256 GB) - Black",
     category: "Electronics",
     description: "15.93 cm (6.3\u2033) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture",
@@ -47,7 +47,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 14,
+    id: "14",
     name: "Sujata Supermix Mixer Grinder",
     category: "Home \u0026 Kitchen",
     description: "Sujata Supermix Mixer Grinder|900 Watts Double Ball Bearing Motor|22000 RPM|Non-Stop 90 Mins Running|3 Jars including 1750ml Blender, 1000ml Grinder, 500ml Chutney Jar| (White)",
@@ -62,7 +62,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 15,
+    id: "15",
     name: "Sujata Dynamix 900 Watts Mixer Grinder",
     category: "Home \u0026 Kitchen",
     description: "Sujata Dynamix 900 Watts Mixer Grinder | 22000 Rotations Per Min | 90 Minutes Continuous Running | 3 Versatile Jars 1500 ml, 1000 ml and 500 ml (White)",
@@ -77,7 +77,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 16,
+    id: "16",
     name: "Sujata MG01 Mixer Grinder 1000Watts",
     category: "Home \u0026 Kitchen",
     description: "Sujata MG01 Mixer Grinder 1000Watts | Double Ball Bearing Motor | 24000 RPM | Non-Stop 90 Mins Running | 3 Jars including 1750ml Blender, 1000ml Grinder, 500ml Chutney Jar | Red \u0026 Black",
@@ -92,7 +92,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 17,
+    id: "17",
     name: "Sujata MG03 Mixer Grinder 1000Watts",
     category: "Home \u0026 Kitchen",
     description: "Sujata MG03 Mixer Grinder|1000 Watts Double Ball Bearing Motor Polycarbonate|24000 RPM|Non-Stop 90 Mins|4 Jars including 1750ml Blender with Coconut Milk Extractor, 1500ml, 1000ml, 500ml Jar| (Black)",
@@ -107,7 +107,7 @@ const productData: Product[] = [
     lastVerifiedAt: "24-Oct-2026",
   },
   {
-    id: 18,
+    id: "18",
     name: "Motul Chain Lube \u0026 Chain Cleaner",
     category: "Automotive",
     description: "Motul Chain Lube \u0026 Chain Cleaner Combo for Bikes \u2013 C2 Lubrication \u002B C1 Deep Cleaning Spray for Superior Chain Care, Suitable for All Motorcycles, 150 ml Each",
@@ -122,7 +122,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 19,
+    id: "19",
     name: "Samsung Galaxy S24 Ultra 5G AI",
     category: "Electronics",
     description: "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 512GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -137,7 +137,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 20,
+    id: "20",
     name: "Samsung Galaxy S24 Ultra 5G AI Black",
     category: "Electronics",
     description: "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Black, 12GB, 512GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -152,7 +152,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 21,
+    id: "21",
     name: "Realme 16 Pro\u002B 5G Smartphone 8\u002B256GB Grey",
     category: "Electronics",
     description: "7000mAh Battery, 80W SuperVOOC, 6.8-Inch Screen, 144Hz AMOLED Display, Rear 200MP\u002BFront 50MP Camera, Snapdragon 7 Gen 4, IP69",
@@ -167,7 +167,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 22,
+    id: "22",
     name: "Realme 16x 5G Smartphone 4GB\u002B128GB White",
     category: "Electronics",
     description: "7000mAh Battery, 45W SuperVOOC, 6.8inch Screen, 144Hz Display, Rear 50MP\u002BFront 8MP Camera, MediaTek Dimensity 6300, IP65",
@@ -182,7 +182,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 23,
+    id: "23",
     name: "Realme 16 Pro 5G Smartphone 12\u002B256GB Gold",
     category: "Electronics",
     description: "7000mAh Battery, 80W SuperVOOC, 6.78-Inch Screen, 144Hz AMOLED Display, Rear 200MP\u002BFront 50MP Camera, MediaTek 7300-Max, IP69",
@@ -197,7 +197,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 24,
+    id: "24",
     name: "Samsung Galaxy Z Fold7 5G",
     category: "Electronics",
     description: "Samsung Galaxy Z Fold7 5G Mobile with Galaxy AI (Blue Shadow, 12GB RAM, 256GB Storage), Ultra Sleek Design with 200MP Camera, Ultra-Smooth Gaming with Powerful Snapdragon 8 Elite, Google Gemini",
@@ -212,7 +212,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 25,
+    id: "25",
     name: "Samsung Galaxy Z Fold8 5G",
     category: "Electronics",
     description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Lavender, 12GB RAM, 256GB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",
@@ -227,7 +227,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 26,
+    id: "26",
     name: "Samsung Galaxy Z Fold8 5G 12\u002B512GB Cream",
     category: "Electronics",
     description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Cream, 12GB RAM, 512GB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",
@@ -242,7 +242,7 @@ const productData: Product[] = [
     lastVerifiedAt: "25-Oct-2026",
   },
   {
-    id: 27,
+    id: "27",
     name: "Samsung Galaxy Z Fold8 5G Lavender 16GB\u002B1TB",
     category: "Automotive",
     description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Lavender, 16GB RAM, 1TB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",
