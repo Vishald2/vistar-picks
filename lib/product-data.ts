@@ -256,6 +256,21 @@ const productData: Product[] = [
  reviewCount: 39,
  lastVerifiedAt: "25-Oct-2026",
   },
+  {
+ id: "28",
+ name: "Apple iPhone 16 128 GB 5G",
+ category: "Home & Kitchen",
+ description: "Apple iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
+ image: "B0j95yVAX-B0DGJHBX5Y.jpg",
+ slug: "apple-iphone-16-128-gb-98413ff7",
+ amazonUrl: "https://link.amazon/B03cf3z4i",
+ asin: "B0DGJHBX5Y",
+ currency: "INR",
+ price: 76999.00,
+ rating: 4.50,
+ reviewCount: 2818,
+ lastVerifiedAt: "26-Oct-2026",
+  },
 ];
 
 export default productData;
