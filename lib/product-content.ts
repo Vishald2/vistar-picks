@@ -5,7 +5,22 @@ export type ProductContent = {
 };
 
 export const productContent: Record<string, ProductContent> = {
-
+"the-richest-man-in-babylon-d6ad50e0": {
+    introduction:
+      "A closer look at the timeless principles of wealth-building, financial discipline, and sound money management set against the backdrop of ancient Babylon.",
+    overview:
+      "A classic personal finance and success guide by George S. Clason that teaches foundational economic wisdom through engaging parables and practical rules for accumulating wealth.",
+    whatToCheck:
+      "",
+  },
+"how-to-stop-worrying-and-01eac61c": {
+    introduction:
+      "A closer look at practical techniques, time-tested principles, and psychological strategies for overcoming chronic worry and building a peaceful, fulfilling life.",
+    overview:
+      "A classic, highly influential self-help guide by Dale Carnegie that offers actionable advice on breaking the worry habit, analyzing problems objectively, and cultivating a positive mental attitude.",
+    whatToCheck:
+      "",
+  },
   "the-alchemist-7107cfec": {
     introduction:
       "A closer look at the enchanting fable about following your dreams, listening to your heart, and discovering your true destiny.",
