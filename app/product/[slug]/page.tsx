@@ -79,22 +79,29 @@ const similarProducts = products
     {product.name}
   </h1>
 
-    {product.rating != null && (
-      <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
-        <span className="product-rating-stars" aria-hidden="true">
-  {"★".repeat(Math.floor(product.rating))}
-  {"☆".repeat(5 - Math.floor(product.rating))}
+  {product.category?.trim().toLowerCase() === "books" &&
+    product.author?.trim() && (
+      <p className={styles.productAuthor}>
+        Author(s): {product.author}
+      </p>
+  )}
+
+  {product.rating != null && (
+    <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
+      <span className="product-rating-stars" aria-hidden="true">
+      {"★".repeat(Math.floor(product.rating))}
+      {"☆".repeat(5 - Math.floor(product.rating))}
+      </span>
+
+      <span className="product-rating-score">{product.rating.toFixed(1)}/5</span>
+
+      {product.reviewCount != null && (
+        <span className="product-rating-count">
+          ({product.reviewCount.toLocaleString("en-IN")} ratings)
         </span>
-
-        <span className="product-rating-score">{product.rating.toFixed(1)}/5</span>
-
-        {product.reviewCount != null && (
-          <span className="product-rating-count">
-            ({product.reviewCount.toLocaleString("en-IN")} ratings)
-          </span>
-        )}
-      </div>
-    )}
+      )}
+    </div>
+  )}
 
     {product.price != null && (
   <div className="product-price">

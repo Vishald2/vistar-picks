@@ -12,5 +12,5 @@ export type Product = {
   rating?: number | null;
   reviewCount: number;
   lastVerifiedAt?: string | null;
-
+  author?: string | null;
 };
