@@ -2,6 +2,21 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "37",
+ name: "Rich Dad Poor Dad",
+ category: "Books",
+ description: "Rich Dad Poor Dad is Robert's story of growing up with two dads  his real father and the father of his best friend, his rich dad  and the ways in which both men shaped his thoughts about money and investing.",
+ image: "Books-B08ut8W0p-B07C7M8SX9.jpg",
+ slug: "rich-dad-poor-dad-bb699b11",
+ amazonUrl: "https://link.amazon/B08ut8W0p",
+ asin: "B07C7M8SX9",
+ currency: "INR",
+ price: 305.90,
+ rating: 4.50,
+ reviewCount: 38620,
+ lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+  },
+  {
  id: "27",
  name: "Samsung Galaxy Z Fold8 5G Lavender 16GB+1TB",
  category: "Electronics",
@@ -29,21 +44,6 @@ const productData: Product[] = [
  price: 29.91,
  rating: 4.50,
  reviewCount: 101147,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
-  },
-  {
- id: "37",
- name: "Rich Dad Poor Dad",
- category: "Books",
- description: "Rich Dad Poor Dad is Robert's story of growing up with two dads  his real father and the father of his best friend, his rich dad  and the ways in which both men shaped his thoughts about money and investing.",
- image: "Books-B08ut8W0p-B07C7M8SX9.jpg",
- slug: "rich-dad-poor-dad-bb699b11",
- amazonUrl: "https://link.amazon/B08ut8W0p",
- asin: "B07C7M8SX9",
- currency: "INR",
- price: 305.90,
- rating: 4.50,
- reviewCount: 38620,
  lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
   },
   {
