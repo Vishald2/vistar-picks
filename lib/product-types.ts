@@ -10,7 +10,7 @@ export type Product = {
   currency?: string | null;
   price: number;
   rating?: number | null;
-  reviewCount: number;
+  reviewCount: number | null;
   lastVerifiedAt?: string | null;
   author?: string | null;
 };
