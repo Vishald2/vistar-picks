@@ -5,6 +5,15 @@ export type ProductContent = {
 };
 
 export const productContent: Record<string, ProductContent> = {
+
+  "the-alchemist-7107cfec": {
+    introduction:
+      "A closer look at the enchanting fable about following your dreams, listening to your heart, and discovering your true destiny.",
+    overview:
+      "A beloved international bestseller by Paulo Coelho that follows Santiago, an Andalusian shepherd boy who embarks on a transformative journey to the Egyptian pyramids, learning to read the omens of life and pursue his Personal Legend.",
+    whatToCheck:
+      "",
+  },
   "express-yourself-better-in-english-eaef2262": {
     introduction:
       "A practical guide to mastering everyday conversational expressions, designed to help learners sound more natural and fluent in daily interactions.",
@@ -13,7 +22,6 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
-
 
 "same-as-ever-8772862b": {
     introduction:
