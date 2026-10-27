@@ -134,7 +134,11 @@ const similarProducts = products
 )}
 
     <section className="product-info-section">
-      <h2>Product overview</h2>
+     <h2>
+        {product.category?.trim().toLowerCase() === "books"
+          ? "Book overview"
+          : "Product overview"}
+      </h2>
       <p>{copy.overview}</p>
     </section>
 

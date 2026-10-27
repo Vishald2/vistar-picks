@@ -5,60 +5,247 @@ export type ProductContent = {
 };
 
 export const productContent: Record<string, ProductContent> = {
-  "insulated-water-bottle": {
+  "express-yourself-better-in-english-eaef2262": {
     introduction:
-      "A closer look at the design, features and everyday usability.",
+      "A practical guide to mastering everyday conversational expressions, designed to help learners sound more natural and fluent in daily interactions.",
     overview:
-      "A compact product summary with the key specifications and intended use.",
+      "A compact digital e-book focusing on essential phrasal verbs, idioms, and situational vocabulary tailored for everyday English communication and fluency building.",
     whatToCheck:
-      "Capacity, insulation performance, leak resistance and ease of cleaning.",
+      "",
   },
-  "adjustable-laptop-stand": {
+
+"dopamine-detox-00bf612e": {
     introduction:
-      "Explore the design, adjustability and everyday practicality.",
+      "A closer look at how resetting focus, eliminating digital distractions, and managing dopamine loops can dramatically improve daily productivity and mental clarity.",
     overview:
-      "A closer look at a laptop stand for home and office desk setups.",
+      "A concise, actionable e-book guide focused on breaking bad habits, regaining control over attention spans, and establishing healthy routines for deep work and peak personal efficiency.",
     whatToCheck:
-      "Stability, adjustment range, laptop compatibility and desk space.",
+      "",
   },
-  "wireless-headphones": {
+
+"the-art-of-spending-money-b5ece5ed": {
     introduction:
-      "Explore comfort, sound and everyday listening features.",
+      "A thoughtful look at financial habits, focusing on how intentional spending choices can align money management with personal values and long-term goals.",
     overview:
-      "A closer look at headphones for music, calls, work and travel.",
+      "An insightful e-book guide designed to help readers master mindful consumption, overcome impulsive buying, and build healthier everyday financial routines.",
     whatToCheck:
-      "Sound quality, battery life, comfort and device compatibility.",
+      "",
   },
-  "kitchen-storage-containers": {
+"attitude-is-everything-0e60a23e": {
     introduction:
-      "Explore practical storage options for your kitchen.",
+      "A closer look at the profound impact of mindset, showing how cultivating a positive attitude can transform everyday challenges into stepping stones for success.",
     overview:
-      "A closer look at containers for organizing pantry ingredients and kitchen supplies.",
+      "A classic motivational e-book guide that outlines actionable steps for reprogramming your thinking, overcoming self-doubt, and taking control of your personal and professional growth.",
     whatToCheck:
-      "Capacity, material, lid design, stackability and ease of cleaning.",
+      "",
   },
-  smartwatch: {
+"atomic-habits-8effb62a": {
     introduction:
-      "Explore the design, everyday functions and usability.",
+      "A closer look at the science of small habits, showing how tiny, incremental changes compound into remarkable personal and professional results over time.",
     overview:
-      "A closer look at features to consider when choosing a smartwatch.",
+      "A renowned e-book guide that outlines practical, actionable frameworks for building good habits, breaking bad ones, and mastering the tiny behaviors that lead to lasting transformation.",
     whatToCheck:
-      "Phone compatibility, battery life, display and available features.",
+      "",
   },
-  "computer-mouse": {
+"how-to-win-friends-and-9de6eebf": {
     introduction:
-      "Explore the design, comfort and everyday functionality.",
+      "A closer look at timeless principles of human relations, showing how effective communication and genuine appreciation can transform personal and professional interactions.",
     overview:
-      "A closer look at a mouse for office work and everyday computing.",
+      "A classic self-help e-book guide that offers practical techniques for handling people, winning others to your way of thinking, and changing people without giving offense or arousing resentment.",
     whatToCheck:
-      "Comfort, connectivity, sensor performance and compatibility.",
+      "",
   },
-  "noise-airwave-max-xr": {
-  introduction:
-    "Explore Noise's over-ear headphones with long battery life and active noise cancellation.",
-  overview:
-    "The Noise Airwave Max XR offers up to 120 hours of playtime, ANC, HFA technology, spatial audio, dual pairing and Bluetooth 6.0, according to the supplied product title.",
-  whatToCheck:
-    "Check the actual battery performance, ANC effectiveness, comfort, microphone quality and warranty before buying.",
-},
+"rich-dad-poor-dad-bb699b11": {
+    introduction:
+      "A closer look at fundamental financial concepts, challenging traditional mindsets about money, assets, and liabilities.",
+    overview:
+      "A foundational personal finance e-book guide that contrasts the financial philosophies of two different father figures, teaching readers how to make money work for them rather than working for money.",
+    whatToCheck:
+      "",
+  },
+"the-power-of-your-subconscious-1ba6e090": {
+    introduction:
+      "A closer look at the hidden power of the mind, illustrating how tapping into subconscious beliefs can shape our daily realities and personal outcomes.",
+    overview:
+      "A classic self-help e-book guide that explores how mental programming, positive visualization, and overcoming subconscious blocks can unlock personal growth, confidence, and inner peace.",
+    whatToCheck:
+      "",
+  },
+"the-psychology-of-money-c9fdef25": {
+    introduction:
+      "A closer look at how our behavior, ego, and worldview shape financial decisions, offering timeless lessons on wealth, greed, and happiness.",
+    overview:
+      "An engaging personal finance e-book that shifts the focus from complex math to soft skills, teaching readers that doing well with money has a lot more to do with how you behave than how smart you are.",
+    whatToCheck:
+      "",
+  },
+"think-and-grow-rich-04565e6b": {
+    introduction:
+      "A closer look at the timeless philosophies of success, exploring how disciplined thought, burning desire, and persistence lay the foundation for achieving major life goals.",
+    overview:
+      "A classic personal development and wealth-building e-book guide that distills decades of research into successful individuals into actionable principles for turning thoughts into tangible results.",
+    whatToCheck:
+      "",
+  },
+"the-7-habits-of-highly-df065458": {
+    introduction:
+      "A closer look at timeless principles of personal and interpersonal effectiveness, focusing on proactive character development and principled leadership.",
+    overview:
+      "A foundational self-help and leadership guide that outlines seven powerful habits to transform how you manage your life, communicate with others, and achieve lasting success.",
+    whatToCheck:
+      "",
+  },
+"samsung-galaxy-s25-ultra-5g-3350d874": {
+    introduction:
+      "A closer look at the premium design, cutting-edge performance, and advanced camera capabilities of Samsung's flagship powerhouse.",
+    overview:
+      "A high-performance 5G smartphone featuring a powerful Snapdragon processor, sophisticated ProVisual engine for pro-grade photography, and a sleek whitesilver finish built for power users.",
+    whatToCheck:
+      "Check the storage and RAM variants to match your needs, confirm box contents regarding the power adapter, and review regional warranty details.",
+  },
+"apple-iphone-17-pro-max-f03d02c5": {
+    introduction:
+      "A closer look at the stunning design, advanced ProMotion display, and top-tier performance of Apple's flagship smartphone.",
+    overview:
+      "A high-end 5G smartphone featuring a brilliant ProMotion display, professional-grade camera capabilities, and industry-leading processing power designed for demanding users.",
+    whatToCheck:
+      "Check the storage capacity options, color preferences, and box contents regarding the charging adapter before purchasing.",
+  },
+"samsung-galaxy-z-fold8-5g-8535d82b": {
+    introduction:
+      "A closer look at the innovative foldable design, immersive display, and versatile multitasking capabilities of Samsung's advanced foldable flagship.",
+    overview:
+      "A cutting-edge 5G foldable smartphone featuring a powerful Snapdragon processor, stunning cover and main folding displays, and top-tier productivity features built for modern multitasking.",
+    whatToCheck:
+      "Check the internal storage and RAM variants, color choices, warranty terms, and compatibility with accessories like the S Pen if applicable.",
+  },
+"iphone-18-pro-256-gb-68f5ad6e": {
+    introduction:
+      "A closer look at the advanced processing power, refined design, and pro-grade camera capabilities of Apple's flagship smartphone.",
+    overview:
+      "A high-end 5G smartphone featuring 256 GB of generous storage, elite performance driven by next-generation Apple silicon, and a brilliant display designed for premium everyday use and media creation.",
+    whatToCheck:
+      "Check the specific color finish options, available trade-in deals, and box contents regarding the charging adapter before purchasing.",
+  },
+"sujata-supermix-mixer-grinder-68ad1ef5": {
+    introduction:
+      "A closer look at the heavy-duty performance, robust build quality, and versatile kitchen grinding capabilities of Sujata's popular appliance.",
+    overview:
+      "A powerful 900W juicer mixer grinder featuring a high-speed double ball bearing motor, 3 versatile jars, and continuous runtime designed for heavy everyday Indian cooking tasks.",
+    whatToCheck:
+      "Check the exact jar configurations and capacities included in the box, verify manufacturer warranty terms, and ensure kitchen counter space and power socket compatibility.",
+  },
+"sujata-dynamix-900-watts-mixer-1f99f3df": {
+    introduction:
+      "A closer look at the heavy-duty performance, reliable motor design, and versatile multi-jar functionality of Sujata's popular kitchen appliance.",
+    overview:
+      "A robust 900W mixer grinder equipped with a high-speed continuous-running motor and multiple jars designed to handle tough grinding, blending, and mixing tasks with ease.",
+    whatToCheck:
+      "Check the included jar sizes and blade configurations, verify manufacturer warranty terms, and ensure proper kitchen counter space and power socket compatibility.",
+  },
+"sujata-mg01-mixer-grinder-1000watts-927193ce": {
+    introduction:
+      "A closer look at the powerful performance, robust build, and continuous grinding capabilities of Sujata's high-capacity kitchen appliance.",
+    overview:
+      "A heavy-duty 1000W mixer grinder designed for continuous operation and tough Indian culinary grinding tasks, featuring high-speed motor efficiency and multiple jars.",
+    whatToCheck:
+      "Check the included jar configurations, confirm warranty terms, and verify kitchen counter space and power requirements for a 1000W motor appliance.",
+  },
+"sujata-mg03-mixer-grinder-1000watts-41078c0e": {
+    introduction:
+      "A closer look at the heavy-duty power, efficient juicing capabilities, and robust construction of Sujata's advanced 1000W kitchen appliance.",
+    overview:
+      "A powerful 1000W mixer grinder and juicer extractor featuring a continuous-running high-speed motor and specialized attachments designed for tough daily grinding and fresh juice extraction.",
+    whatToCheck:
+      "Check the specific jar and juice extractor attachments included in the package, verify warranty coverage, and ensure proper power socket capacity for a 1000W motor.",
+  },
+"motul-chain-lube-chain-cleaner-8a20ded6": {
+    introduction:
+      "A closer look at professional-grade motorcycle maintenance essentials, designed to keep your drive chain clean, well-lubricated, and performing smoothly.",
+    overview:
+      "A trusted maintenance combo featuring Motul C1 Chain Clean to effectively remove stubborn dirt and grease, and C2 Chain Lube to provide long-lasting lubrication and protection for motorcycle chains.",
+    whatToCheck:
+      "Check compatibility with your motorcycle's chain type (such as O-ring, X-ring, or Z-ring), verify the volume/capacity of each can in the combo pack, and follow recommended application and drying intervals.",
+  },
+"samsung-galaxy-s24-ultra-5g-36c92b40": {
+    introduction:
+      "A closer look at the durable titanium build, cutting-edge Galaxy AI capabilities, and advanced quad-camera system of Samsung's flagship powerhouse.",
+    overview:
+      "A high-performance 5G smartphone featuring a brilliant dynamic AMOLED display, integrated S Pen functionality, a powerful Snapdragon processor, and professional-grade mobile photography tools.",
+    whatToCheck:
+      "Check the storage capacity variants, color finishes, trade-in exchange offers, and box contents regarding the power adapter before purchasing.",
+  },
+"samsung-galaxy-s24-ultra-5g-eae66bf7": {
+    introduction:
+      "A closer look at the premium titanium durability, advanced Galaxy AI features, and exceptional quad-camera system of Samsung's flagship smartphone.",
+    overview:
+      "A high-performance 5G smartphone featuring a stunning flat display, embedded S Pen, powerful Snapdragon processor, and professional-grade photography capabilities designed for power users.",
+    whatToCheck:
+      "Check the available storage and RAM configurations, color finishes, exchange offers, and box contents regarding the charging adapter before purchasing.",
+  },
+"realme-16-pro-5g-smartphone-c1bbbb66": {
+    introduction:
+      "A closer look at the stylish design, reliable performance, and versatile everyday camera capabilities of Realme's smartphone.",
+    overview:
+      "A feature-packed 5G smartphone powered by an efficient Snapdragon processor, offering a smooth display, dependable battery life, and solid everyday performance for modern users.",
+    whatToCheck:
+      "Check the RAM and storage capacity variants, color options, warranty details, and box contents regarding the charging adapter before purchasing.",
+  },
+"realme-16x-5g-smartphone-4gb-6d7d7a0a": {
+    introduction:
+      "A closer look at the sleek design, fast charging capabilities, and reliable everyday performance of Realme's 5G smartphone.",
+    overview:
+      "An affordable 5G smartphone featuring a capable MediaTek Dimensity processor, SuperVOOC fast charging support, smooth display, and dependable battery life designed for seamless daily connectivity.",
+    whatToCheck:
+      "Check the RAM and storage capacity variants, color options, box contents regarding the charger, and warranty details before purchasing.",
+  },
+"realme-16-pro-5g-smartphone-b3b9d01e": {
+    introduction:
+      "A closer look at the stylish design, reliable performance, and versatile everyday camera capabilities of Realme's smartphone.",
+    overview:
+      "A feature-packed 5G smartphone powered by an efficient processor, offering a smooth display, dependable battery life, and solid everyday performance for modern users.",
+    whatToCheck:
+      "Check the RAM and storage capacity variants, color options, warranty details, and box contents regarding the charging adapter before purchasing.",
+  },
+"samsung-galaxy-z-fold7-5g-e2c5b7f7": {
+    introduction:
+      "A closer look at the innovative foldable design, immersive display, and versatile multitasking capabilities of Samsung's advanced foldable flagship.",
+    overview:
+      "A cutting-edge 5G foldable smartphone featuring a powerful Snapdragon processor, stunning cover and main folding displays, and top-tier productivity features built for modern multitasking.",
+    whatToCheck:
+      "Check the internal storage and RAM variants, color choices, warranty terms, and compatibility with accessories like the S Pen if applicable.",
+  },
+"samsung-galaxy-z-fold8-5g-9ec2acfc": {
+    introduction:
+      "A closer look at the innovative foldable design, immersive display, and versatile multitasking capabilities of Samsung's advanced foldable flagship.",
+    overview:
+      "A cutting-edge 5G foldable smartphone featuring a powerful Snapdragon processor, stunning cover and main folding displays, and top-tier productivity features built for modern multitasking.",
+    whatToCheck:
+      "Check the internal storage and RAM variants, color choices, warranty terms, and compatibility with accessories like the S Pen if applicable.",
+  },
+"samsung-galaxy-z-fold8-5g-d110b757": {
+    introduction:
+      "A closer look at the innovative foldable design, immersive display, and versatile multitasking capabilities of Samsung's advanced foldable flagship.",
+    overview:
+      "A cutting-edge 5G foldable smartphone featuring a powerful Snapdragon processor, dependable 4800mAh battery, stunning cover and main folding displays, and top-tier productivity features built for modern multitasking.",
+    whatToCheck:
+      "Check the internal storage and RAM variants, color choices, warranty terms, and compatibility with accessories like the S Pen if applicable.",
+  },
+"apple-iphone-16-128-gb-98413ff7": {
+    introduction:
+      "A closer look at the vibrant display, innovative Camera Control, and powerful performance of Apple's smartphone.",
+    overview:
+      "A sleek 5G smartphone featuring 128 GB of storage, a capable processor, an advanced dual-camera system, and dependable battery life designed for everyday elegance and productivity.",
+    whatToCheck:
+      "Check the available color options, storage capacity variants, trade-in exchange offers, and box contents regarding the charging adapter before purchasing.",
+  },
+"insulated-water-bottle-475d9ace": {
+    introduction:
+      "A closer look at the durable construction, excellent temperature retention, and sleek sporty design of Borosil's insulated stainless steel bottle.",
+    overview:
+      "A high-capacity 900ml double-wall vacuum insulated water bottle featuring a food-grade stainless steel build, leak-proof design, and reliable hot and cold temperature maintenance for daily hydration.",
+    whatToCheck:
+      "Check the bottle capacity variants, color options, lid design preferences, and manufacturer warranty terms before purchasing.",
+  },
+
 };
