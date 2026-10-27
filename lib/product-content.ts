@@ -14,6 +14,42 @@ export const productContent: Record<string, ProductContent> = {
       "",
   },
 
+
+"same-as-ever-8772862b": {
+    introduction:
+      "A closer look at the unchanging human behaviors, risks, and opportunities that drive history and decision-making across generations.",
+    overview:
+      "An insightful personal finance and psychology e-book by Morgan Housel that explores timeless lessons on human nature, risk, and resilience through compelling stories rather than complex forecasting.",
+    whatToCheck:
+      "",
+  },
+
+"ikigai-the-japanese-secret-to-9219cac2": {
+    introduction:
+      "A closer look at the philosophy of finding purpose, fulfillment, and longevity in everyday life through the Japanese concept of Ikigai.",
+    overview:
+      "An inspiring personal development and lifestyle e-book that explores the secrets of the world's longest-living people, teaching readers how to discover their true passion and reason for being.",
+    whatToCheck:
+      "",
+  },
+
+"word-power-made-easy-e1eaa816": {
+    introduction:
+      "A closer look at the comprehensive vocabulary-building guide designed to enhance communication skills, reading comprehension, and word mastery.",
+    overview:
+      "A classic, highly regarded educational and self-improvement book by Norman Lewis that uses an engaging, etymological step-by-step approach to help readers expand their English vocabulary and build linguistic confidence.",
+    whatToCheck:
+      "",
+  },
+
+"the-48-laws-of-power-a172eece": {
+    introduction:
+      "A closer look at the timeless strategies, historical precedents, and pragmatic lessons on power, influence, and human behavior.",
+    overview:
+      "A bestselling and provocative self-help and psychology book by Robert Greene that distills three thousand years of history into 48 concise laws governing power dynamics, ambition, and social mastery.",
+    whatToCheck:
+      "",
+  },
 "dopamine-detox-00bf612e": {
     introduction:
       "A closer look at how resetting focus, eliminating digital distractions, and managing dopamine loops can dramatically improve daily productivity and mental clarity.",
