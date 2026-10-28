@@ -404,4 +404,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the basket capacity, power consumption ratings, pre-set cooking modes, and manufacturer warranty terms before purchasing.",
   },
+  "how-to-build-strong-english-ada231b8": {
+    introduction:
+      "A closer look at practical methods, vocabulary strategies, and everyday expressions designed to build strong English communication skills.",
+    overview:
+      "A comprehensive guide focused on learning words, phrases, and collocations to help learners, students, and professionals express themselves more clearly and naturally in daily conversations and interviews.",
+    whatToCheck:
+      "",
+  },
 };
