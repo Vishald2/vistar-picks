@@ -412,4 +412,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "phrasal-verbs-for-everyday-english-f8771bd0": {
+    introduction:
+      "A closer look at essential phrasal verbs, idioms, and natural expressions designed to improve fluency in daily English conversations.",
+    overview:
+      "A targeted educational and self-improvement resource focused on mastering common phrasal verbs with clear definitions, context-based examples, and practical usage tips for students and language learners.",
+    whatToCheck:
+      "",
+  },
 };
