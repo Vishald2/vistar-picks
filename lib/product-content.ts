@@ -364,4 +364,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "essentialism-b882e58d": {
+    introduction:
+      "A closer look at the disciplined art of doing less, eliminating non-essentials, and focusing your energy on what truly matters.",
+    overview:
+      "A popular productivity and self-help e-book by Greg McKeown that teaches readers how to systematically discern what is essential, eliminate the trivial many, and make the highest possible contribution toward their goals.",
+    whatToCheck:
+      "",
+  },
 };
