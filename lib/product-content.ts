@@ -460,4 +460,36 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the shade compatibility, return policy, and seller ratings before purchasing.",
   },
+  "havells-aqua-plus-electric-kettle-b4be8968": {
+    introduction:
+      "A closer look at the double-walled design, safety features, and efficient boiling performance of Havells' electric kettle.",
+    overview:
+      "A 1.5-litre electric kettle featuring a stainless steel inner body, cool-touch outer shell, wide mouth for easy cleaning, and automatic shut-off for safe daily use.",
+    whatToCheck:
+      "Check the capacity, power wattage, warranty details, and lid mechanism before purchasing.",
+  },
+  "pigeon-amaze-plus-electric-kettle-244a4da3": {
+    introduction:
+      "A closer look at the fast boiling performance, durable build, and everyday convenience of Pigeon's electric kettle.",
+    overview:
+      "A 1.5-litre stainless steel electric kettle featuring 1500 watts of power, a 360-degree swivel base, automatic shut-off, and a sleek design for quick and safe water boiling.",
+    whatToCheck:
+      "Check the capacity, power wattage, warranty coverage, and lid mechanism before purchasing.",
+  },
+  "havells-aqua-plus-electric-kettle-c9712714": {
+    introduction:
+      "A closer look at the double-walled insulation, elegant design, and safe boiling performance of Havells' electric kettle.",
+    overview:
+      "A 1.2-litre electric kettle featuring a cool-touch outer body, stainless steel inner cavity, wide mouth for easy cleaning, and automatic shut-off for safety and convenience.",
+    whatToCheck:
+      "Check the capacity, power wattage, warranty coverage, and spout design before purchasing.",
+  },
+  "prestige-1-5l-pkoss-stainless-358bcea2": {
+    introduction:
+      "A closer look at the fast boiling performance, durable stainless steel body, and convenience of Prestige's electric kettle.",
+    overview:
+      "A 1.5-litre electric kettle featuring 1500 watts of power, a concealed heating element, automatic cut-off, and an ergonomic handle for safe and efficient water boiling.",
+    whatToCheck:
+      "Check the capacity, power consumption, warranty terms, and lid mechanism before purchasing.",
+  },
 };
