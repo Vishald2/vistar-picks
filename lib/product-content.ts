@@ -5,6 +5,48 @@ export type ProductContent = {
 };
 
 export const productContent: Record<string, ProductContent> = {
+  "the-mountain-is-you-63004c0e": {
+    introduction:
+      "A closer look at the psychology of self-sabotage, emotional maturity, and transforming internal resistance into personal growth.",
+    overview:
+      "An insightful self-help e-book by Brianna Wiest that explores why people sabotage their own success, how to overcome deep-seated mental blocks, and how to build lasting emotional resilience and self-mastery.",
+    whatToCheck:
+      "",
+  },
+"the-courage-to-be-disliked-782125a8": {
+    introduction:
+      "A closer look at the liberating philosophy of Adlerian psychology, self-acceptance, and finding true freedom and happiness.",
+    overview:
+      "An engaging, dialogue-driven self-help bestseller by Ichiro Kishimi and Fumitake Koga that challenges conventional ideas about trauma, interpersonal relationships, and societal expectations, teaching readers how to take charge of their own lives without seeking validation from others.",
+    whatToCheck:
+      "",
+  },
+"the-monk-who-sold-his-54d10aae": {
+    introduction:
+      "A closer look at the inspiring fable of spiritual awakening, balance, and purposeful living.",
+    overview:
+      "A renowned self-development bestseller by Robin Sharma that follows Julian Mantle, a high-powered lawyer who gives up his material possessions to discover deep wisdom, inner peace, and timeless lessons on mastering oneself.",
+    whatToCheck:
+      "",
+  },
+"the-intelligent-investor-93b8329c": {
+    introduction:
+      "A closer look at the definitive guide to value investing, market psychology, and long-term wealth preservation.",
+    overview:
+      "A foundational financial classic by Benjamin Graham that teaches investors how to analyze stocks, manage risk, maintain emotional discipline against market volatility, and implement a sound, long-term portfolio strategy.",
+    whatToCheck:
+      "",
+  },
+"the-richest-man-in-babylon-f2db3d49": {
+    introduction:
+      "A closer look at the timeless principles of wealth-building, financial discipline, and sound money management presented in a premium hardbound edition.",
+    overview:
+      "A classic personal finance and success guide by George S. Clason that teaches foundational economic wisdom through engaging ancient Babylonian parables and practical rules for accumulating wealth.",
+    whatToCheck:
+      "Check the binding type, edition details, paper quality, and seller ratings before purchasing.",
+  },
+
+
 "the-richest-man-in-babylon-d6ad50e0": {
     introduction:
       "A closer look at the timeless principles of wealth-building, financial discipline, and sound money management set against the backdrop of ancient Babylon.",
