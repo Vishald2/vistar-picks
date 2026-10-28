@@ -356,4 +356,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "the-almanack-of-naval-ravikant-492f8c73": {
+    introduction:
+      "A closer look at the wisdom, mental models, and timeless principles for building wealth and achieving lasting happiness.",
+    overview:
+      "A compilation of insights and philosophies from entrepreneur and investor Naval Ravikant, curated by Eric Jorgenson, offering practical guidance on wealth creation, decision-making, and cultivating a fulfilling life.",
+    whatToCheck:
+      "",
+  },
 };
