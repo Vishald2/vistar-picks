@@ -82,7 +82,7 @@ const similarProducts = products
   {product.category?.trim().toLowerCase() === "books" &&
     product.author?.trim() && (
       <p className="productAuthor">
-        Author(s): {product.author}
+        by: {product.author}
       </p>
   )}
 
