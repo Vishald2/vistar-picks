@@ -372,4 +372,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "meditations-a1b95747": {
+    introduction:
+      "A closer look at the profound Stoic reflections, personal journals, and timeless philosophy of Roman Emperor Marcus Aurelius.",
+    overview:
+      "A legendary classic of ancient philosophy and Stoicism consisting of personal notes and spiritual reflections written by Emperor Marcus Aurelius, offering enduring wisdom on self-discipline, resilience, rationality, and inner peace.",
+    whatToCheck:
+      "",
+  },
 };
