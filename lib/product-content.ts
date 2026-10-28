@@ -396,4 +396,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the room square footage coverage, filter replacement lifespan and costs, operating noise levels, and manufacturer warranty terms before purchasing.",
   },
+  "philips-air-fryer-na231-00-8b172507": {
+    introduction:
+      "A closer look at the rapid air technology, precise temperature control, and healthy cooking capacity of Philips' digital air fryer.",
+    overview:
+      "A versatile digital air fryer featuring Rapid Air technology designed to fry, bake, grill, and roast with significantly less oil, accompanied by an easy-to-use digital touchscreen interface and generous basket capacity.",
+    whatToCheck:
+      "Check the basket capacity, power consumption ratings, pre-set cooking modes, and manufacturer warranty terms before purchasing.",
+  },
 };
