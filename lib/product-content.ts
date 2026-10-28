@@ -452,4 +452,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "maybelline-new-york-color-sensational-7ce9ee5f": {
+    introduction:
+      "A closer look at the rich color payoff, creamy texture, and comfortable non-drying matte finish of Maybelline's popular lipstick.",
+    overview:
+      "A moisturizing creamy matte lipstick infused with precious oils and honey nectar that glides smoothly, offering high pigmentation, velvety comfort, and long-lasting wear without cracking.",
+    whatToCheck:
+      "Check the shade compatibility, return policy, and seller ratings before purchasing.",
+  },
 };
