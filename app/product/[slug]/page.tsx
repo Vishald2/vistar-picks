@@ -10,7 +10,7 @@ import { productContent } from "@/lib/product-content";
 type PageProps = {
   params: Promise<{ slug: string }>;
 };
-
+ 
 export function generateStaticParams() {
   return products.map((product) => ({
     slug: product.slug,
