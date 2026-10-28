@@ -436,4 +436,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "who-moved-my-cheese-df8108ee": {
+    introduction:
+      "A closer look at a timeless parable about dealing with change in work and life.",
+    overview:
+      "A bestselling motivational business fable by Spencer Johnson that uses the story of four characters in a maze to teach practical lessons on how to anticipate, adapt to, and thrive amidst unexpected changes.",
+    whatToCheck:
+      "",
+  },
 };
