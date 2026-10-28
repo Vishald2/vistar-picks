@@ -380,4 +380,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "honeywell-air-purifier-for-home-a63bdb59": {
+    introduction:
+      "A closer look at the advanced filtration, quiet operation, and reliable air purification performance of Honeywell's home air purifier.",
+    overview:
+      "A powerful room air purifier featuring an H13 HEPA and activated carbon 4-stage filtration system, real-time PM2.5 display, 3D airflow, and effective coverage for medium-sized living spaces.",
+    whatToCheck:
+      "Check the room coverage square footage, filter replacement life and costs, noise levels at different speeds, and warranty details before purchasing.",
+  },
 };
