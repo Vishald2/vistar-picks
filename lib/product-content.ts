@@ -428,4 +428,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "the-power-of-habit-0700dcb0": {
+    introduction:
+      "A closer look at the science of habit formation, why habits exist, and how they can be transformed to reshape our personal and professional lives.",
+    overview:
+      "A bestselling non-fiction book by Charles Duhigg that explores the neurological loops driving our routines, offering evidence-based strategies to break bad habits and build positive ones for lasting change.",
+    whatToCheck:
+      "",
+  },
 };
