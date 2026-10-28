@@ -39,7 +39,7 @@ const similarProducts = products
       item.category?.trim().toLowerCase() ===
         product.category?.trim().toLowerCase()
   )
-  .slice(0, 3);
+  .slice(0, 5);
 
   return (
     <>
