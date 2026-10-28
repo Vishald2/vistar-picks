@@ -448,7 +448,7 @@ export const productContent: Record<string, ProductContent> = {
     introduction:
       "A closer look at the continuation of Adlerian psychology, interpersonal relationships, and finding true contentment and happiness.",
     overview:
-      "A thought-provoking follow-up bestseller by Ichiro Kishimi and Fumitake Koga that explores how to apply Adlerian principles to everyday life, overcome self-doubt, and discover the true meaning of happiness and self-reliance.",
+      "A thought provoking follow-up bestseller by Ichiro Kishimi and Fumitake Koga that explores how to apply Adlerian principles to everyday life, overcome self-doubt, and discover the true meaning of happiness and self-reliance.",
     whatToCheck:
       "",
   },
