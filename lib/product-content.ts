@@ -348,5 +348,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the bottle capacity variants, color options, lid design preferences, and manufacturer warranty terms before purchasing.",
   },
-
+  "the-one-thing-8b59b677": {
+    introduction:
+      "A closer look at the power of focus, prioritization, and narrowing down your efforts to achieve extraordinary results.",
+    overview:
+      "A bestselling productivity and time-management e-book by Gary Keller and Jay Papasan that teaches readers how to strip away distractions, zero in on the single most important task, and build momentum toward their ultimate goals.",
+    whatToCheck:
+      "",
+  },
 };
