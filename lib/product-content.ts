@@ -388,4 +388,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the room coverage square footage, filter replacement life and costs, noise levels at different speeds, and warranty details before purchasing.",
   },
+  "honeywell-air-purifier-for-home-e49a3e51": {
+    introduction:
+      "A closer look at the compact design, quiet operation, and efficient multi-stage filtration of Honeywell's air purifier.",
+    overview:
+      "A lightweight room air purifier featuring a 3-in-1 pre-filter, H13 HEPA filter, and activated carbon layer designed to effectively remove airborne allergens, dust, and pollutants for spaces up to 235 sq. ft.",
+    whatToCheck:
+      "Check the room square footage coverage, filter replacement lifespan and costs, operating noise levels, and manufacturer warranty terms before purchasing.",
+  },
 };
