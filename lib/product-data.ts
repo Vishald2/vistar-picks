@@ -3,6 +3,7 @@ import type { Product } from "./product-types";
 const productData: Product[] = [
   {
  id: "74",
+ marketplace: "Amazon.in",
  name: "The Courage To Like Yourself",
  category: "Books",
  description: "desc",
@@ -19,6 +20,7 @@ const productData: Product[] = [
   },
   {
  id: "33",
+ marketplace: "Amazon.in",
  name: "The 7 Habits Of Highly Effective People Updated",
  category: "Books",
  description: "New York Times bestseller ? over 25 million copies sold the no. 1 most influential business book of the twentieth century ?[thirty] years after it first appeared, the wisdom of the 7 habits is more relevant than ever.",
@@ -35,6 +37,7 @@ const productData: Product[] = [
   },
   {
  id: "34",
+ marketplace: "Amazon.in",
  name: "Think and Grow Rich",
  category: "Books",
  description: "Napoleon Hill's \"Think and Grow Rich\" is far more than a traditional manual for financial accumulation; it is a profound, deeply humane exploration of human potential and the immense power of the mind. Written in 1937 after Hill spent two decades studying some of the most successful individuals of his era, the book strips away the illusion that wealth and achievement are merely products of luck or privilege.",
@@ -51,6 +54,7 @@ const productData: Product[] = [
   },
   {
  id: "35",
+ marketplace: "Amazon.in",
  name: "The Psychology of Money",
  category: "Books",
  description: "Doing well with money isn’t necessarily about what you know. It’s about how you behave. And behavior is hard to teach, even to really smart people.",
@@ -67,6 +71,7 @@ const productData: Product[] = [
   },
   {
  id: "36",
+ marketplace: "Amazon.in",
  name: "The Power of Your Subconscious Mind",
  category: "Books",
  description: "The Power of Your Subconscious Mind will allow you to access a world of success, happiness, prosperity, and tranquilly.",
@@ -83,6 +88,7 @@ const productData: Product[] = [
   },
   {
  id: "38",
+ marketplace: "Amazon.in",
  name: "How to win friends and Influence People",
  category: "Books",
  description: "You can achieve whatever you want- be it your job, a thing or person. You go behind a job and you get it. You can take it and improve it with each passing day.",
@@ -99,6 +105,7 @@ const productData: Product[] = [
   },
   {
  id: "37",
+ marketplace: "Amazon.in",
  name: "Rich Dad Poor Dad",
  category: "Books",
  description: "Rich Dad Poor Dad is Robert's story of growing up with two dads  his real father and the father of his best friend, his rich dad  and the ways in which both men shaped his thoughts about money and investing.",
@@ -115,6 +122,7 @@ const productData: Product[] = [
   },
   {
  id: "27",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy Z Fold8 5G Lavender 16GB+1TB",
  category: "Electronics",
  description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Lavender, 16GB RAM, 1TB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",
@@ -130,7 +138,25 @@ const productData: Product[] = [
  author: null,
   },
   {
+ id: "83",
+ marketplace: "Amazon.us",
+ name: "Samsung Galaxy S26 Ultra",
+ category: "Electronics",
+ description: "desc",
+ image: "Electronics-B0cSEOjo0-B0G4SWDH8P.jpg",
+ slug: "samsung-galaxy-s26-ultra-0c4a759d",
+ amazonUrl: "https://link.amazon/B0cSEOjo0",
+ asin: "B0G4SWDH8P",
+ currency: "USD",
+ price: 1144.00,
+ rating: 4.60,
+ reviewCount: 2260,
+ lastVerifiedAt: "29-Oct-2026 08:29:26 PM",
+ author: null,
+  },
+  {
  id: "79",
+ marketplace: "Amazon.in",
  name: "Prestige 1.5L PKOSS Stainless Steel Electric Kettle",
  category: "Home & Kitchen",
  description: "desc",
@@ -147,6 +173,7 @@ const productData: Product[] = [
   },
   {
  id: "78",
+ marketplace: "Amazon.in",
  name: "Havells Aqua Plus Electric Kettle",
  category: "Home & Kitchen",
  description: "desc",
@@ -163,6 +190,7 @@ const productData: Product[] = [
   },
   {
  id: "77",
+ marketplace: "Amazon.in",
  name: "Pigeon Amaze Plus Electric Kettle 1.5 L",
  category: "Home & Kitchen",
  description: "desc",
@@ -179,6 +207,7 @@ const productData: Product[] = [
   },
   {
  id: "76",
+ marketplace: "Amazon.in",
  name: "Havells Aqua Plus Electric Kettle 1.2 L",
  category: "Home & Kitchen",
  description: "desc",
@@ -195,6 +224,7 @@ const productData: Product[] = [
   },
   {
  id: "75",
+ marketplace: "Amazon.in",
  name: "Maybelline New York Color Sensational Creamy Matte Lipstick",
  category: "Beauty",
  description: "desc",
@@ -211,6 +241,7 @@ const productData: Product[] = [
   },
   {
  id: "73",
+ marketplace: "Amazon.in",
  name: "Who Moved My Cheese",
  category: "Books",
  description: "dsc",
@@ -227,6 +258,7 @@ const productData: Product[] = [
   },
   {
  id: "72",
+ marketplace: "Amazon.in",
  name: "The Power of Habit",
  category: "Books",
  description: "desc",
@@ -243,6 +275,7 @@ const productData: Product[] = [
   },
   {
  id: "70",
+ marketplace: "Amazon.in",
  name: "Phrasal Verbs for Everyday English",
  category: "Books",
  description: "desc",
@@ -259,6 +292,7 @@ const productData: Product[] = [
   },
   {
  id: "69",
+ marketplace: "Amazon.in",
  name: "How to Build Strong English Vocabulary",
  category: "Books",
  description: "desc",
@@ -275,6 +309,7 @@ const productData: Product[] = [
   },
   {
  id: "68",
+ marketplace: "Amazon.in",
  name: "PHILIPS Air Fryer NA231/00",
  category: "Home & Kitchen",
  description: "desc",
@@ -291,6 +326,7 @@ const productData: Product[] = [
   },
   {
  id: "67",
+ marketplace: "Amazon.in",
  name: "Honeywell Air Purifier for Home",
  category: "Home & Kitchen",
  description: "desc",
@@ -307,6 +343,7 @@ const productData: Product[] = [
   },
   {
  id: "66",
+ marketplace: "Amazon.in",
  name: "Honeywell Air Purifier for Home",
  category: "Home & Kitchen",
  description: "desc",
@@ -323,6 +360,7 @@ const productData: Product[] = [
   },
   {
  id: "65",
+ marketplace: "Amazon.in",
  name: "Meditations",
  category: "Books",
  description: "desc",
@@ -339,6 +377,7 @@ const productData: Product[] = [
   },
   {
  id: "64",
+ marketplace: "Amazon.in",
  name: "Essentialism",
  category: "Books",
  description: "desc",
@@ -355,6 +394,7 @@ const productData: Product[] = [
   },
   {
  id: "63",
+ marketplace: "Amazon.in",
  name: "The Almanack Of Naval Ravikant",
  category: "Books",
  description: "desc",
@@ -371,6 +411,7 @@ const productData: Product[] = [
   },
   {
  id: "62",
+ marketplace: "Amazon.in",
  name: "The One Thing",
  category: "Books",
  description: "desc",
@@ -387,6 +428,7 @@ const productData: Product[] = [
   },
   {
  id: "60",
+ marketplace: "Amazon.in",
  name: "The Mountain is You",
  category: "Books",
  description: "desc",
@@ -403,6 +445,7 @@ const productData: Product[] = [
   },
   {
  id: "59",
+ marketplace: "Amazon.in",
  name: "The Courage To Be Disliked",
  category: "Books",
  description: "desc",
@@ -419,6 +462,7 @@ const productData: Product[] = [
   },
   {
  id: "58",
+ marketplace: "Amazon.in",
  name: "The Richest Man in Babylon (Hardbound Edition)",
  category: "Books",
  description: "desc",
@@ -435,6 +479,7 @@ const productData: Product[] = [
   },
   {
  id: "57",
+ marketplace: "Amazon.in",
  name: "The Monk Who Sold His Ferrari",
  category: "Books",
  description: "desc",
@@ -451,6 +496,7 @@ const productData: Product[] = [
   },
   {
  id: "56",
+ marketplace: "Amazon.in",
  name: "The Intelligent Investor",
  category: "Books",
  description: "desc",
@@ -467,6 +513,7 @@ const productData: Product[] = [
   },
   {
  id: "55",
+ marketplace: "Amazon.in",
  name: "The Richest Man in Babylon",
  category: "Books",
  description: "desc",
@@ -483,6 +530,7 @@ const productData: Product[] = [
   },
   {
  id: "54",
+ marketplace: "Amazon.in",
  name: "How to Stop Worrying and Start Living",
  category: "Books",
  description: "decs",
@@ -499,6 +547,7 @@ const productData: Product[] = [
   },
   {
  id: "53",
+ marketplace: "Amazon.in",
  name: "The Alchemist",
  category: "Books",
  description: "DESC",
@@ -515,6 +564,7 @@ const productData: Product[] = [
   },
   {
  id: "52",
+ marketplace: "Amazon.in",
  name: "THE 48 LAWS OF POWER",
  category: "Books",
  description: "DESC",
@@ -531,6 +581,7 @@ const productData: Product[] = [
   },
   {
  id: "51",
+ marketplace: "Amazon.in",
  name: "Word Power Made Easy",
  category: "Books",
  description: "DEC",
@@ -547,6 +598,7 @@ const productData: Product[] = [
   },
   {
  id: "50",
+ marketplace: "Amazon.in",
  name: "Same as Ever",
  category: "Books",
  description: "DESC",
@@ -563,6 +615,7 @@ const productData: Product[] = [
   },
   {
  id: "49",
+ marketplace: "Amazon.in",
  name: "Ikigai: The Japanese secret to a long and happy life",
  category: "Books",
  description: "DESC",
@@ -579,6 +632,7 @@ const productData: Product[] = [
   },
   {
  id: "46",
+ marketplace: "Amazon.in",
  name: "The 5 AM Club",
  category: "Books",
  description: "Desc",
@@ -595,6 +649,7 @@ const productData: Product[] = [
   },
   {
  id: "45",
+ marketplace: "Amazon.in",
  name: "Express Yourself Better In English",
  category: "Books",
  description: "Express Yourself Better In English: Natural Expressions, Useful Patterns and Practical Examples for Speaking and Writing with Greater Clarity and Confidence",
@@ -611,6 +666,7 @@ const productData: Product[] = [
   },
   {
  id: "44",
+ marketplace: "Amazon.in",
  name: "Dopamine Detox",
  category: "Books",
  description: "Your brain is being hijacked. And you feel it every day. This isn't a willpower problem. It's a stimulation problem.",
@@ -627,6 +683,7 @@ const productData: Product[] = [
   },
   {
  id: "43",
+ marketplace: "Amazon.in",
  name: "The Art of Spending Money",
  category: "Books",
  description: "The Art of Spending Money: Simple Choices for a Richer Life",
@@ -643,6 +700,7 @@ const productData: Product[] = [
   },
   {
  id: "42",
+ marketplace: "Amazon.in",
  name: "Attitude Is Everything",
  category: "Books",
  description: "Do you dread going to work? Do you feel tired, unhappy, weighed down? Have you given up on your dreams? The road to a happier, more successful life starts with your attitude--and your attitude is within your control.",
@@ -659,6 +717,7 @@ const productData: Product[] = [
   },
   {
  id: "41",
+ marketplace: "Amazon.in",
  name: "Don't Believe Everything You Think",
  category: "Books",
  description: "Learn how to overcome anxiety, self-doubt and self sabotage without needing to rely on motivation or will power. In this book, you'll discover the root cause of all psychological and emotional suffering and how to achieve freedom of mind to effortlessly create the life you've always wanted to live.",
@@ -675,6 +734,7 @@ const productData: Product[] = [
   },
   {
  id: "40",
+ marketplace: "Amazon.in",
  name: "Atomic Habits",
  category: "Books",
  description: "Transform your life with tiny changes in behaviour, starting now.",
@@ -691,6 +751,7 @@ const productData: Product[] = [
   },
   {
  id: "32",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy S25 Ultra 5G AI",
  category: "Electronics",
  description: "Samsung Galaxy S25 Ultra 5G AI Smartphone (Titanium Whitesilver, 12GB RAM, 512GB Storage), 200MP Camera, 5000mAh Ultra Long Battery, QHD+ Dynamic AMOLED 2X, Galaxy AI, Knox Security, S Pen Included",
@@ -707,6 +768,7 @@ const productData: Product[] = [
   },
   {
  id: "31",
+ marketplace: "Amazon.in",
  name: "Apple iPhone 17 Pro Max 2 TB",
  category: "Electronics",
  description: "Apple iPhone 17 Pro Max 2 TB: 17.42 cm (6.9″) Display with Promotion, A19 Pro Chip, Best Battery Life in Any iPhone Ever, Pro Fusion Camera System, Center Stage Front Camera; Silver",
@@ -723,6 +785,7 @@ const productData: Product[] = [
   },
   {
  id: "28",
+ marketplace: "Amazon.in",
  name: "Apple iPhone 16 128 GB 5G",
  category: "Electronics",
  description: "Apple iPhone 16 128 GB: 5G Mobile Phone with Camera Control, A18 Chip and a Big Boost in Battery Life. Works with AirPods; Black",
@@ -739,6 +802,7 @@ const productData: Product[] = [
   },
   {
  id: "10",
+ marketplace: "Amazon.in",
  name: "Insulated Water Bottle",
  category: "Home & Kitchen",
  description: "Insulated bottle for everyday use and travel.",
@@ -755,6 +819,7 @@ const productData: Product[] = [
   },
   {
  id: "13",
+ marketplace: "Amazon.in",
  name: "iPhone 18 Pro (256 GB) - Black",
  category: "Electronics",
  description: "15.93 cm (6.3″) Super Retina XDR Display with ProMotion, A20 Pro Chip, 48MP Fusion Main Camera with Variable Aperture",
@@ -771,6 +836,7 @@ const productData: Product[] = [
   },
   {
  id: "14",
+ marketplace: "Amazon.in",
  name: "Sujata Supermix Mixer Grinder",
  category: "Home & Kitchen",
  description: "Sujata Supermix Mixer Grinder|900 Watts Double Ball Bearing Motor|22000 RPM|Non-Stop 90 Mins Running|3 Jars including 1750ml Blender, 1000ml Grinder, 500ml Chutney Jar| (White)",
@@ -787,6 +853,7 @@ const productData: Product[] = [
   },
   {
  id: "15",
+ marketplace: "Amazon.in",
  name: "Sujata Dynamix 900 Watts Mixer Grinder",
  category: "Home & Kitchen",
  description: "Sujata Dynamix 900 Watts Mixer Grinder | 22000 Rotations Per Min | 90 Minutes Continuous Running | 3 Versatile Jars 1500 ml, 1000 ml and 500 ml (White)",
@@ -803,6 +870,7 @@ const productData: Product[] = [
   },
   {
  id: "16",
+ marketplace: "Amazon.in",
  name: "Sujata MG01 Mixer Grinder 1000Watts",
  category: "Home & Kitchen",
  description: "Sujata MG01 Mixer Grinder 1000Watts | Double Ball Bearing Motor | 24000 RPM | Non-Stop 90 Mins Running | 3 Jars including 1750ml Blender, 1000ml Grinder, 500ml Chutney Jar | Red & Black",
@@ -819,6 +887,7 @@ const productData: Product[] = [
   },
   {
  id: "17",
+ marketplace: "Amazon.in",
  name: "Sujata MG03 Mixer Grinder 1000Watts",
  category: "Home & Kitchen",
  description: "Sujata MG03 Mixer Grinder|1000 Watts Double Ball Bearing Motor Polycarbonate|24000 RPM|Non-Stop 90 Mins|4 Jars including 1750ml Blender with Coconut Milk Extractor, 1500ml, 1000ml, 500ml Jar| (Black)",
@@ -835,6 +904,7 @@ const productData: Product[] = [
   },
   {
  id: "18",
+ marketplace: "Amazon.in",
  name: "Motul Chain Lube & Chain Cleaner",
  category: "Automotive",
  description: "Motul Chain Lube & Chain Cleaner Combo for Bikes – C2 Lubrication + C1 Deep Cleaning Spray for Superior Chain Care, Suitable for All Motorcycles, 150 ml Each",
@@ -851,6 +921,7 @@ const productData: Product[] = [
   },
   {
  id: "19",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy S24 Ultra 5G AI",
  category: "Electronics",
  description: "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Gray, 12GB, 512GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -867,6 +938,7 @@ const productData: Product[] = [
   },
   {
  id: "20",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy S24 Ultra 5G AI Black",
  category: "Electronics",
  description: "Samsung Galaxy S24 Ultra 5G AI Smartphone with Galaxy AI (Titanium Black, 12GB, 512GB Storage), Snapdragon 8 Gen 3, 200 MP Camera with ProVisual Engine and 5000mAh Battery",
@@ -883,6 +955,7 @@ const productData: Product[] = [
   },
   {
  id: "21",
+ marketplace: "Amazon.in",
  name: "Realme 16 Pro+ 5G Smartphone 8+256GB Grey",
  category: "Electronics",
  description: "7000mAh Battery, 80W SuperVOOC, 6.8-Inch Screen, 144Hz AMOLED Display, Rear 200MP+Front 50MP Camera, Snapdragon 7 Gen 4, IP69",
@@ -899,6 +972,7 @@ const productData: Product[] = [
   },
   {
  id: "22",
+ marketplace: "Amazon.in",
  name: "Realme 16x 5G Smartphone 4GB+128GB White",
  category: "Electronics",
  description: "7000mAh Battery, 45W SuperVOOC, 6.8inch Screen, 144Hz Display, Rear 50MP+Front 8MP Camera, MediaTek Dimensity 6300, IP65",
@@ -915,6 +989,7 @@ const productData: Product[] = [
   },
   {
  id: "23",
+ marketplace: "Amazon.in",
  name: "Realme 16 Pro 5G Smartphone 12+256GB Gold",
  category: "Electronics",
  description: "7000mAh Battery, 80W SuperVOOC, 6.78-Inch Screen, 144Hz AMOLED Display, Rear 200MP+Front 50MP Camera, MediaTek 7300-Max, IP69",
@@ -931,6 +1006,7 @@ const productData: Product[] = [
   },
   {
  id: "24",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy Z Fold7 5G",
  category: "Electronics",
  description: "Samsung Galaxy Z Fold7 5G Mobile with Galaxy AI (Blue Shadow, 12GB RAM, 256GB Storage), Ultra Sleek Design with 200MP Camera, Ultra-Smooth Gaming with Powerful Snapdragon 8 Elite, Google Gemini",
@@ -947,6 +1023,7 @@ const productData: Product[] = [
   },
   {
  id: "25",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy Z Fold8 5G",
  category: "Electronics",
  description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Lavender, 12GB RAM, 256GB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",
@@ -963,6 +1040,7 @@ const productData: Product[] = [
   },
   {
  id: "26",
+ marketplace: "Amazon.in",
  name: "Samsung Galaxy Z Fold8 5G 12+512GB Cream",
  category: "Electronics",
  description: "Samsung Galaxy Z Fold8 5G Smartphone with Galaxy AI (Cream, 12GB RAM, 512GB Storage), All New Shape, Snapdragon 8 Elite Gen 5, 4800mAh Battery, Dual 50MP Camera, Now Nudge, Photo Assist",

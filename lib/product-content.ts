@@ -492,4 +492,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the capacity, power consumption, warranty terms, and lid mechanism before purchasing.",
   },
+  "samsung-galaxy-s26-ultra-0c4a759d": {
+    introduction:
+      "A closer look at the flagship performance, advanced Galaxy AI capabilities, and premium design of Samsung's top-tier smartphone.",
+    overview:
+      "An elite Android device featuring a 6.9-inch Dynamic AMOLED 2X display, a 200MP pro-grade camera system with ProVisual Engine, powerful processor performance, durable 5000mAh battery with Super Fast Charging, and an Armor Aluminum build.",
+    whatToCheck:
+      "Check regional model compatibility, warranty coverage, storage capacity, and return policies before purchasing.",
+  },
 };
