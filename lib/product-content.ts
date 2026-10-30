@@ -556,4 +556,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric blend, stretchability, and care instructions before purchasing.",
   },
+  "amazon-essentials-women-s-slim-b7e457d3": {
+    introduction:
+      "A closer look at the versatile styling, comfortable stretch, and everyday layering value of Amazon Essentials' slim-fit vests.",
+    overview:
+      "A convenient 2-pack of women's slim-fit vests crafted from soft, breathable fabric with a flattering silhouette, ideal for layering under cardigans and shirts or wearing on its own.",
+    whatToCheck:
+      "Check the size chart, fabric composition, color choices, and return policy before purchasing.",
+  },
 };
