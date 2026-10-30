@@ -612,4 +612,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric composition, color options, and return policies before purchasing.",
   },
+  "amazon-essentials-women-s-cotton-8b026633": {
+    introduction:
+      "Stay comfortable and mobile all day long with these versatile cotton stretch leggings designed for effortless everyday wear.",
+    overview:
+      "A reliable pair of standard and plus-size leggings crafted from a soft, breathable cotton blend with added stretch, featuring a comfortable elastic waistband for a smooth and secure fit.",
+    whatToCheck:
+      "Check the size chart, inseam length, fabric opacity, and care instructions before purchasing.",
+  },
 };
