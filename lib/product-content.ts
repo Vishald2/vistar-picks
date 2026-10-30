@@ -588,4 +588,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric care instructions, and color shade options before purchasing.",
   },
+  "oeak-womens-wireless-jelly-bras-d8b1d684": {
+    introduction:
+      "Experience all-day comfort and gentle lift with OEAK's innovative wireless jelly bra, designed to move effortlessly with you.",
+    overview:
+      "A supportive, underwire-free bra featuring flexible jelly support technology, a smooth silhouette for seamless wear under t-shirts and fitted tops, and soft breathable materials.",
+    whatToCheck:
+      "Check the size chart, cup padding thickness, and return policy before purchasing.",
+  },
 };
