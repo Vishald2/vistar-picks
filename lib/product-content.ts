@@ -540,4 +540,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "",
   },
+  "acer-kids-headphones-for-school-788b7961": {
+    introduction:
+      "A closer look at the volume-limiting safety, comfortable foldable design, and school-ready durability of Acer's wired kids headphones.",
+    overview:
+      "A 2-pack of wired over-ear headphones featuring a built-in microphone, a safe 85-94dB volume limiter to protect young ears, a 3.5mm jack, and a lightweight, foldable design ideal for school, travel, and digital learning.",
+    whatToCheck:
+      "Check the volume limiter settings, cable length, durability features, and device compatibility with tablets, laptops, and smartphones before purchasing.",
+  },
 };
