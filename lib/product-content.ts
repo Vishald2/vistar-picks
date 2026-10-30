@@ -636,4 +636,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric stretch, washing instructions, and color availability before purchasing.",
   },
+  "anrabess-2-piece-lounge-sets-933f32d0": {
+    introduction:
+      "Slip into ultimate relaxation with this stylish two-piece loungewear set featuring trendy foldover leggings.",
+    overview:
+      "A cozy women's lounge set combining a comfortable top with matching cropped foldover waist leggings, crafted from soft, stretchy knit fabric designed for effortless downtime or casual outings.",
+    whatToCheck:
+      "Check the size chart, fabric stretch, inseam length, and wash care instructions before purchasing.",
+  },
 };
