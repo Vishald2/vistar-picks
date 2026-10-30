@@ -596,4 +596,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, cup padding thickness, and return policy before purchasing.",
   },
+  "amazon-essentials-women-s-slim-f0573d56": {
+    introduction:
+      "Build out your everyday wardrobe essentials with these comfortable, stretch-friendly ribbed tank tops designed for seamless layering.",
+    overview:
+      "A convenient 2-pack of slim-fit scoop neck tanks crafted from a soft cotton-modal blend with added stretch, offering a flattering silhouette and year-round versatility.",
+    whatToCheck:
+      "Check the size chart, fabric blend, color options, and return policies before purchasing.",
+  },
 };
