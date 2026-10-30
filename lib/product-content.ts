@@ -516,4 +516,28 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check active noise cancellation performance, ear cushion comfort for long sessions, battery life with ANC enabled, and warranty support before purchasing.",
   },
+  "how-to-build-strong-english-3ee6b039": {
+    introduction:
+      "A closer look at practical methods, vocabulary strategies, and everyday expressions designed to build strong English communication skills.",
+    overview:
+      "A comprehensive guide focused on learning words, phrases, and collocations to help learners, students, and professionals express themselves more clearly and naturally in daily conversations and interviews.",
+    whatToCheck:
+      "",
+  },
+  "phrasal-verbs-for-everyday-english-2f99f5cf": {
+    introduction:
+      "A closer look at essential phrasal verbs, idioms, and natural expressions designed to improve fluency in daily English conversations.",
+    overview:
+      "A targeted educational and self-improvement resource focused on mastering common phrasal verbs with clear definitions, context-based examples, and practical usage tips for students and language learners.",
+    whatToCheck:
+      "",
+  },
+  "express-yourself-better-in-english-06f240c5": {
+    introduction:
+      "A closer look at natural expressions, useful patterns, and practical examples designed to enhance speaking and writing with greater clarity and confidence.",
+    overview:
+      "A comprehensive guide focused on improving English communication skills through everyday phrases, structural patterns, and real-world examples for students, professionals, and language learners.",
+    whatToCheck:
+      "",
+  },
 };
