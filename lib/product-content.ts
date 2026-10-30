@@ -620,4 +620,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, inseam length, fabric opacity, and care instructions before purchasing.",
   },
+  "zeagoo-sweaters-for-women-cropped-3346cacc": {
+    introduction:
+      "Elevate your cool-weather wardrobe with this chic crewneck sweater that balances professional polish with casual comfort.",
+    overview:
+      "A versatile women's sweater featuring a classic crewneck design, comfortable long sleeves, and a flattering knit texture suitable for both business casual office wear and everyday outings.",
+    whatToCheck:
+      "Check the size chart, fabric material composition, knit care instructions, and color selections before purchasing.",
+  },
 };
