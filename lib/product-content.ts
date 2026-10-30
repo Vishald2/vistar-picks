@@ -572,4 +572,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, cup padding thickness, strap adjustability, and return policy before purchasing.",
   },
+  "oeak-womens-jelly-bras-wireless-730a9f05": {
+    introduction:
+      "A closer look at the wireless comfort, soft support, and smooth everyday silhouette of OEAK's jelly push-up bralette.",
+    overview:
+      "A comfortable wireless bralette featuring a deep V plunge design, gentle push-up lift, flexible jelly support material, and a seamless, invisible look ideal for wearing under t-shirts and fitted tops.",
+    whatToCheck:
+      "Check the size chart (Medium), cup padding thickness, strap adjustability, and return policy before purchasing.",
+  },
 };
