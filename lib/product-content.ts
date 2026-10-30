@@ -564,4 +564,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric composition, color choices, and return policy before purchasing.",
   },
+  "oeak-womens-jelly-bras-wireless-2df6600d": {
+    introduction:
+      "A closer look at the wireless comfort, soft support, and smooth everyday silhouette of OEAK's jelly push-up bra.",
+    overview:
+      "A comfortable wireless bra featuring a deep V plunge design, gentle push-up lift, flexible jelly support material, and a seamless, invisible look ideal for wearing under t-shirts and fitted tops.",
+    whatToCheck:
+      "Check the size chart, cup padding thickness, strap adjustability, and return policy before purchasing.",
+  },
 };
