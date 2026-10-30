@@ -500,4 +500,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check regional model compatibility, warranty coverage, storage capacity, and return policies before purchasing.",
   },
+  "turtle-beach-recon-200-gen-f932ffdf": {
+    introduction:
+      "A closer look at the amplified audio, enhanced comfort, and multiplatform compatibility of Turtle Beach's gaming headset.",
+    overview:
+      "A wired gaming headset featuring 40mm speakers, a high-sensitivity flip-to-mute mic, memory foam ear cushions wrapped in athletic fabric, and a rechargeable battery-powered amplifier for immersive sound across consoles and PCs.",
+    whatToCheck:
+      "Check the battery life for the amplified mode, compatibility with your specific gaming platform, and cable connection type before purchasing.",
+  },
 };
