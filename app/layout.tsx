@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
 import CuratedRibbon from "@/components/CuratedRibbon";
+import { MarketplaceProvider } from "@/context/MarketplaceContext";
 
 export const metadata: Metadata = {
   title: "Selective Kart | Smart Product Choices",
@@ -18,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-         <CuratedRibbon />
-         <GoogleAnalytics />
-        {children}
+        <MarketplaceProvider>
+          <CuratedRibbon />
+          <GoogleAnalytics />
+          {children}
+        </MarketplaceProvider>
       </body>
     </html>
   );

@@ -139,7 +139,7 @@ const productData: Product[] = [
   },
   {
  id: "83",
- marketplace: "Amazon.us",
+ marketplace: "Amazon.com",
  name: "Samsung Galaxy S26 Ultra",
  category: "Electronics",
  description: "desc",

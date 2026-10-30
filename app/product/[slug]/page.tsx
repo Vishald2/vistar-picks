@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import { products } from "@/lib/products";
 import styles from "./productdetails.module.css";
 import { productContent } from "@/lib/product-content";
+import SimilarProducts from "@/components/SimilarProducts";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -18,6 +19,7 @@ export function generateStaticParams() {
 }
 
 export default async function ProductDetailsPage({ params }: PageProps) {
+
   const { slug } = await params;
 
   const product = products.find((item) => item.slug === slug);
@@ -40,6 +42,7 @@ const similarProducts = products
         product.category?.trim().toLowerCase()
   )
   .slice(0, 5);
+
 
   return (
     <>
@@ -201,68 +204,7 @@ const similarProducts = products
     <p>{copy.whatToCheck}</p>
   </section>
 
-  <section className="similar-products-section">
-{similarProducts.length > 0 && (
-  <h2>Similar Products</h2>
-)}
-
-  <div className="similar-products-grid">
-    {similarProducts.map((item) => (
-      <Link
-        href={`/product/${item.slug}`}
-        className="similar-product-card"
-        key={item.id}
-      >
-        <div className="similar-product-image">
-          <Image
-          src={`/products/${item.image}`}
-            alt={item.name}
-            width={220}
-            height={180}
-          />
-        </div>
-        <h3>{item.name}</h3>
-        
-{item.price != null && (
-  <div className="product-price">
-        <span className="product-price-currency">
-      {item.currency}
-    </span>
-    <span></span>
-    <span className="product-price-amount">
-      {new Intl.NumberFormat("en-IN", {
-        minimumFractionDigits: 0,
-        maximumFractionDigits: 0,
-      }).format(item.price)}
-    </span>
-
-  </div>
-)}
-
-    {item.rating != null && (
-      <div className="product-rating" aria-label={`Rated ${item.rating} out of 5`}>
-        <span className="product-rating-stars" aria-hidden="true">
-  {"★".repeat(Math.floor(item.rating))}
-  {"☆".repeat(5 - Math.floor(item.rating))}
-        </span>
-
-        <span className="product-rating-score">{item.rating.toFixed(1)}/5</span>
-
-        {item.reviewCount != null && (
-          <span className="product-rating-count">
-            ({item.reviewCount.toLocaleString("en-IN")} ratings)
-          </span>
-        )}
-      </div>
-    )}
-
-        <span className="similar-product-link">
-          View Product →
-        </span>
-      </Link>
-    ))}
-  </div>
-</section>
+<SimilarProducts currentSlug={product.slug} />
 
   <p className="details-disclosure">
     <strong>Affiliate disclosure:</strong> Selective Kart may earn a

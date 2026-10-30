@@ -5,8 +5,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { products, categories } from "@/lib/products";
+import { useMarketplace } from "@/context/MarketplaceContext";
 
 export default function SearchResults() {
+    const { marketplace, isDetecting } = useMarketplace();
+
+  const filteredProducts = products.filter(
+    (product) => product.marketplace === marketplace
+  );
   const searchParams = useSearchParams();
   const query = (searchParams.get("q") ?? "").trim().toLowerCase();
   const selectedCategory =
@@ -16,7 +22,7 @@ export default function SearchResults() {
     selectedCategory === "All Categories" ||
     categories.includes(selectedCategory);
 
-  const results = products.filter((product) => {
+  const results = filteredProducts.filter((product) => {
     const matchesQuery =
       !query ||
       `${product.name} ${product.category} ${product.description}`
@@ -29,6 +35,10 @@ export default function SearchResults() {
 
     return matchesQuery && matchesCategory;
   });
+
+    if (isDetecting) {
+    return <p>Loading products...</p>;
+  }
 
   return (
     <div className="search-results-container">
