@@ -580,4 +580,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart (Medium), cup padding thickness, strap adjustability, and return policy before purchasing.",
   },
+  "hanes-women-s-ecosmart-fleece-1f5a8322": {
+    introduction:
+      "Wrap yourself in cozy warmth with this pale pink zip hoodie designed for effortless everyday comfort.",
+    overview:
+      "A soft, midweight fleece hoodie crafted with a blend of cotton and recycled polyester, featuring a full-zip front, convenient split kangaroo pockets, and ribbed cuffs and hem for a snug fit.",
+    whatToCheck:
+      "Check the size chart, fabric care instructions, and color shade options before purchasing.",
+  },
 };
