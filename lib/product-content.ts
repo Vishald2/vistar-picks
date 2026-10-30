@@ -548,4 +548,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the volume limiter settings, cable length, durability features, and device compatibility with tablets, laptops, and smartphones before purchasing.",
   },
+  "anrabess-women-long-sleeve-shirts-c978e5e4": {
+    introduction:
+      "A closer look at the soft ribbed texture, versatile slim fit, and everyday layering comfort of Anrabess' long-sleeve top.",
+    overview:
+      "A lightweight knit basic tee featuring long sleeves, a fitted silhouette, and a comfortable ribbed fabric, ideal for casual wear, work layering, or underscrubs during fall and winter seasons.",
+    whatToCheck:
+      "Check the size chart, fabric blend, stretchability, and care instructions before purchasing.",
+  },
 };
