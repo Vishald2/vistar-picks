@@ -644,4 +644,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric stretch, inseam length, and wash care instructions before purchasing.",
   },
+  "trendy-queen-womens-long-sleeve-58a3a03f": {
+    introduction:
+      "Achieve an effortlessly chic streetwear look with this trendy long-sleeve crop top designed for modern everyday styling.",
+    overview:
+      "A fashionable women's top featuring a comfortable fitted silhouette, long sleeves, and a soft, stretchy fabric blend that pairs easily with high-waisted jeans, joggers, or skirts.",
+    whatToCheck:
+      "Check the size chart, cropped length measurements, fabric opacity, and color options before purchasing.",
+  },
 };
