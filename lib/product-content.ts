@@ -604,4 +604,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric blend, color options, and return policies before purchasing.",
   },
+  "zeagoo-flannels-for-women-cropped-56623f9e": {
+    introduction:
+      "Add a trendy plaid layer to your cool-weather wardrobe with this stylish cropped shacket from Zeagoo.",
+    overview:
+      "A chic flannel button-down shacket featuring a modern cropped length, long sleeves, and a classic plaid pattern, perfect for effortless fall and winter layering.",
+    whatToCheck:
+      "Check the size chart, fabric composition, color options, and return policies before purchasing.",
+  },
 };
