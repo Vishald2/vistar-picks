@@ -1,5 +1,16 @@
 export async function detectCountry(): Promise<string | null> {
   try {
+
+  // Temporary country override for local testing
+  if (process.env.NODE_ENV === "development") {
+    const testCountry = process.env.NEXT_PUBLIC_TEST_COUNTRY;
+
+    if (testCountry) {
+      console.log("Using test country:", testCountry);
+      return testCountry.toUpperCase();
+    }
+  }
+
     const response = await fetch("https://ipapi.co/json/", {
       signal: AbortSignal.timeout(4000),
       cache: "no-store",
