@@ -628,4 +628,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, fabric material composition, knit care instructions, and color selections before purchasing.",
   },
+  "automet-womens-long-sleeve-shirts-b88177e7": {
+    introduction:
+      "Transition seamlessly between seasons with this versatile long-sleeve knit top designed for effortless business-casual styling.",
+    overview:
+      "A comfortable women's top featuring soft, lightweight fabric, long sleeves, and a classic silhouette tailored for professional office environments or relaxed daily wear.",
+    whatToCheck:
+      "Check the size chart, fabric stretch, washing instructions, and color availability before purchasing.",
+  },
 };
