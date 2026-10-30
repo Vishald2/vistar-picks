@@ -508,4 +508,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the battery life for the amplified mode, compatibility with your specific gaming platform, and cable connection type before purchasing.",
   },
+  "skullcandy-crusher-anc-2-noise-121fc5e2": {
+    introduction:
+      "A closer look at the adjustable sensory bass, active noise cancellation, and long-lasting battery life of Skullcandy's over-ear headphones.",
+    overview:
+      "Premium wireless headphones featuring patented adjustable Crusher Bass for a tactile listening experience, 4-mic active noise cancellation, customizable sound profiles via the Skull-iQ app, and up to 50-60 hours of battery life with rapid charging.",
+    whatToCheck:
+      "Check active noise cancellation performance, ear cushion comfort for long sessions, battery life with ANC enabled, and warranty support before purchasing.",
+  },
 };
