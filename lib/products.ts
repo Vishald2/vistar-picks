@@ -6,12 +6,14 @@ export type { Product } from "./product-types";
 export const products: Product[] = productData;
 
 export const categories = [
-  "Automotive",
-  "Beauty",
-  "Books",
-  "Electronics",
-  "Fashion",
-  "Jewellery",
-  "Home & Kitchen",
-  "Sports & Fitness",
+    "Home & Kitchen",
+    "Women Clothing",
+    "Men Clothing",
+    "Beauty",
+    "Books",
+    "Electronics",
+    "Fashion",
+    "Jewellery",
+    "Sports & Fitness",
+    "Automotive",
 ];
