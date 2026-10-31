@@ -692,4 +692,36 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the toddler size chart, multipack quantity, fabric washing instructions, and elastic waist comfort before purchasing.",
   },
+  "fruit-of-the-loom-girls-596f0931": {
+    introduction:
+      "Deliver dependable everyday comfort and breathable wear with this assorted pack of cotton briefs tailored for growing girls.",
+    overview:
+      "Manufactured from ultra-soft, 100% ring-spun cotton, these girls' underwear briefs incorporate a tag-free interior construction to completely eliminate itching and skin irritation. Designed with comfortable, plush-backed elastic waistbands that prevent pinching, along with covered leg bands that ensure a secure yet flexible fit for active daily movement and long-lasting durability through repeated machine washes.",
+    whatToCheck:
+      "Check the youth size chart, multipack assortment details, fabric care guidelines, and waistband stretch before purchasing.",
+  },
+  "fruit-of-the-loom-girls-e362a26b": {
+    introduction:
+      "Upgrade your daily essentials with the breathable comfort and classic low-rise fit of Fruit of the Loom's cotton bikini underwear.",
+    overview:
+      "Crafted from ultra-soft, 100% ring-spun cotton, these bikini underwear briefs feature a modern low-rise waist design that sits comfortably below the hip for an effortless fit. Equipped with a tag-free interior construction to eliminate itching, plush-backed elastic waistbands that prevent rolling, and neatly bound leg openings for secure, flexible movement, this dependable multipack delivers exceptional everyday comfort and lasting durability through repeated machine washes.",
+    whatToCheck:
+      "Check the size chart, multipack assortment details, fabric care guidelines, and waistband stretch before purchasing.",
+  },
+  "girls-underwear-soft-cotton-tagless-3a0d7d0d": {
+    introduction:
+      "Equip your little one's daily drawer with breathable comfort and playful colors using these soft cotton briefs.",
+    overview:
+      "Crafted from premium breathable cotton designed to keep toddlers cool and comfortable throughout active days, these little girls' underwear briefs feature gentle, non-irritating materials without harsh chemicals. Designed with a smooth covered fabric waistband and soft, flexible leg bands that prevent pinching, this comfortable multi-pack ensures secure, restriction-free wear for everyday use, potty training, and dependable durability through repeated machine washes.",
+    whatToCheck:
+      "Check the toddler and little girls' size chart, multipack quantity, fabric care instructions, and waistband elasticity before purchasing.",
+  },
+  "girls-cotton-underwear-with-12-3d866a12": {
+    introduction:
+      "Delight your little one with a rainbow of colorful patterns and all-day breathable comfort in this value-packed set.",
+    overview:
+      "Crafted from a premium, skin-friendly blend of 95% combed cotton and 5% elastane, these girls' boxer briefs deliver exceptional softness and dependable stretch for active daily wear. Designed for children ages 2 to 9 years, this 12-pack assortment features a supportive wide elastic waistband, a double-layer crotch construction for enhanced hygiene and durability, and a smooth finish that prevents skin irritation and guarantees restriction-free comfort through countless machine washes.",
+    whatToCheck:
+      "Check the weight-based sizing chart, multipack color assortment, fabric composition ratio, and gentle wash care instructions before purchasing.",
+  },
 };
