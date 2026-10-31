@@ -12,6 +12,8 @@ import type { Metadata } from "next";
 export async function generateMetadata({
   params,
 }: PageProps): Promise<Metadata> {
+
+  
   const { slug } = await params;
 
   const product = products.find((item) => item.slug === slug);
@@ -74,16 +76,6 @@ const copy = productContent[product.slug] ?? {
   overview: product.description,
   whatToCheck: "Compare specifications, quality and value before buying.",
 };
-
-const similarProducts = products
-  .filter(
-    (item) =>
-      item.slug !== product.slug &&
-      item.category?.trim().toLowerCase() ===
-        product.category?.trim().toLowerCase()
-  )
-  .slice(0, 5);
-
 
   return (
     <>

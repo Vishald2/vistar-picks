@@ -7,10 +7,12 @@ import { MarketplaceProvider } from "@/context/MarketplaceContext";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://selectivekart.com"),
+
   title: {
     default: "Selective Kart | Smart Product Choices",
     template: "%s | Selective Kart",
   },
+
   description:
     "Discover useful products, compare features, and make informed buying decisions.",
 };
