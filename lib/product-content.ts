@@ -652,4 +652,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, cropped length measurements, fabric opacity, and color options before purchasing.",
   },
+  "letsjoli-jelly-bras-for-women-d2915a8d": {
+    introduction:
+      "Redefine daily comfort with this seamless wireless bra that offers gentle support without the pinch of traditional underwires.",
+    overview:
+      "A comfortable wireless bra featuring innovative jelly support technology, a smooth silhouette for seamless wear under t-shirts and fitted tops, and soft, breathable materials offering gentle lift and full coverage.",
+    whatToCheck:
+      "Check the size chart, cup padding thickness, strap adjustability, and return policy before purchasing.",
+  },
 };
