@@ -7,6 +7,47 @@ import { products } from "@/lib/products";
 import styles from "./productdetails.module.css";
 import { productContent } from "@/lib/product-content";
 import SimilarProducts from "@/components/SimilarProducts";
+import type { Metadata } from "next";
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { slug } = await params;
+
+  const product = products.find((item) => item.slug === slug);
+
+  if (!product) {
+    return {
+      title: "Product Not Found",
+    };
+  }
+
+  const description =
+    product.description?.trim() ||
+    `Explore ${product.name}, compare its features, and check the latest availability on Amazon.`;
+
+  const canonicalUrl = `https://selectivekart.com/product/${product.slug}`;
+
+  return {
+    title: product.name,
+    description: description.slice(0, 160),
+    alternates: {
+      canonical: canonicalUrl,
+    },
+    openGraph: {
+      title: product.name,
+      description: description.slice(0, 160),
+      url: canonicalUrl,
+      type: "website",
+      images: [
+        {
+          url: `/products/${product.image}`,
+          alt: product.name,
+        },
+      ],
+    },
+  };
+}
 
 type PageProps = {
   params: Promise<{ slug: string }>;
