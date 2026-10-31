@@ -660,4 +660,36 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the size chart, cup padding thickness, strap adjustability, and return policy before purchasing.",
   },
+  "oeak-womens-jelly-bras-wireless-583ce1de": {
+    introduction:
+      "Experience weightless support and effortless all-day comfort with OEAK's innovative wireless jelly bra.",
+    overview:
+      "A thoughtfully engineered wireless bralette featuring advanced liquid jelly support bands that offer 360-degree contouring and a natural push-up lift without traditional underwire discomfort. Crafted from a buttery soft nylon-spandex blend, it incorporates breathable removable padding, elegant scalloped V-neck detailing, and a smoothing U-back design with multi-row hook closures to minimize back bulging and ensure a seamless, invisible look beneath t-shirts, blouses, and everyday apparel.",
+    whatToCheck:
+      "Check the size chart, cup padding thickness, strap adjustability options, and return policies before purchasing.",
+  },
+  "anrabess-women-long-sleeve-shirts-91b10b7c": {
+    introduction:
+      "Sculpt your silhouette with this sleek, ribbed long-sleeve top designed for effortless transitional layering.",
+    overview:
+      "A versatile women's fitted tee crafted from a soft, medium-stretch rayon and elastane blend that hugs your curves while ensuring breathable all-day comfort. Featuring a classic crew neckline and full-length sleeves, this lightweight rib-knit staple transitions seamlessly from professional office attire under blazers to casual weekend streetwear.",
+    whatToCheck:
+      "Check the size chart, fabric stretch characteristics, color options, and machine washing care instructions before purchasing.",
+  },
+  "amazon-essentials-women-s-midweight-737197f3": {
+    introduction:
+      "Layer up in dependable warmth and cozy comfort with this classic midweight full-zip hoodie from Amazon Essentials.",
+    overview:
+      "A versatile women's hoodie crafted from a soft cotton-blend fleece, featuring a convenient full-zip front closure, a spacious adjustable drawstring hood, split kangaroo pockets for everyday storage, and ribbed cuffs and hem to lock in warmth during cooler weather.",
+    whatToCheck:
+      "Check the size chart, fabric blend ratio, color heather options, and machine washing instructions before purchasing.",
+  },
+  "fruit-of-the-loom-toddler-e57c557c": {
+    introduction:
+      "Ensure all-day comfort and gentle wear for everyday routines with this multi-pack of toddler cotton underwear.",
+    overview:
+      "Crafted from 100% breathable, ring-spun cotton, these toddler girls' underwear briefs feature a completely tag-free design to prevent skin irritation and chafing. Designed with soft, plush-backed waistbands and durable fabric bindings around the leg openings for a secure yet flexible fit, this assorted multi-pack comes in vibrant colors and playful prints designed for daily wear.",
+    whatToCheck:
+      "Check the toddler size chart, multipack quantity, fabric washing instructions, and elastic waist comfort before purchasing.",
+  },
 };
