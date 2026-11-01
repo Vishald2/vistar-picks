@@ -4,17 +4,17 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
-import { products, categories } from "@/lib/products";
+import { categories } from "@/lib/products";
+import { useProducts } from "@/lib/use-products";
 import { useMarketplace } from "@/context/MarketplaceContext";
 
 export default function SearchResults() {
-    const { marketplace, isDetecting } = useMarketplace();
+  const { isDetecting } = useMarketplace();
+  const products = useProducts();
 
-  const filteredProducts = products.filter(
-    (product) => product.marketplace === marketplace
-  );
   const searchParams = useSearchParams();
   const query = (searchParams.get("q") ?? "").trim().toLowerCase();
+
   const selectedCategory =
     searchParams.get("category") ?? "All Categories";
 
@@ -22,10 +22,10 @@ export default function SearchResults() {
     selectedCategory === "All Categories" ||
     categories.includes(selectedCategory);
 
-  const results = filteredProducts.filter((product) => {
+  const results = products.filter((product) => {
     const matchesQuery =
       !query ||
-      `${product.name} ${product.category} ${product.description}`
+      `${product.name} ${product.category} ${product.description ?? ""}`
         .toLowerCase()
         .includes(query);
 
@@ -36,7 +36,7 @@ export default function SearchResults() {
     return matchesQuery && matchesCategory;
   });
 
-    if (isDetecting) {
+  if (isDetecting) {
     return <p>Loading products...</p>;
   }
 
@@ -50,6 +50,7 @@ export default function SearchResults() {
         ) : (
           "Browse our products"
         )}
+
         {validCategory &&
           selectedCategory !== "All Categories" &&
           ` in ${selectedCategory}`}
@@ -89,39 +90,45 @@ export default function SearchResults() {
                   />
                 </div>
 
-          <h2>{product.name}</h2>
-              {product.rating != null && (
-                <div className="product-rating" aria-label={`Rated ${product.rating} out of 5`}>
-                  <span className="product-rating-stars" aria-hidden="true">
-            {"★".repeat(Math.floor(product.rating))}
-            {"☆".repeat(5 - Math.floor(product.rating))}
-                  </span>
+                <h2>{product.name}</h2>
 
-                  <span className="product-rating-score">{product.rating.toFixed(1)}/5</span>
-
-                  {product.reviewCount != null && (
-                    <span className="product-rating-count">
-                      ({product.reviewCount.toLocaleString("en-IN")} ratings)
+                {product.rating != null && (
+                  <div
+                    className="product-rating"
+                    aria-label={`Rated ${product.rating} out of 5`}
+                  >
+                    <span className="product-rating-stars" aria-hidden="true">
+                      {"★".repeat(Math.floor(product.rating))}
+                      {"☆".repeat(5 - Math.floor(product.rating))}
                     </span>
-                  )}
-                </div>
-              )}
 
-              {product.price != null && (
+                    <span className="product-rating-score">
+                      {product.rating.toFixed(1)}/5
+                    </span>
 
-              <div className="product-card-price">
-                <span className="product-price-currency">
-                {product.currency}
-                </span>
-                <span> </span>
+                    {product.reviewCount != null && (
+                      <span className="product-rating-count">
+                        ({product.reviewCount.toLocaleString("en-IN")} ratings)
+                      </span>
+                    )}
+                  </div>
+                )}
+
+                {product.price != null && (
+                  <div className="product-card-price">
+                    <span className="product-price-currency">
+                      {product.currency}
+                    </span>{" "}
                     {new Intl.NumberFormat("en-IN", {
-                    minimumFractionDigits: 0,
-                    maximumFractionDigits: 0,
-                }).format(product.price)}
-              </div>
-              )}
+                      minimumFractionDigits: 0,
+                      maximumFractionDigits: 0,
+                    }).format(product.price)}
+                  </div>
+                )}
 
-                <span className="search-result-link">View Product →</span>
+                <span className="search-result-link">
+                  View Product →
+                </span>
               </Link>
             ))}
           </div>

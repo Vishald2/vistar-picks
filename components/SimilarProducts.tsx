@@ -1,7 +1,7 @@
+
 "use client";
 
-import { useMarketplace } from "@/context/MarketplaceContext";
-import { products } from "@/lib/products";
+import { useProducts } from "@/lib/use-products";
 import ProductCard from "@/components/ProductCard";
 
 interface Props {
@@ -9,9 +9,7 @@ interface Props {
 }
 
 export default function SimilarProducts({ currentSlug }: Props) {
-  const { marketplace, isDetecting } = useMarketplace();
-
-  if (isDetecting) return null;
+  const products = useProducts();
 
   const currentProduct = products.find(
     (product) => product.slug === currentSlug
@@ -22,7 +20,6 @@ export default function SimilarProducts({ currentSlug }: Props) {
   const similarProducts = products
     .filter(
       (product) =>
-        product.marketplace === marketplace &&
         product.slug !== currentSlug &&
         product.category?.trim().toLowerCase() ===
           currentProduct.category?.trim().toLowerCase()

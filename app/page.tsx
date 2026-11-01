@@ -4,15 +4,13 @@
 import Header from "@/components/Header";
 import ProductCard from "@/components/ProductCard";
 import PopularPicks from "@/components/PopularPicks";
-import { products } from "@/lib/products";
+import { useProducts } from "@/lib/use-products";
 import { useMarketplace } from "@/context/MarketplaceContext";
 
 export default function HomePage() {
-  const { marketplace, isDetecting } = useMarketplace();
+const { isDetecting } = useMarketplace();
 
-  const filteredProducts = products.filter(
-    (product) => product.marketplace === marketplace
-  );
+const filteredProducts = useProducts();
 
   return (
     <>

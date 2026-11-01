@@ -2,86 +2,90 @@
 "use client";
 
 import { useEffect, useState, type ComponentProps } from "react";
-import { categories } from "@/lib/products";
+import { getAllowedCategories } from "@/lib/products";
+import { detectCountry } from "@/lib/detect-country";
 import Link from "next/link";
 
 export default function Header() {
+  const [category, setCategory] = useState("All Categories");
+  const [query, setQuery] = useState("");
+  const [allowedCategories, setAllowedCategories] = useState<string[]>([]);
 
+  useEffect(() => {
+    async function initialize() {
+      const countryCode = await detectCountry();
 
-const [category, setCategory] = useState("All Categories");
-const [query, setQuery] = useState("");
+      // If country detection fails, show all categories
+      const availableCategories = getAllowedCategories(countryCode ?? "");
 
-useEffect(() => {
-  const params = new URLSearchParams(window.location.search);
+      setAllowedCategories(availableCategories);
 
-  const urlCategory = params.get("category");
-  const urlQuery = params.get("q");
+      const params = new URLSearchParams(window.location.search);
 
-  if (urlCategory && categories.includes(urlCategory)) {
-    setCategory(urlCategory);
-  } else {
-    setCategory("All Categories");
+      const urlCategory = params.get("category");
+      const urlQuery = params.get("q");
+
+      if (urlCategory && availableCategories.includes(urlCategory)) {
+        setCategory(urlCategory);
+      } else {
+        setCategory("All Categories");
+      }
+
+      setQuery(urlQuery ?? "");
+    }
+
+    initialize();
+  }, []);
+
+  function handleSearch(
+    event: Parameters<
+      NonNullable<ComponentProps<"form">["onSubmit"]>
+    >[0]
+  ) {
+    event.preventDefault();
+
+    const params = new URLSearchParams();
+
+    if (query.trim()) params.set("q", query.trim());
+
+    if (category !== "All Categories") {
+      params.set("category", category);
+    }
+
+    const searchPath = "/search";
+    const url = params.toString()
+      ? `${searchPath}?${params.toString()}`
+      : searchPath;
+
+    window.location.href = url;
   }
-
-  setQuery(urlQuery ?? "");
-}, []);
-
-function handleSearch(
-  event: Parameters<
-    NonNullable<ComponentProps<"form">["onSubmit"]>
-  >[0]
-) {
-  event.preventDefault();
-
-  console.log("SUBMIT FIRED");
-  console.log("Query:", query);
-  console.log("Category:", category);
-
-  const params = new URLSearchParams();
-
-  if (query.trim()) params.set("q", query.trim());
-
-  if (category !== "All Categories") {
-    params.set("category", category);
-  }
-
-  const searchPath = "/search";
-  const url = params.toString()
-    ? `${searchPath}?${params.toString()}`
-    : searchPath;
-
-  console.log("Navigating to:", url);
-  window.location.href = url;
-}
-
 
   return (
     <header className="site-header">
       <div className="header-inner">
-      <Link
-        className="brand"
-        href="/"
-        aria-label="Vistar Picks home"
-      >
-        <span className="brand-name">Selective Kart</span>
-        <span className="brand-tagline">Smart product choices</span>
-      </Link>
+        <Link
+          className="brand"
+          href="/"
+          aria-label="Vistar Picks home"
+        >
+          <span className="brand-name">Selective Kart</span>
+          <span className="brand-tagline">Smart product choices</span>
+        </Link>
+
         <form className="search-form" onSubmit={handleSearch}>
           <select
-  aria-label="Choose category"
-  value={category}
-  onChange={(event) => {
-    console.log("Category changed:", event.target.value);
-    setCategory(event.target.value);
-  }}
->
-  <option value="All Categories">All Categories</option>
-  {categories.map((item) => (
-    <option key={item} value={item}>
-      {item}
-    </option>
-  ))}
-</select>
+            aria-label="Choose category"
+            value={category}
+            onChange={(event) => setCategory(event.target.value)}
+          >
+            <option value="All Categories">All Categories</option>
+
+            {allowedCategories.map((item) => (
+              <option key={item} value={item}>
+                {item}
+              </option>
+            ))}
+          </select>
 
           <input
             aria-label="Search products"

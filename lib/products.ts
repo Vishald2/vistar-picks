@@ -17,3 +17,28 @@ export const categories = [
     "Sports & Fitness",
     "Automotive",
 ];
+
+export interface CategoryExclusion {
+    category: string;
+    List: string[];
+}
+
+export const categoryExclusions: CategoryExclusion[] = [
+    {
+        category: "Electronics",
+        List: ["UK", "AU", "IN", "CA", "NZ", "KY"],
+    }
+];
+
+export function getAllowedCategories(countryCode: string) {
+    return categories.filter(category => {
+        const exclusion = categoryExclusions.find(
+            x => x.category === category
+        );
+
+        // No exclusion entry means available everywhere
+        if (!exclusion) return true;
+
+        return !exclusion.List.includes(countryCode);
+    });
+}
