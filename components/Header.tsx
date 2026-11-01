@@ -1,15 +1,24 @@
 
 "use client";
 
-import { useEffect, useState, type ComponentProps } from "react";
+import { useEffect, useState, type ComponentProps } 
+  from "react";
 import { getAllowedCategories } from "@/lib/products";
 import { detectCountry } from "@/lib/detect-country";
 import Link from "next/link";
+import { useProducts } from "@/lib/use-products";
+import { categories } from "@/lib/products";
 
 export default function Header() {
   const [category, setCategory] = useState("All Categories");
   const [query, setQuery] = useState("");
   const [allowedCategories, setAllowedCategories] = useState<string[]>([]);
+
+  const availableProducts = useProducts();
+
+  const availableCategories = categories.filter(category =>
+    availableProducts.some(product => product.category === category)
+  );
 
   useEffect(() => {
     async function initialize() {
@@ -80,9 +89,9 @@ export default function Header() {
           >
             <option value="All Categories">All Categories</option>
 
-            {allowedCategories.map((item) => (
-              <option key={item} value={item}>
-                {item}
+            {availableCategories.map(category => (
+              <option key={category} value={category}>
+                {category}
               </option>
             ))}
           </select>
