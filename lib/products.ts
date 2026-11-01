@@ -8,6 +8,7 @@ export const products: Product[] = productData;
 export const categories = [
     "Home & Kitchen",
     "Women Clothing",
+    "Lingerie & Nightwear",
     "Men Clothing",
     "Beauty",
     "Books",
@@ -25,8 +26,9 @@ export interface CategoryExclusion {
 
 export const categoryExclusions: CategoryExclusion[] = [
     {
-        category: "Electronics",
-        List: ["UK", "AU", "IN", "CA", "NZ", "KY"],
+        category: "Lingerie & Nightwear",
+        List: ["GB", "GBR", "AU", "AUS", "IN", 
+                    "IND", "CA","CAN", "KY", "CYM"],
     }
 ];
 
