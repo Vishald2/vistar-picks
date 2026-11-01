@@ -2,6 +2,23 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "101",
+ marketplace: "Amazon.com",
+ name: "ANRABESS 2 Piece Lounge sets for Women",
+ category: "Women Clothing",
+ description: "DESC",
+ image: "Women-clothing-B07CCqQYf-B0CRRPWK37.jpg",
+ slug: "anrabess-2-piece-lounge-sets-933f32d0",
+ amazonUrl: "https://link.amazon/B07CCqQYf",
+ asin: "B0CRRPWK37",
+ currency: "USD",
+ price: 19.99,
+ rating: 4.30,
+ reviewCount: 4570,
+ lastVerifiedAt: "30-Oct-2026 07:44:46 PM",
+ author: null,
+  },
+  {
  id: "98",
  marketplace: "Amazon.com",
  name: "Amazon Essentials Women's Cotton Spandex Bikini Brief Underwear",
