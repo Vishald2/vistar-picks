@@ -732,4 +732,12 @@ overview:
 whatToCheck:
 "Check the physical dimensions to ensure adequate countertop and storage clearance, verify the simplicity and tactile feedback of the manual control dial, assess the dishwasher compatibility and weight of the removable stoneware insert, and confirm the included manufacturer warranty before purchasing.",
 },
+  "cuckoo-micom-fuzzy-logic-rice-1a0ec4a0": {
+introduction:
+"A comprehensive review of the Cuckoo Micom Fuzzy Logic Rice Cooker, highlighting its smart cooking algorithms, compact footprint, and multi-functional grain capabilities.",
+overview:
+"Engineered with advanced Fuzzy Logic technology, this compact 3-cup uncooked (6-cup cooked) rice cooker automatically adjusts internal temperature and cooking duration for flawless results across diverse grains. It features ten versatile menu modes spanning white rice, brown rice, quinoa, oatmeal, multi-cook, and an automated steam-cleaning cycle. Housed in a stylish gray finish with intuitive digital display controls, it also includes a durable non-toxic nonstick inner pot, a detachable inner lid for effortless maintenance, and an automated keep-warm function.",
+whatToCheck:
+"Check the physical capacity requirements to ensure the 3-cup uncooked size meets household cooking demands, verify the condition and non-stick coating integrity of the inner pot, inspect the removable inner lid assembly for easy cleaning access, and confirm warranty terms before purchasing.",
+},
 };
