@@ -101,11 +101,6 @@ export default async function ProductDetailsPage({
               >
                 {product.category}
               </Link>
-
-              <span className="breadcrumb-separator">›</span>
-              <span className="current-breadcrumb">
-                {product.name}
-              </span>
             </nav>
 
             <section
@@ -187,26 +182,11 @@ export default async function ProductDetailsPage({
                   </div>
                 )}
 
-                {copy.introduction?.trim() && (
-                  <>
-                    <p className="product-introduction">
-                      {copy.introduction}
-                    </p>
-
-                    <div className="product-divider" />
-                  </>
-                )}
-
                 <section className="product-info-section">
                   <h2>
                     {isBook ? "Book overview" : "Product overview"}
                   </h2>
                   <p>{copy.overview}</p>
-                </section>
-
-                <section className="product-info-section">
-                  <h2>What to check</h2>
-                  <p>{copy.whatToCheck}</p>
                 </section>
 
                 <div className="product-purchase-area">
@@ -225,10 +205,17 @@ export default async function ProductDetailsPage({
             {/* Additional product information */}
             <section className="product-details-lower">
 
-              <section className="details-content-section">
+{/*               <section className="details-content-section">
                 <h2>About this product</h2>
                 <p>{copy.overview}</p>
-              </section>
+              </section> */}
+
+                <section className="product-info-section">
+                  <h2>What to check</h2>
+                  <p>{copy.whatToCheck}</p>
+                </section>
+
+                <div className="product-divider" />
 
               <section className="details-content-section">
                 <h2>Features to compare</h2>
@@ -262,10 +249,6 @@ export default async function ProductDetailsPage({
                 </ul>
               </section>
 
-              <section className="details-buying-tip">
-                <h2>Buying tip</h2>
-                <p>{copy.whatToCheck}</p>
-              </section>
 
               <SimilarProducts currentSlug={product.slug} />
 
