@@ -15,7 +15,7 @@ const productData: Product[] = [
  price: 8.99,
  rating: 4.60,
  reviewCount: 49424,
- lastVerifiedAt: "02-Nov-2026 06:05:38 PM",
+ lastVerifiedAt: "02 Nov 2026, 12:35 PM UTC",
  author: null,
   },
   {
@@ -32,7 +32,7 @@ const productData: Product[] = [
  price: 604.00,
  rating: 4.10,
  reviewCount: 6389,
- lastVerifiedAt: "02-Nov-2026 03:27:22 PM",
+ lastVerifiedAt: "02 Nov 2026, 09:57 AM UTC",
  author: null,
   },
   {
@@ -49,7 +49,7 @@ const productData: Product[] = [
  price: 294.00,
  rating: 4.30,
  reviewCount: 10633,
- lastVerifiedAt: "02-Nov-2026 03:26:15 PM",
+ lastVerifiedAt: "02 Nov 2026, 09:56 AM UTC",
  author: null,
   },
   {
@@ -66,7 +66,7 @@ const productData: Product[] = [
  price: 234999.00,
  rating: 4.50,
  reviewCount: 43,
- lastVerifiedAt: "01-Nov-2026 05:30:00 AM",
+ lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -83,7 +83,7 @@ const productData: Product[] = [
  price: 174999.00,
  rating: 4.50,
  reviewCount: 43,
- lastVerifiedAt: "01-Nov-2026 05:30:00 AM",
+ lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -100,7 +100,7 @@ const productData: Product[] = [
  price: 194999.00,
  rating: 4.50,
  reviewCount: 43,
- lastVerifiedAt: "01-Nov-2026 05:30:00 AM",
+ lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -117,7 +117,7 @@ const productData: Product[] = [
  price: 15.50,
  rating: 4.40,
  reviewCount: 13763,
- lastVerifiedAt: "31-Oct-2026 06:23:56 PM",
+ lastVerifiedAt: "31 Oct 2026, 12:53 PM UTC",
  author: null,
   },
   {
@@ -134,7 +134,7 @@ const productData: Product[] = [
  price: 10.10,
  rating: 4.50,
  reviewCount: 1042,
- lastVerifiedAt: "30-Oct-2026 07:23:03 PM",
+ lastVerifiedAt: "30 Oct 2026, 01:53 PM UTC",
  author: null,
   },
   {
@@ -151,7 +151,7 @@ const productData: Product[] = [
  price: 11.98,
  rating: 4.80,
  reviewCount: 15259,
- lastVerifiedAt: "31-Oct-2026 06:31:48 PM",
+ lastVerifiedAt: "31 Oct 2026, 01:01 PM UTC",
  author: null,
   },
   {
@@ -168,7 +168,7 @@ const productData: Product[] = [
  price: 23.69,
  rating: 4.70,
  reviewCount: 66133,
- lastVerifiedAt: "31-Oct-2026 06:41:11 PM",
+ lastVerifiedAt: "31 Oct 2026, 01:11 PM UTC",
  author: null,
   },
   {
@@ -185,7 +185,7 @@ const productData: Product[] = [
  price: 23.99,
  rating: 4.70,
  reviewCount: 25191,
- lastVerifiedAt: "31-Oct-2026 06:44:38 PM",
+ lastVerifiedAt: "31 Oct 2026, 01:14 PM UTC",
  author: null,
   },
   {
@@ -202,7 +202,7 @@ const productData: Product[] = [
  price: 19.99,
  rating: 4.80,
  reviewCount: 1810,
- lastVerifiedAt: "31-Oct-2026 06:47:45 PM",
+ lastVerifiedAt: "31 Oct 2026, 01:17 PM UTC",
  author: null,
   },
   {
@@ -219,7 +219,7 @@ const productData: Product[] = [
  price: 18.99,
  rating: 4.60,
  reviewCount: 5225,
- lastVerifiedAt: "31-Oct-2026 06:50:39 PM",
+ lastVerifiedAt: "31 Oct 2026, 01:20 PM UTC",
  author: null,
   },
   {
@@ -236,7 +236,7 @@ const productData: Product[] = [
  price: 19.99,
  rating: 3.90,
  reviewCount: 16826,
- lastVerifiedAt: "30-Oct-2026 02:51:34 PM",
+ lastVerifiedAt: "30 Oct 2026, 09:21 AM UTC",
  author: null,
   },
   {
@@ -253,7 +253,7 @@ const productData: Product[] = [
  price: 28.99,
  rating: 3.90,
  reviewCount: 16826,
- lastVerifiedAt: "30-Oct-2026 05:41:50 PM",
+ lastVerifiedAt: "30 Oct 2026, 12:11 PM UTC",
  author: null,
   },
   {
@@ -270,7 +270,7 @@ const productData: Product[] = [
  price: 19.97,
  rating: 4.10,
  reviewCount: 12865,
- lastVerifiedAt: "30-Oct-2026 06:01:35 PM",
+ lastVerifiedAt: "30 Oct 2026, 12:31 PM UTC",
  author: null,
   },
   {
@@ -287,7 +287,7 @@ const productData: Product[] = [
  price: 24.99,
  rating: 4.10,
  reviewCount: 25882,
- lastVerifiedAt: "31-Oct-2026 06:09:43 PM",
+ lastVerifiedAt: "31 Oct 2026, 12:39 PM UTC",
  author: null,
   },
   {
@@ -304,7 +304,7 @@ const productData: Product[] = [
  price: 18.99,
  rating: 3.90,
  reviewCount: 16840,
- lastVerifiedAt: "31-Oct-2026 06:14:05 PM",
+ lastVerifiedAt: "31 Oct 2026, 12:44 PM UTC",
  author: null,
   },
   {
@@ -321,7 +321,7 @@ const productData: Product[] = [
  price: 398.05,
  rating: 4.60,
  reviewCount: 2994,
- lastVerifiedAt: "28-Oct-2026 09:10:59 PM",
+ lastVerifiedAt: "28 Oct 2026, 03:40 PM UTC",
  author: "Ichiro Kishimi (Author), Fumitake Koga (Author)",
   },
   {
@@ -338,7 +338,7 @@ const productData: Product[] = [
  price: 323.00,
  rating: 4.50,
  reviewCount: 16859,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "STEPHEN R COVEY",
   },
   {
@@ -355,7 +355,7 @@ const productData: Product[] = [
  price: 98.70,
  rating: 4.50,
  reviewCount: 7028,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "Napoleon Hill, GP Editors",
   },
   {
@@ -372,7 +372,7 @@ const productData: Product[] = [
  price: 208.05,
  rating: 4.60,
  reviewCount: 84586,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "Morgan Housel",
   },
   {
@@ -389,7 +389,7 @@ const productData: Product[] = [
  price: 47.88,
  rating: 4.50,
  reviewCount: 68204,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "Joseph Murphy",
   },
   {
@@ -406,7 +406,7 @@ const productData: Product[] = [
  price: 29.91,
  rating: 4.50,
  reviewCount: 101147,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "Dale Carnegie",
   },
   {
@@ -423,8 +423,25 @@ const productData: Product[] = [
  price: 305.90,
  rating: 4.50,
  reviewCount: 38620,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: "Robert T. Kiyosaki",
+  },
+  {
+ id: "121",
+ marketplace: "Amazon.in",
+ name: "VIDALIA CHOP WIZARD Container, White, Stainless Steel",
+ category: "Home & Kitchen",
+ description: "DESC",
+ image: "Home-kitchen-B00Tcfjzb-B000I6JZWA.jpg",
+ slug: "vidalia-chop-wizard-container-white-a8985086",
+ amazonUrl: "https://link.amazon/B00Tcfjzb",
+ asin: "B000I6JZWA",
+ currency: "INR",
+ price: 3880.00,
+ rating: 4.50,
+ reviewCount: 20507,
+ lastVerifiedAt: "02 Nov 2026, 04:14 PM UTC",
+ author: null,
   },
   {
  id: "120",
@@ -440,7 +457,7 @@ const productData: Product[] = [
  price: 119.99,
  rating: 4.80,
  reviewCount: 22546,
- lastVerifiedAt: "02-Nov-2026 09:06:38 PM",
+ lastVerifiedAt: "02 Nov 2026, 03:36 PM UTC",
  author: null,
   },
   {
@@ -457,7 +474,7 @@ const productData: Product[] = [
  price: 25.99,
  rating: 4.60,
  reviewCount: 178210,
- lastVerifiedAt: "02-Nov-2026 09:03:26 PM",
+ lastVerifiedAt: "02 Nov 2026, 03:33 PM UTC",
  author: null,
   },
   {
@@ -474,7 +491,7 @@ const productData: Product[] = [
  price: 27.99,
  rating: 4.50,
  reviewCount: 35511,
- lastVerifiedAt: "02-Nov-2026 08:58:59 PM",
+ lastVerifiedAt: "02 Nov 2026, 03:28 PM UTC",
  author: null,
   },
   {
@@ -491,7 +508,7 @@ const productData: Product[] = [
  price: 19.99,
  rating: 4.20,
  reviewCount: 22288,
- lastVerifiedAt: "02-Nov-2026 08:52:53 PM",
+ lastVerifiedAt: "02 Nov 2026, 03:22 PM UTC",
  author: null,
   },
   {
@@ -508,7 +525,7 @@ const productData: Product[] = [
  price: 29.57,
  rating: 4.70,
  reviewCount: 1200,
- lastVerifiedAt: "02-Nov-2026 07:55:26 PM",
+ lastVerifiedAt: "02 Nov 2026, 02:25 PM UTC",
  author: null,
   },
   {
@@ -525,7 +542,7 @@ const productData: Product[] = [
  price: 89.99,
  rating: 4.70,
  reviewCount: 186440,
- lastVerifiedAt: "02-Nov-2026 05:48:18 AM",
+ lastVerifiedAt: "02 Nov 2026, 12:18 AM UTC",
  author: null,
   },
   {
@@ -542,7 +559,7 @@ const productData: Product[] = [
  price: 119.99,
  rating: 4.30,
  reviewCount: 5494,
- lastVerifiedAt: "02-Nov-2026 05:39:56 AM",
+ lastVerifiedAt: "02 Nov 2026, 12:09 AM UTC",
  author: null,
   },
   {
@@ -559,7 +576,7 @@ const productData: Product[] = [
  price: 42.29,
  rating: 4.60,
  reviewCount: 62945,
- lastVerifiedAt: "02-Nov-2026 05:29:37 AM",
+ lastVerifiedAt: "01 Nov 2026, 11:59 PM UTC",
  author: null,
   },
   {
@@ -576,7 +593,7 @@ const productData: Product[] = [
  price: 8.99,
  rating: 4.60,
  reviewCount: 12225,
- lastVerifiedAt: "31-Oct-2026 06:17:29 PM",
+ lastVerifiedAt: "31 Oct 2026, 12:47 PM UTC",
  author: null,
   },
   {
@@ -593,7 +610,7 @@ const productData: Product[] = [
  price: 11.99,
  rating: 4.50,
  reviewCount: 7411,
- lastVerifiedAt: "30-Oct-2026 07:36:41 PM",
+ lastVerifiedAt: "30 Oct 2026, 02:06 PM UTC",
  author: null,
   },
   {
@@ -610,7 +627,7 @@ const productData: Product[] = [
  price: 39.99,
  rating: 4.40,
  reviewCount: 236,
- lastVerifiedAt: "30-Oct-2026 07:28:13 PM",
+ lastVerifiedAt: "30 Oct 2026, 01:58 PM UTC",
  author: null,
   },
   {
@@ -627,7 +644,7 @@ const productData: Product[] = [
  price: 38.99,
  rating: 4.30,
  reviewCount: 4974,
- lastVerifiedAt: "30-Oct-2026 06:45:25 PM",
+ lastVerifiedAt: "30 Oct 2026, 01:15 PM UTC",
  author: null,
   },
   {
@@ -644,7 +661,7 @@ const productData: Product[] = [
  price: 11.87,
  rating: 4.40,
  reviewCount: 46916,
- lastVerifiedAt: "30-Oct-2026 05:46:43 PM",
+ lastVerifiedAt: "30 Oct 2026, 12:16 PM UTC",
  author: null,
   },
   {
@@ -661,7 +678,7 @@ const productData: Product[] = [
  price: 8.99,
  rating: 4.60,
  reviewCount: 12206,
- lastVerifiedAt: "30-Oct-2026 02:17:14 PM",
+ lastVerifiedAt: "30 Oct 2026, 08:47 AM UTC",
  author: null,
   },
   {
@@ -678,7 +695,7 @@ const productData: Product[] = [
  price: 11.87,
  rating: 4.60,
  reviewCount: 835,
- lastVerifiedAt: "30-Oct-2026 01:07:04 PM",
+ lastVerifiedAt: "30 Oct 2026, 07:37 AM UTC",
  author: null,
   },
   {
@@ -695,7 +712,7 @@ const productData: Product[] = [
  price: 2.99,
  rating: null,
  reviewCount: null,
- lastVerifiedAt: "30-Oct-2026 11:56:03 AM",
+ lastVerifiedAt: "30 Oct 2026, 06:26 AM UTC",
  author: "Vishal Sharma (Author)",
   },
   {
@@ -712,7 +729,7 @@ const productData: Product[] = [
  price: 2.99,
  rating: null,
  reviewCount: null,
- lastVerifiedAt: "30-Oct-2026 11:59:04 AM",
+ lastVerifiedAt: "30 Oct 2026, 06:29 AM UTC",
  author: "Vishal Sharma (Author)",
   },
   {
@@ -729,7 +746,7 @@ const productData: Product[] = [
  price: 2.99,
  rating: 5.00,
  reviewCount: 1,
- lastVerifiedAt: "30-Oct-2026 12:04:54 PM",
+ lastVerifiedAt: "30 Oct 2026, 06:34 AM UTC",
  author: "Vishal Sharma (Author)",
   },
   {
@@ -746,7 +763,7 @@ const productData: Product[] = [
  price: 214.55,
  rating: 4.60,
  reviewCount: 4829,
- lastVerifiedAt: "30-Oct-2026 11:38:22 AM",
+ lastVerifiedAt: "30 Oct 2026, 06:08 AM UTC",
  author: null,
   },
   {
@@ -763,7 +780,7 @@ const productData: Product[] = [
  price: 59.77,
  rating: 4.40,
  reviewCount: 5569,
- lastVerifiedAt: "30-Oct-2026 11:24:43 AM",
+ lastVerifiedAt: "30 Oct 2026, 05:54 AM UTC",
  author: null,
   },
   {
@@ -780,7 +797,7 @@ const productData: Product[] = [
  price: 1144.00,
  rating: 4.60,
  reviewCount: 2260,
- lastVerifiedAt: "29-Oct-2026 08:29:26 PM",
+ lastVerifiedAt: "29 Oct 2026, 02:59 PM UTC",
  author: null,
   },
   {
@@ -797,7 +814,7 @@ const productData: Product[] = [
  price: 669.00,
  rating: 3.90,
  reviewCount: 80682,
- lastVerifiedAt: "28-Oct-2026 09:58:22 PM",
+ lastVerifiedAt: "28 Oct 2026, 04:28 PM UTC",
  author: null,
   },
   {
@@ -814,7 +831,7 @@ const productData: Product[] = [
  price: 1930.00,
  rating: 4.40,
  reviewCount: 46829,
- lastVerifiedAt: "28-Oct-2026 10:01:29 PM",
+ lastVerifiedAt: "28 Oct 2026, 04:31 PM UTC",
  author: null,
   },
   {
@@ -831,7 +848,7 @@ const productData: Product[] = [
  price: 489.00,
  rating: 4.00,
  reviewCount: 180064,
- lastVerifiedAt: "28-Oct-2026 10:04:21 PM",
+ lastVerifiedAt: "28 Oct 2026, 04:34 PM UTC",
  author: null,
   },
   {
@@ -848,7 +865,7 @@ const productData: Product[] = [
  price: 1729.00,
  rating: 4.40,
  reviewCount: 46829,
- lastVerifiedAt: "28-Oct-2026 10:08:04 PM",
+ lastVerifiedAt: "28 Oct 2026, 04:38 PM UTC",
  author: null,
   },
   {
@@ -865,7 +882,7 @@ const productData: Product[] = [
  price: 180.00,
  rating: 4.10,
  reviewCount: 61665,
- lastVerifiedAt: "28-Oct-2026 09:33:37 PM",
+ lastVerifiedAt: "28 Oct 2026, 04:03 PM UTC",
  author: null,
   },
   {
@@ -882,7 +899,7 @@ const productData: Product[] = [
  price: 139.59,
  rating: 4.60,
  reviewCount: 27477,
- lastVerifiedAt: "28-Oct-2026 09:01:11 PM",
+ lastVerifiedAt: "28 Oct 2026, 03:31 PM UTC",
  author: "Dr Spencer Johnson ",
   },
   {
@@ -899,7 +916,7 @@ const productData: Product[] = [
  price: 276.12,
  rating: 4.50,
  reviewCount: 30578,
- lastVerifiedAt: "28-Oct-2026 07:03:49 PM",
+ lastVerifiedAt: "28 Oct 2026, 01:33 PM UTC",
  author: "Charles Duhigg",
   },
   {
@@ -916,7 +933,7 @@ const productData: Product[] = [
  price: 49.00,
  rating: null,
  reviewCount: null,
- lastVerifiedAt: "28-Oct-2026 05:28:37 PM",
+ lastVerifiedAt: "28 Oct 2026, 11:58 AM UTC",
  author: "Vishal Sharma",
   },
   {
@@ -933,7 +950,7 @@ const productData: Product[] = [
  price: 49.00,
  rating: 5.00,
  reviewCount: 1,
- lastVerifiedAt: "28-Oct-2026 05:20:17 PM",
+ lastVerifiedAt: "28 Oct 2026, 11:50 AM UTC",
  author: null,
   },
   {
@@ -950,7 +967,7 @@ const productData: Product[] = [
  price: 9399.00,
  rating: 4.10,
  reviewCount: 2763,
- lastVerifiedAt: "28-Oct-2026 03:35:12 PM",
+ lastVerifiedAt: "28 Oct 2026, 10:05 AM UTC",
  author: null,
   },
   {
@@ -967,7 +984,7 @@ const productData: Product[] = [
  price: 4999.00,
  rating: 4.00,
  reviewCount: 11936,
- lastVerifiedAt: "28-Oct-2026 01:24:36 PM",
+ lastVerifiedAt: "28 Oct 2026, 07:54 AM UTC",
  author: null,
   },
   {
@@ -984,7 +1001,7 @@ const productData: Product[] = [
  price: 9149.00,
  rating: 3.90,
  reviewCount: 31003,
- lastVerifiedAt: "28-Oct-2026 01:19:45 PM",
+ lastVerifiedAt: "28 Oct 2026, 07:49 AM UTC",
  author: null,
   },
   {
@@ -1001,7 +1018,7 @@ const productData: Product[] = [
  price: 98.70,
  rating: 4.40,
  reviewCount: 6041,
- lastVerifiedAt: "28-Oct-2026 01:02:50 PM",
+ lastVerifiedAt: "28 Oct 2026, 07:32 AM UTC",
  author: "Marcus Aurelius",
   },
   {
@@ -1018,7 +1035,7 @@ const productData: Product[] = [
  price: 265.06,
  rating: 4.40,
  reviewCount: 20590,
- lastVerifiedAt: "28-Oct-2026 12:47:29 PM",
+ lastVerifiedAt: "28 Oct 2026, 07:17 AM UTC",
  author: "Greg Mckeown ",
   },
   {
@@ -1035,7 +1052,7 @@ const productData: Product[] = [
  price: 215.65,
  rating: 4.60,
  reviewCount: 23933,
- lastVerifiedAt: "28-Oct-2026 10:02:22 AM",
+ lastVerifiedAt: "28 Oct 2026, 04:32 AM UTC",
  author: "Eric Jorgenson (Author)",
   },
   {
@@ -1052,7 +1069,7 @@ const productData: Product[] = [
  price: 140.42,
  rating: 4.50,
  reviewCount: 17309,
- lastVerifiedAt: "28-Oct-2026 09:47:56 AM",
+ lastVerifiedAt: "28 Oct 2026, 04:17 AM UTC",
  author: "Gary Keller (Author), Jay Papasan (Other Contributor)",
   },
   {
@@ -1069,7 +1086,7 @@ const productData: Product[] = [
  price: 208.05,
  rating: 4.50,
  reviewCount: 28958,
- lastVerifiedAt: "28-Oct-2026 07:33:36 AM",
+ lastVerifiedAt: "28 Oct 2026, 02:03 AM UTC",
  author: "Brianna Wiest (Author)",
   },
   {
@@ -1086,7 +1103,7 @@ const productData: Product[] = [
  price: 280.25,
  rating: 4.50,
  reviewCount: 24121,
- lastVerifiedAt: "28-Oct-2026 07:29:23 AM",
+ lastVerifiedAt: "28 Oct 2026, 01:59 AM UTC",
  author: " Ichiro Kishimi (Author), Fumitake Koga (Author)",
   },
   {
@@ -1103,7 +1120,7 @@ const productData: Product[] = [
  price: 329.00,
  rating: 4.40,
  reviewCount: 33876,
- lastVerifiedAt: "28-Oct-2026 07:14:33 AM",
+ lastVerifiedAt: "28 Oct 2026, 01:44 AM UTC",
  author: "George S. Clason ",
   },
   {
@@ -1120,7 +1137,7 @@ const productData: Product[] = [
  price: 175.75,
  rating: 4.50,
  reviewCount: 36974,
- lastVerifiedAt: "28-Oct-2026 07:20:13 AM",
+ lastVerifiedAt: "28 Oct 2026, 01:50 AM UTC",
  author: "Robin Sharma",
   },
   {
@@ -1137,7 +1154,7 @@ const productData: Product[] = [
  price: 423.70,
  rating: 4.50,
  reviewCount: 52203,
- lastVerifiedAt: "28-Oct-2026 07:22:36 AM",
+ lastVerifiedAt: "28 Oct 2026, 01:52 AM UTC",
  author: "Benjamin Graham (Author), Jason Zweig (Author), Warren E. Buffett (Collaborator) ",
   },
   {
@@ -1154,7 +1171,7 @@ const productData: Product[] = [
  price: 0.00,
  rating: 4.40,
  reviewCount: 33876,
- lastVerifiedAt: "27-Oct-2026 10:30:46 PM",
+ lastVerifiedAt: "27 Oct 2026, 05:00 PM UTC",
  author: "George S. Clason",
   },
   {
@@ -1171,7 +1188,7 @@ const productData: Product[] = [
  price: 39.20,
  rating: 4.40,
  reviewCount: 27834,
- lastVerifiedAt: "27-Oct-2026 10:22:38 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:52 PM UTC",
  author: "Dale Carnegie",
   },
   {
@@ -1188,7 +1205,7 @@ const productData: Product[] = [
  price: 204.25,
  rating: 4.60,
  reviewCount: 183232,
- lastVerifiedAt: "27-Oct-2026 10:10:48 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:40 PM UTC",
  author: "Paulo Coelho",
   },
   {
@@ -1205,7 +1222,7 @@ const productData: Product[] = [
  price: 410.00,
  rating: 4.60,
  reviewCount: 16460,
- lastVerifiedAt: "27-Oct-2026 09:52:19 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:22 PM UTC",
  author: "Robert Greene",
   },
   {
@@ -1222,7 +1239,7 @@ const productData: Product[] = [
  price: 124.00,
  rating: 4.40,
  reviewCount: 21052,
- lastVerifiedAt: "27-Oct-2026 09:47:56 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:17 PM UTC",
  author: "Norman Lewis",
   },
   {
@@ -1239,7 +1256,7 @@ const productData: Product[] = [
  price: 279.30,
  rating: 4.50,
  reviewCount: 5650,
- lastVerifiedAt: "27-Oct-2026 09:40:34 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:10 PM UTC",
  author: "Morgan Housel ",
   },
   {
@@ -1256,7 +1273,7 @@ const productData: Product[] = [
  price: 282.15,
  rating: 4.60,
  reviewCount: 63498,
- lastVerifiedAt: "27-Oct-2026 09:32:42 PM",
+ lastVerifiedAt: "27 Oct 2026, 04:02 PM UTC",
  author: "Héctor García ",
   },
   {
@@ -1273,7 +1290,7 @@ const productData: Product[] = [
  price: 224.20,
  rating: 4.50,
  reviewCount: 37884,
- lastVerifiedAt: "27-Oct-2026 05:32:19 PM",
+ lastVerifiedAt: "27 Oct 2026, 12:02 PM UTC",
  author: "Robin Sharma",
   },
   {
@@ -1290,7 +1307,7 @@ const productData: Product[] = [
  price: 49.00,
  rating: null,
  reviewCount: null,
- lastVerifiedAt: "27-Oct-2026 02:21:41 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:51 AM UTC",
  author: "Vishal Sharma",
   },
   {
@@ -1307,7 +1324,7 @@ const productData: Product[] = [
  price: 99.00,
  rating: 4.40,
  reviewCount: 19337,
- lastVerifiedAt: "27-Oct-2026 02:09:43 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:39 AM UTC",
  author: "thibaut meurisse",
   },
   {
@@ -1324,7 +1341,7 @@ const productData: Product[] = [
  price: 269.80,
  rating: 4.50,
  reviewCount: 5828,
- lastVerifiedAt: "27-Oct-2026 02:12:55 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:42 AM UTC",
  author: "Morgan Housel",
   },
   {
@@ -1341,7 +1358,7 @@ const productData: Product[] = [
  price: 113.05,
  rating: 4.50,
  reviewCount: 27549,
- lastVerifiedAt: "27-Oct-2026 01:57:54 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:27 AM UTC",
  author: "Jeff Keller",
   },
   {
@@ -1358,7 +1375,7 @@ const productData: Product[] = [
  price: 161.50,
  rating: 4.50,
  reviewCount: 18563,
- lastVerifiedAt: "27-Oct-2026 02:01:08 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:31 AM UTC",
  author: "Joseph Nguyen",
   },
   {
@@ -1375,7 +1392,7 @@ const productData: Product[] = [
  price: 236.50,
  rating: 4.60,
  reviewCount: 113542,
- lastVerifiedAt: "27-Oct-2026 02:03:14 PM",
+ lastVerifiedAt: "27 Oct 2026, 08:33 AM UTC",
  author: "James Clear",
   },
   {
@@ -1392,7 +1409,7 @@ const productData: Product[] = [
  price: 111999.00,
  rating: 4.40,
  reviewCount: 3920,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1409,7 +1426,7 @@ const productData: Product[] = [
  price: 224900.00,
  rating: 4.70,
  reviewCount: 694,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1426,7 +1443,7 @@ const productData: Product[] = [
  price: 76999.00,
  rating: 4.50,
  reviewCount: 2818,
- lastVerifiedAt: "26-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1443,7 +1460,7 @@ const productData: Product[] = [
  price: 164900.00,
  rating: 4.70,
  reviewCount: 47,
- lastVerifiedAt: "24-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1460,7 +1477,7 @@ const productData: Product[] = [
  price: 6290.00,
  rating: 4.50,
  reviewCount: 7369,
- lastVerifiedAt: "24-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1477,7 +1494,7 @@ const productData: Product[] = [
  price: 7090.00,
  rating: 4.50,
  reviewCount: 14226,
- lastVerifiedAt: "24-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1494,7 +1511,7 @@ const productData: Product[] = [
  price: 6540.00,
  rating: 4.60,
  reviewCount: 845,
- lastVerifiedAt: "24-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1511,7 +1528,7 @@ const productData: Product[] = [
  price: 7990.00,
  rating: 4.20,
  reviewCount: 1422,
- lastVerifiedAt: "24-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1528,7 +1545,7 @@ const productData: Product[] = [
  price: 440.00,
  rating: 4.40,
  reviewCount: 24726,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1545,7 +1562,7 @@ const productData: Product[] = [
  price: 103000.00,
  rating: 4.60,
  reviewCount: 9445,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1562,7 +1579,7 @@ const productData: Product[] = [
  price: 101000.00,
  rating: 4.60,
  reviewCount: 9445,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1579,7 +1596,7 @@ const productData: Product[] = [
  price: 55999.00,
  rating: 4.60,
  reviewCount: 255,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1596,7 +1613,7 @@ const productData: Product[] = [
  price: 28999.00,
  rating: 4.60,
  reviewCount: 243,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1613,7 +1630,7 @@ const productData: Product[] = [
  price: 49999.00,
  rating: 4.60,
  reviewCount: 203,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
   {
@@ -1630,7 +1647,7 @@ const productData: Product[] = [
  price: 129999.00,
  rating: 4.30,
  reviewCount: 161,
- lastVerifiedAt: "25-Oct-2026 05:30:00 AM",
+ lastVerifiedAt: "25 Oct 2026, 12:00 AM UTC",
  author: null,
   },
 ];
