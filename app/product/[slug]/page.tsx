@@ -10,8 +10,8 @@ import ProductCountryGuard from "@/components/ProductCountryGuard";
 
 import { products } from "@/lib/products";
 import { productContent } from "@/lib/product-content";
-
 import styles from "./productdetails.module.css";
+import { formatPrice, formatReviewCount } from "@/lib/util";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -139,7 +139,7 @@ export default async function ProductDetailsPage({
                 {product.rating != null && (
                   <div
                     className="product-rating"
-                    aria-label={`Rated ${product.rating} out of 5`}
+                    aria-label={`Rated ${formatPrice(product.rating, product.marketplace)} out of 5`}
                   >
                     <span
                       className="product-rating-stars"
@@ -155,7 +155,7 @@ export default async function ProductDetailsPage({
 
                     {product.reviewCount != null && (
                       <span className="product-rating-count">
-                        ({product.reviewCount.toLocaleString("en-IN")} ratings)
+                        ({formatReviewCount(product.reviewCount, product.marketplace)} ratings)
                       </span>
                     )}
                   </div>
@@ -167,12 +167,9 @@ export default async function ProductDetailsPage({
                       {product.currency}
                     </span>
 
-                    <span className="product-price-amount">
-                      {new Intl.NumberFormat("en-IN", {
-                        minimumFractionDigits: 0,
-                        maximumFractionDigits: 0,
-                      }).format(product.price)}
-                    </span>
+                <span className="product-price-amount">
+                  {formatPrice(product.price, product.marketplace)}
+                </span>
                   </div>
                 )}
                 
