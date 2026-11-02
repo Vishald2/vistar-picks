@@ -4,7 +4,7 @@ const productData: Product[] = [
   {
  id: "115",
  marketplace: "Amazon.com",
- name: "TrendPlain 16oz Olive Oil Sprayer for Cooking, Silicone Pad, Black. Olive Oil Dispenser Bottle, Oil Dispenser For Kitchen Appliances, Home And Kitchen Essentials, Dual Spray And Pour",
+ name: "TrendPlain 16oz Olive Oil Sprayer for Cooking",
  category: "Home & Kitchen",
  description: "DESC",
  image: "Home-kitchen-B0cWsgKUl-B0CJF94M8J.jpg",
