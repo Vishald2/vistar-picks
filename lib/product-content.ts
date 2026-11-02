@@ -804,4 +804,12 @@ overview:
 whatToCheck:
 "Check the sharpness and alignment of the stainless steel blade grid, verify the durability and clarity of the collection container, inspect the pressing lid mechanism for smooth operation, and confirm warranty terms before purchasing.",
 },
+  "dettol-dishwash-liquid-and-kitchen-8564da9e": {
+introduction:
+"A comprehensive review of the Dettol Lemon Fresh Dishwash Liquid and Kitchen Gel, combining trusted antibacterial germ protection with powerful grease-cutting performance.",
+overview:
+"Formulated with Dettol's trusted germ-protection technology, this multi-purpose liquid gel effectively eliminates up to 99.9% of harmful bacteria while cutting through tough food grease and oil residue. Designed for versatile household use, it cleans and sanitizes both dinnerware utensils and hard kitchen surfaces like countertops, slabs, and basins. It features a refreshing lemon fragrance, is dermatologically tested to be gentle on hands, and is recommended by the Indian Medical Association.",
+whatToCheck:
+"Check the bottle or refill packaging size (such as 750ml or 1500ml), verify skin compatibility and dermatological safety for frequent hand use, inspect the dispensing cap or nozzle design, and confirm retailer pricing before purchasing.",
+},
 };
