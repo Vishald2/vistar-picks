@@ -740,4 +740,12 @@ overview:
 whatToCheck:
 "Check the physical capacity requirements to ensure the 3-cup uncooked size meets household cooking demands, verify the condition and non-stick coating integrity of the inner pot, inspect the removable inner lid assembly for easy cleaning access, and confirm warranty terms before purchasing.",
 },
+  "instant-pot-duo-6-qt-112cfadc": {
+introduction:
+"A detailed look at the iconic Instant Pot Duo 6-Quart Multi-Use Programmable Pressure Cooker, combining seven kitchen appliances into a single, highly efficient countertop powerhouse.",
+overview:
+"Built with a durable stainless steel exterior and a food-grade 304 stainless steel inner cooking pot, this versatile 7-in-1 appliance functions as a pressure cooker, slow cooker, rice cooker, steamer, sauté pan, yogurt maker, and food warmer. It features 14 smart built-in programs for effortless one-touch meal preparation, advanced safety mechanisms including overheat protection and a secure locking lid, and an intuitive control panel with a digital display. The dishwasher-safe inner pot and accessories make post-cooking cleanup seamless.",
+whatToCheck:
+"Check the 6-quart capacity to ensure it fits your household meal sizing needs, verify the voltage compatibility for your region, inspect the sealing ring and steam release valve for proper placement, and confirm the included manufacturer warranty before purchasing.",
+},
 };
