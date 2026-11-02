@@ -724,4 +724,12 @@ export const productContent: Record<string, ProductContent> = {
     whatToCheck:
       "Check the weight-based sizing chart, multipack color assortment, fabric composition ratio, and gentle wash care instructions before purchasing.",
   },
+  "crock-pot-7-quart-manual-e695059a": {
+introduction:
+"An in-depth exploration of the Crock-Pot 7-Quart Manual Slow Cooker, designed to effortlessly handle family-sized meals with its generous capacity and straightforward, hassle-free dial controls.",
+overview:
+"Crafted with a durable stainless steel exterior and sleek black accents, this family-sized countertop appliance features a massive 7-quart oval stoneware pot capable of accommodating a 6-to-7-pound roast or serving nine-plus people. It operates via an intuitive manual interface offering High and Low cooking settings for flexible meal timing, plus a dedicated Warm setting to keep dishes at an optimal serving temperature without overcooking. The removable stoneware and glass lid are both dishwasher-safe, ensuring cleanup is just as effortless as meal preparation.",
+whatToCheck:
+"Check the physical dimensions to ensure adequate countertop and storage clearance, verify the simplicity and tactile feedback of the manual control dial, assess the dishwasher compatibility and weight of the removable stoneware insert, and confirm the included manufacturer warranty before purchasing.",
+},
 };
