@@ -780,4 +780,20 @@ overview:
 whatToCheck:
 "Check the sharpness and security of the interchangeable stainless steel blades, verify the stability of the non-slip base during use, inspect the cleaning brush and disassembly mechanism for food residue removal, and confirm warranty support before purchasing.",
 },
+  "etekcity-food-kitchen-scale-digital-b7b21dd8": {
+introduction:
+"An in-depth review of the Etekcity Multifunction Stainless Steel Digital Kitchen Scale, designed for high-precision food weighing and effortless meal preparation.",
+overview:
+"Equipped with high-precision sensors, this sleek digital scale features a durable fingerprint-resistant stainless steel platform capable of measuring up to 11 lbs (5 kg) with 1-gram increments. It includes a clear backlit LCD display, a convenient tare function for zeroing out containers, multiple unit conversions (grams, ounces, pounds, milliliters, and fluid ounces), and low battery indicators with batteries included.",
+whatToCheck:
+"Check the weighing platform dimensions and maximum capacity limits, verify accuracy and tare reset response, inspect the battery compartment security, and confirm warranty support before purchasing.",
+},
+  "cosori-turboblaze-air-fryer-9-8f87a9bd": {
+introduction:
+"A comprehensive review of the Cosori TurboBlaze 6-Quart 9-in-1 Air Fryer, featuring an advanced DC motor, wide temperature range, and versatile multi-cooking capabilities.",
+overview:
+"Powered by an efficient DC motor and 5-speed fan airflow system, this high-performance air fryer delivers faster, quieter, and more even cooking results while consuming significantly less energy. It features a spacious 6-quart capacity suitable for family meals, a wide temperature range spanning from 90°F to 450°F, and nine versatile cooking functions including air frying, roasting, baking, broiling, and dehydrating. The unit is equipped with a PFAS-free ceramic-coated non-stick basket and crisper plate, ensuring effortless food release and quick dishwasher-safe cleanup.",
+whatToCheck:
+"Check the physical countertop footprint and vertical clearance requirements, verify the 9-speed fan and temperature control responsiveness on the digital touch panel, inspect the ceramic non-stick coating integrity on the basket, and confirm warranty coverage before purchasing.",
+},
 };
