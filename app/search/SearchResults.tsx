@@ -1,9 +1,9 @@
 
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
+import ProductCard from "@/components/ProductCard";
 import { categories } from "@/lib/products";
 import { useProducts } from "@/lib/use-products";
 import { useMarketplace } from "@/context/MarketplaceContext";
@@ -74,62 +74,9 @@ export default function SearchResults() {
             {results.length} product{results.length === 1 ? "" : "s"} found
           </p>
 
-          <div className="search-results-grid">
+          <div className="product-grid">
             {results.map((product) => (
-              <Link
-                href={`/product/${product.slug}`}
-                className="search-result-card"
-                key={product.id}
-              >
-                <div className="search-result-image">
-                  <Image
-                    src={`/products/${product.image}`}
-                    alt={product.name}
-                    width={300}
-                    height={240}
-                  />
-                </div>
-
-                <h2>{product.name}</h2>
-
-                {product.rating != null && (
-                  <div
-                    className="product-rating"
-                    aria-label={`Rated ${product.rating} out of 5`}
-                  >
-                    <span className="product-rating-stars" aria-hidden="true">
-                      {"★".repeat(Math.floor(product.rating))}
-                      {"☆".repeat(5 - Math.floor(product.rating))}
-                    </span>
-
-                    <span className="product-rating-score">
-                      {product.rating.toFixed(1)}/5
-                    </span>
-
-                    {product.reviewCount != null && (
-                      <span className="product-rating-count">
-                        ({product.reviewCount.toLocaleString("en-IN")} ratings)
-                      </span>
-                    )}
-                  </div>
-                )}
-
-                {product.price != null && (
-                  <div className="product-card-price">
-                    <span className="product-price-currency">
-                      {product.currency}
-                    </span>{" "}
-                    {new Intl.NumberFormat("en-IN", {
-                      minimumFractionDigits: 0,
-                      maximumFractionDigits: 0,
-                    }).format(product.price)}
-                  </div>
-                )}
-
-                <span className="search-result-link">
-                  View Product →
-                </span>
-              </Link>
+              <ProductCard key={product.id} product={product} />
             ))}
           </div>
         </>
