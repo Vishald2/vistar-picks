@@ -2,6 +2,23 @@ import type { Product } from "./product-types";
 
 const productData: Product[] = [
   {
+ id: "12",
+ marketplace: "Amazon.in",
+ name: "GOLWYN Plastic Kitchen Containers Set, Air Tight Container For Kitchen Storage Set, Kitchen Accessories Items, Kitchen Organizer Items And Storage Containers (Transparent, 700 ML Set Of 8)",
+ category: "Home & Kitchen",
+ description: "Find practical storage options for your kitchen.",
+ image: "storage-containers.jpg",
+ slug: "kitchen-storage-containers-6d8e9597",
+ amazonUrl: "https://link.amazon/A04mv7Ilb",
+ asin: "B0CXJFGDM5",
+ currency: "INR",
+ price: 604.00,
+ rating: 4.10,
+ reviewCount: 6389,
+ lastVerifiedAt: "02-Nov-2026 03:27:22 PM",
+ author: null,
+  },
+  {
  id: "10",
  marketplace: "Amazon.in",
  name: "Insulated Water Bottle",
