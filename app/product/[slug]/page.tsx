@@ -180,8 +180,8 @@ export default async function ProductDetailsPage({
                     </span>
                   </div>
                 )}
-
-                {product.lastVerifiedAt && (
+                
+                 {product.lastVerifiedAt && (
                   <div className="product-last-verified">
                     Last reviewed: {product.lastVerifiedAt}
                   </div>

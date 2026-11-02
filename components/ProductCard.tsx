@@ -81,12 +81,12 @@ export default function ProductCard({
   )}
 </div>
 
-        <Link
-          href={`/product/${product.slug}`}
-          className="text-link"
-        >
-          View details →
-        </Link>
+      <a
+        href={`/product/${product.slug}`}
+        className="product-details-link"
+      >
+        View details →
+      </a>
       </div>
     </article>
   );
