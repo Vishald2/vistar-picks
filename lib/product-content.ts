@@ -876,4 +876,12 @@ whatToCheck:
     whatToCheck:
       "Check the pillow dimensions, fill adjustability features, cover fabric material, and washing care instructions before purchasing.",
   },
+  "desidiya-warm-white-diya-diwali-280ae61e": {
+    introduction:
+      "Transform your home into a festive wonderland with these enchanting warm white diya curtain lights from DesiDiya.",
+    overview:
+      "A stunning decorative lighting fixture featuring a set of 12 hanging traditional diya ornaments along a durable corded strand, designed to infuse celebrations with an inviting, cozy glow. Equipped with 8 dynamic flashing and steady illumination modes, these energy-efficient LED string lights combine festive charm with modern convenience, making them ideal for draping across windows, walls, and backdrops during Diwali, weddings, parties, and year-round holiday styling.",
+    whatToCheck:
+      "Check cord length, power plug specifications, indoor/waterproof outdoor ratings, and lighting mode controller functions before purchasing.",
+  },
 };
