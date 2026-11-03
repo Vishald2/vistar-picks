@@ -852,4 +852,28 @@ overview:
 whatToCheck:
 "Check the monthly transcription minute allowances and upgrade tier plans, verify magnetic phone attachment and case compatibility, inspect the dual-mode switching mechanism and audio clarity in noisy environments, and confirm warranty support before purchasing.",
 },
+  "wakefit-100-waterproof-terry-bamboo-690baecc": {
+    introduction:
+      "Safeguard your mattress and enhance your sleep hygiene with Wakefit's premium waterproof terry bamboo mattress protector.",
+    overview:
+      "Engineered with a 100% waterproof barrier, this mattress protector shields against spills, stains, dust mites, and allergens while maintaining optimal airflow. Crafted from ultra-soft, breathable bamboo terry fabric, it offers a plush, noiseless sleeping surface that preserves the feel of your mattress. Designed with a secure fitted-sheet style elastic skirt, it ensures a snug, slip-free fit across various mattress depths for effortless maintenance and long-lasting bedroom protection.",
+    whatToCheck:
+      "Check the exact mattress dimensions (length, width, and thickness), fabric washing instructions, hypoallergenic certifications, and return policies before purchasing.",
+  },
+  "amazon-brand-solimo-colored-wax-de120a00": {
+    introduction:
+      "Illuminate your living space with a warm, inviting glow using these versatile colored tealight candles from Solimo.",
+    overview:
+      "A charming set of unscented wax tealight candles housed in protective aluminum cups, designed to burn cleanly and evenly for hours. Perfect for festive celebrations, romantic dinners, relaxing spa nights, or everyday home decor ambiance, these compact candles fit effortlessly into standard tealight holders, lanterns, and decorative warmers while offering reliable, smoke-free performance.",
+    whatToCheck:
+      "Check the pack quantity, burn time per candle, dimensions, and safety guidelines for burning candles before purchasing.",
+  },
+  "wakefit-sleeping-pillow-set-of-79b35c15": {
+    introduction:
+      "Achieve customized neck support and deep, restorative sleep with Wakefit's adjustable siliconized fiber pillow.",
+    overview:
+      "Expertly crafted to cater to your personalized comfort preferences, this adjustable sleeping pillow features high-grade siliconized microfibers encased in a soft, breathable knitted outer cover. The innovative adjustable design allows you to add or remove filling to achieve your ideal loft and firmness level, ensuring optimal spinal alignment and pressure relief whether you are a side, back, or stomach sleeper. Designed for long-lasting resilience, it resists clumping while providing plush, cloud-like support night after night.",
+    whatToCheck:
+      "Check the pillow dimensions, fill adjustability features, cover fabric material, and washing care instructions before purchasing.",
+  },
 };
