@@ -828,4 +828,20 @@ overview:
 whatToCheck:
 "Check the compatibility of your cookware with induction surfaces, verify push-button responsiveness and preset menu options, inspect the cooling fan airflow clearance, and confirm warranty coverage before purchasing.",
 },
+  "bose-quietcomfort-headphones-wireless-bluetooth-a0cb5024": {
+introduction:
+"A detailed look at the Bose QuietComfort Wireless Bluetooth Headphones, blending renowned noise-cancellation technology with plush comfort and high-fidelity audio.",
+overview:
+"Engineered with legendary acoustic performance and world-class Active Noise Cancellation, these over-ear wireless headphones allow users to seamlessly toggle between Quiet Mode for total immersion and Aware Mode to stay alert to surroundings. They feature comfortable lightweight materials with plush ear cushions designed for all-day wear, adjustable EQ settings via the Bose Music app, multipoint Bluetooth pairing, and up to 24 hours of battery life on a single charge with a quick-charge option.",
+whatToCheck:
+"Check the battery life span with ANC enabled, verify multipoint Bluetooth connectivity performance across your devices, inspect the ear cushion padding and headband clamping force for long-term comfort, and confirm warranty coverage before purchasing.",
+},
+  "anker-soundcore-2-portable-bluetooth-bb1c7792": {
+introduction:
+"A closer look at the Anker Soundcore 2 portable Bluetooth speaker, featuring enhanced BassUp technology, rugged IPX7 water resistance, and extended battery performance.",
+overview:
+"Delivering 12W of pure audio power through dual neodymium drivers and an advanced digital signal processor, this compact wireless speaker ensures crystal-clear, zero-distortion sound at any volume. It features exclusive BassUp technology to boost low-end frequencies, a robust IPX7 waterproof casing that safeguards against rain, dust, and spills, and a high-capacity 5,200mAh Li-ion battery providing up to 24 hours of continuous playback.",
+whatToCheck:
+"Check the Bluetooth range stability, verify the charging port version (micro-USB vs. USB-C depending on the production batch), inspect the physical button responsiveness and silicone exterior durability, and confirm warranty support before purchasing.",
+},
 };
