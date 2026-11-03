@@ -844,4 +844,12 @@ overview:
 whatToCheck:
 "Check the Bluetooth range stability, verify the charging port version (micro-USB vs. USB-C depending on the production batch), inspect the physical button responsiveness and silicone exterior durability, and confirm warranty support before purchasing.",
 },
+  "plaud-note-pro-ai-voice-ec95e2cf": {
+introduction:
+"A closer look at the Plaud Note Pro AI Voice Recorder, an ultra-slim smart note-taker designed for seamless audio capture, real-time transcription, and automated summarization across meetings and calls.",
+overview:
+"Crafted with an ultra-thin, lightweight aluminum profile, this credit card-sized smart recorder features a 4-mic and 1-VPU studio-quality recording system capable of picking up audio up to 5 meters away. It offers smart dual-mode recording for in-person meetings and phone calls, supports transcription across over 100 languages, and utilizes advanced AI models with thousands of summary templates to generate multidimensional notes, mind maps, and action items with up to 50 hours of continuous battery life.",
+whatToCheck:
+"Check the monthly transcription minute allowances and upgrade tier plans, verify magnetic phone attachment and case compatibility, inspect the dual-mode switching mechanism and audio clarity in noisy environments, and confirm warranty support before purchasing.",
+},
 };
