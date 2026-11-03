@@ -812,4 +812,20 @@ overview:
 whatToCheck:
 "Check the bottle or refill packaging size (such as 750ml or 1500ml), verify skin compatibility and dermatological safety for frequent hand use, inspect the dispensing cap or nozzle design, and confirm retailer pricing before purchasing.",
 },
+  "philips-hd4929-01-2100w-induction-1223d3fe": {
+introduction:
+"A comprehensive review of the Philips HD4929 2100-Watt Induction Cooktop, engineered for fast, energy-efficient cooking with intuitive preset menu options.",
+overview:
+"Powered by a robust 2100-watt heating element, this sleek black induction cooktop delivers rapid and efficient heat while sealing in vital nutrients. It features customizable preset cooking menus tailored for popular Indian recipes, an intuitive push-button control panel, a timer function for hassle-free unattended cooking, and a micro-crystal glass top that ensures durability and effortless cleanup.",
+whatToCheck:
+"Check the compatibility of your existing cookware with induction surfaces, verify the push-button responsiveness and preset menu options, inspect the cooling fan airflow clearance, and confirm warranty support before purchasing.",
+},
+  "philips-viva-collection-hd4928-01-dabc02ed": {
+introduction:
+"An in-depth review of the Philips Viva Collection HD4928/01 2100-Watt Induction Cooktop, designed for rapid, flame-free cooking with user-friendly preset Indian menus.",
+overview:
+"Powered by a strong 2100-watt heating capacity, this sleek black induction cooktop features a durable soft crystal glass surface that ensures efficient heat transfer and easy wipe-down cleanup. It is equipped with intuitive push-button controls, customizable preset cooking menus tailored for everyday Indian recipes, a timer function for unattended cooking convenience, and advanced pan detection with automatic shut-off safety features.",
+whatToCheck:
+"Check the compatibility of your cookware with induction surfaces, verify push-button responsiveness and preset menu options, inspect the cooling fan airflow clearance, and confirm warranty coverage before purchasing.",
+},
 };
