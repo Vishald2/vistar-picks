@@ -492,7 +492,7 @@ a {
 }
 
 .product-info-section h2 {
-  margin: 12px 0 5px;
+  margin: 12px 0 -5px;
   color: #171717;
   font-size: 20px;
   font-weight: 650;
@@ -1075,6 +1075,7 @@ a {
   font-size: 0.9rem;
   font-weight: 500;
   color: #666;
+  padding-right: 3px;
 }
 
 .product-last-verified {
@@ -1209,4 +1210,12 @@ a {
   height: auto;
   margin: 0;
   padding: 0;
+}
+
+.product-info-section .experience-note {
+  margin: 0 0 0px;
+  color: #737373;
+  font-size: 13px;
+  line-height: 1.5;
+  font-weight: 400;
 }

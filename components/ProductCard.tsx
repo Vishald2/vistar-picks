@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import type { Product } from "@/lib/products";
+import { formatPrice, formatReviewCount } from "@/lib/util";
 
 export default function ProductCard({
   product,
@@ -41,13 +42,11 @@ export default function ProductCard({
   
   <div className="product-card-price">
       <span className="product-price-currency">
-      {product.currency}
-  </span>
-  <span> </span>
-    {new Intl.NumberFormat("en-IN", {
-      minimumFractionDigits: 0,
-      maximumFractionDigits: 0,
-    }).format(product.price)}
+        {product.currency}
+      </span>
+                <span className="product-price-amount">
+                  {formatPrice(product.price, product.marketplace)}
+                </span>
   </div>
 )}
 
@@ -74,7 +73,7 @@ export default function ProductCard({
 
       {product.reviewCount != null && (
         <span className="product-rating-count">
-          ({product.reviewCount.toLocaleString("en-IN")} ratings)
+          ({formatReviewCount(product.reviewCount, product.marketplace)} ratings)
         </span>
       )}
     </>

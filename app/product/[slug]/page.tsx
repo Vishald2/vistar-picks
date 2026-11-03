@@ -179,6 +179,17 @@ export default async function ProductDetailsPage({
                   </div>
                 )}
 
+                {product.experience?.trim() && (
+                  <section className="product-info-section">
+                  <h2>Personal experience</h2>
+                  <p className="experience-note">
+                    Based on personal use or first-hand feedback from our friends,
+                    family, and close relatives.
+                  </p>
+                  <p>{product.experience}</p>
+                  </section>
+                )}
+
                 <section className="product-info-section">
                   <h2>
                     {isBook ? "Book overview" : "Product overview"}
