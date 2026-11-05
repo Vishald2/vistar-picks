@@ -11,6 +11,69 @@ import RelatedProductsSidebar from "@/components/RelatedProductsSidebar";
 
 export const dynamicParams = false;
 
+
+type ArticleHeading = {
+  depth: number;
+  text: string;
+  id: string;
+};
+
+function getHeadingText(node: any): string {
+  if (node.type === "text" || node.type === "inlineCode") {
+    return node.value ?? "";
+  }
+
+  return (node.children ?? []).map(getHeadingText).join("");
+}
+
+
+function addHeadingIds(headings: ArticleHeading[]) {
+  return () => (tree: any) => {
+    const counts: Record<string, number> = {};
+
+    for (const node of tree.children ?? []) {
+      if (node.type !== "heading" || node.depth < 2 || node.depth > 3) {
+        continue;
+      }
+
+      const text = getHeadingText(node).trim();
+
+      if (!text) continue;
+
+      const baseId =
+        text
+          .toLowerCase()
+          .replace(/[^\w\s-]/g, "")
+          .trim()
+          .replace(/\s+/g, "-") || "section";
+
+      counts[baseId] = (counts[baseId] ?? 0) + 1;
+
+      const id =
+        counts[baseId] === 1
+          ? baseId
+          : `${baseId}-${counts[baseId]}`;
+
+      node.data = {
+        ...node.data,
+        hProperties: {
+          ...node.data?.hProperties,
+          id,
+          className: [],
+        },
+      };
+
+      headings.push({
+        depth: node.depth,
+        text,
+        id,
+      });
+    }
+  };
+}
+
+
+
 export function generateStaticParams() {
   return articles.map((article) => ({
     slug: article.slug,
@@ -45,11 +108,33 @@ export default async function ArticlePage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
   const article = articles.find((item) => item.slug === slug);
+
+const currentIndex = articles.findIndex(
+  (item) => item.slug === slug
+);
+
+const previousArticle =
+  currentIndex > 0 ? articles[currentIndex - 1] : null;
+
+const nextArticle =
+  currentIndex < articles.length - 1
+    ? articles[currentIndex + 1]
+    : null;
 
   if (!article) {
     notFound();
   }
+
+const relatedArticles = articles
+  .filter(
+    (item) =>
+      item.category === article.category &&
+      item.slug !== article.slug
+  )
+  .slice(0, 3);
+
 
   const filePath = path.join(
     process.cwd(),
@@ -63,11 +148,14 @@ export default async function ArticlePage({
 
   const markdown = fs.readFileSync(filePath, "utf8");
 
-  const processedContent = await remark()
-    .use(html)
-    .process(markdown);
+const headings: ArticleHeading[] = [];
 
-  const contentHtml = processedContent.toString();
+const processedContent = await remark()
+  .use(addHeadingIds(headings) as any)
+  .use(html)
+  .process(markdown);
+
+const contentHtml = processedContent.toString();
 
   const categories = [
     { id: "electronics", name: "Electronics" },
@@ -121,10 +209,77 @@ export default async function ArticlePage({
             />
           </div>
 
-          <div
-            className="single-article-content"
-            dangerouslySetInnerHTML={{ __html: contentHtml }}
+{headings.length > 0 && (
+  <nav className="article-toc" aria-label="Table of Contents">
+    <h2>Table of Contents</h2>
+
+    <ul>
+      {headings.map((heading) => (
+        <li
+          key={heading.id}
+          className={`toc-level-${heading.depth}`}
+        >
+          <a href={`#user-content-${heading.id}`}>
+            {heading.text}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+)}
+
+<div
+  className="single-article-content"
+  dangerouslySetInnerHTML={{ __html: contentHtml }}
+/>
+
+{relatedArticles.length > 0 && (
+  <section className="related-articles-section">
+    <h2>Related Articles</h2>
+
+    <div className="related-articles-grid">
+      {relatedArticles.map((relatedArticle) => (
+        <Link
+          href={`/articles/${relatedArticle.slug}`}
+          className="related-article-card"
+          key={relatedArticle.id}
+        >
+          <img
+            src={relatedArticle.image}
+            alt={relatedArticle.title}
           />
+
+          <div className="related-article-info">
+            <h3>{relatedArticle.title}</h3>
+            <p>{relatedArticle.description}</p>
+          </div>
+        </Link>
+      ))}
+    </div>
+  </section>
+)}
+
+<nav className="article-navigation" aria-label="Article navigation">
+
+  <div className="article-navigation-item previous">
+    {previousArticle && (
+      <Link href={`/articles/${previousArticle.slug}`}>
+        <span>← Previous Article</span>
+        <strong>{previousArticle.title}</strong>
+      </Link>
+    )}
+  </div>
+
+  <div className="article-navigation-item next">
+    {nextArticle && (
+      <Link href={`/articles/${nextArticle.slug}`}>
+        <span>Next Article →</span>
+        <strong>{nextArticle.title}</strong>
+      </Link>
+    )}
+  </div>
+
+</nav>
 
         </section>
 

@@ -17,4 +17,13 @@ export const articles = [
     description: "Explore smart TV features and display technologies.",
     image: "/images/articles/smart-tv.jpg",
   },
+    {
+    id: 3,
+    slug: "Next Article",
+    fileName: "understanding-smart-tvs.md",
+    category: "electronics",
+    title: "Understanding Smart TVs",
+    description: "Explore smart TV features and display technologies.",
+    image: "/images/articles/smart-tv.jpg",
+  },
 ];
