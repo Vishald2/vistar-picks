@@ -1,15 +1,17 @@
-
 "use client";
 
-import { useEffect, useState, type ComponentProps } 
-  from "react";
+import { useEffect, useState, type ComponentProps } from "react";
 import { getAllowedCategories } from "@/lib/products";
 import { detectCountry } from "@/lib/detect-country";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useProducts } from "@/lib/use-products";
 import { categories } from "@/lib/products";
 
 export default function Header() {
+  const pathname = usePathname();
+  const isHomePage = pathname === "/";
+
   const [category, setCategory] = useState("All Categories");
   const [query, setQuery] = useState("");
   const [allowedCategories, setAllowedCategories] = useState<string[]>([]);
@@ -53,6 +55,15 @@ export default function Header() {
   ) {
     event.preventDefault();
 
+    if (isHomePage) {
+      const searchUrl = query.trim()
+      ? `/?articleQuery=${encodeURIComponent(query.trim())}`
+      : "/";
+
+      window.location.href = searchUrl;
+      return;
+    }
+
     const params = new URLSearchParams();
 
     if (query.trim()) params.set("q", query.trim());
@@ -72,14 +83,35 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="header-inner">
+
         <Link
           className="brand"
           href="/"
-          aria-label="Vistar Picks home"
+          aria-label="Selective Kart home"
         >
           <span className="brand-name">Selective Kart</span>
           <span className="brand-tagline">Smart product choices</span>
         </Link>
+
+        <nav className="header-nav" aria-label="Main navigation">
+          <Link
+            href="/"
+            className={`header-nav-link ${
+              pathname === "/" ? "active" : ""
+            }`}
+          >
+            Home
+          </Link>
+
+          <Link
+            href="/storefront"
+            className={`header-nav-link ${
+              pathname === "/storefront" ? "active" : ""
+            }`}
+          >
+            Storefront
+          </Link>
+        </nav>
 
         <form className="search-form" onSubmit={handleSearch}>
           <select
@@ -98,7 +130,7 @@ export default function Header() {
 
           <input
             aria-label="Search products"
-            placeholder="Search products..."
+            placeholder={isHomePage ? "Search articles..." : "Search products..."}
             value={query}
             onChange={(event) => setQuery(event.target.value)}
           />
@@ -107,6 +139,7 @@ export default function Header() {
             Search
           </button>
         </form>
+
       </div>
     </header>
   );
