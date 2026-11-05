@@ -17,13 +17,13 @@ export const articles = [
     description: "Explore smart TV features and display technologies.",
     image: "/images/articles/smart-tv.jpg",
   },
-    {
-    id: 3,
-    slug: "Next Article",
-    fileName: "understanding-smart-tvs.md",
-    category: "electronics",
-    title: "Understanding Smart TVs",
-    description: "Explore smart TV features and display technologies.",
-    image: "/images/articles/smart-tv.jpg",
-  },
+  {
+  id: 3,
+  slug: "air-fryer-buying-guide",
+  fileName: "air-fryer-buying-guide.md",
+  category: "home-kitchen",
+  title: "Air Fryer Buying Guide: What Should You Check Before Buying?",
+  description: "Learn how to choose an air fryer by comparing capacity, wattage, temperature control, basket design, cleaning and safety features.",
+  image: "/images/articles/air-fryer-buying-guide.jpg",
+},
 ];

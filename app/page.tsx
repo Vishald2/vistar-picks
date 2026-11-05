@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState, useEffect } from "react";
@@ -6,46 +7,45 @@ import Image from "next/image";
 import Link from "next/link";
 import { useProducts } from "@/lib/use-products";
 import { articles } from "@/lib/articles";
-
-const categories = [
-  { id: "electronics", name: "Electronics" },
-  { id: "home-kitchen", name: "Home & Kitchen" },
-  { id: "home-living", name: "Home & Living" },
-];
+import { categories } from "@/lib/products";
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("electronics");
-
   const [articleSearch, setArticleSearch] = useState("");
 
   const availableProducts = useProducts();
 
-  const productCategoryMap: Record<string, string> = {
-    electronics: "Electronics",
-    "home-kitchen": "Home & Kitchen",
-    "home-living": "",
-  };
+const articleCategories = categories
+  .map((name) => ({
+    id: name
+      .toLowerCase()
+      .replace(/\s*&\s*/g, "-")
+      .replace(/\s+/g, "-"),
+    name,
+  }))
+  .filter((category) =>
+    articles.some((article) => article.category === category.id)
+  );
+
+  const selectedCategoryName =
+    articleCategories.find((category) => category.id === selectedCategory)?.name ?? "";
 
   const relatedProducts = availableProducts
-    .filter(
-      (product) =>
-        product.category === productCategoryMap[selectedCategory]
-    )
+    .filter((product) => product.category === selectedCategoryName)
     .slice(0, 3);
 
-    useEffect(() => {
-      const params = new URLSearchParams(window.location.search);
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const category = params.get("category");
 
-      const category = params.get("category");
+    if (category && articleCategories.some((item) => item.id === category)) {
+      setSelectedCategory(category);
+    }
 
-      if (category && categories.some((item) => item.id === category)) {
-        setSelectedCategory(category);
-      }
+    setArticleSearch(params.get("articleQuery") ?? "");
+  }, []);
 
-      setArticleSearch(params.get("articleQuery") ?? "");
-    }, []);
-
-    const filteredArticles = articles.filter((article) => {
+  const filteredArticles = articles.filter((article) => {
     const searchText = articleSearch.trim().toLowerCase();
 
     const matchesCategory =
@@ -59,9 +59,6 @@ export default function HomePage() {
     return matchesCategory && matchesSearch;
   });
 
-  const selectedCategoryName =
-    categories.find((category) => category.id === selectedCategory)?.name ?? "";
-
   function clearSearch() {
     setArticleSearch("");
     window.history.replaceState({}, "", "/");
@@ -72,13 +69,12 @@ export default function HomePage() {
       <Header />
 
       <main className="article-home">
-
         {/* Left Sidebar */}
         <aside className="article-sidebar">
           <h2>Categories</h2>
 
           <nav aria-label="Article categories">
-            {categories.map((category) => (
+            {articleCategories.map((category) => (
               <button
                 key={category.id}
                 type="button"
@@ -120,11 +116,11 @@ export default function HomePage() {
           {filteredArticles.length > 0 ? (
             <div className="article-grid">
               {filteredArticles.map((article) => (
-          <Link
-            href={`/articles/${article.slug}`}
-            className="article-card"
-            key={article.id}
-          >
+                <Link
+                  href={`/articles/${article.slug}`}
+                  className="article-card"
+                  key={article.id}
+                >
                   <div className="article-card-image">
                     <img src={article.image} alt={article.title} />
                   </div>
@@ -190,7 +186,6 @@ export default function HomePage() {
             </p>
           )}
         </aside>
-
       </main>
     </>
   );
