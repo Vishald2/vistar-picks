@@ -26,4 +26,13 @@ export const articles = [
   description: "Learn how to choose an air fryer by comparing capacity, wattage, temperature control, basket design, cleaning and safety features.",
   image: "/images/articles/air-fryer-buying-guide.jpg",
 },
+{
+  id: 4,
+  slug: "how-to-choose-the-fully-automated-washing-machine",
+  fileName: "how-to-choose-the-fully-automated-washing-machine.md",
+  category: "home-kitchen",
+  title: "How to Choose the Fully Automated Washing Machine",
+  description: "Compare front-load and top-load washing machines, capacity, inverter motors, wash programs, energy efficiency and important features before buying.",
+  image: "/images/articles/how-to-choose-the-fully-automated-washing-machine.jpg",
+},
 ];
