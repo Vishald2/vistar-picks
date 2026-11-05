@@ -175,14 +175,15 @@ const contentHtml = processedContent.toString();
 
           <nav aria-label="Article categories">
             {categories.map((category) => (
-              <span
+              <Link
                 key={category.id}
+                href={`/?category=${category.id}`}
                 className={`article-category ${
                   article.category === category.id ? "active" : ""
                 }`}
               >
                 {category.name}
-              </span>
+              </Link>
             ))}
           </nav>
         </aside>

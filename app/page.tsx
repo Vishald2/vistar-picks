@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState, useEffect } from "react";
@@ -16,6 +15,7 @@ const categories = [
 
 export default function HomePage() {
   const [selectedCategory, setSelectedCategory] = useState("electronics");
+
   const [articleSearch, setArticleSearch] = useState("");
 
   const availableProducts = useProducts();
@@ -33,12 +33,19 @@ export default function HomePage() {
     )
     .slice(0, 3);
 
-  useEffect(() => {
-    const params = new URLSearchParams(window.location.search);
-    setArticleSearch(params.get("articleQuery") ?? "");
-  }, []);
+    useEffect(() => {
+      const params = new URLSearchParams(window.location.search);
 
-  const filteredArticles = articles.filter((article) => {
+      const category = params.get("category");
+
+      if (category && categories.some((item) => item.id === category)) {
+        setSelectedCategory(category);
+      }
+
+      setArticleSearch(params.get("articleQuery") ?? "");
+    }, []);
+
+    const filteredArticles = articles.filter((article) => {
     const searchText = articleSearch.trim().toLowerCase();
 
     const matchesCategory =

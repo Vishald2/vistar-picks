@@ -1729,6 +1729,7 @@ a {
 
 html {
   scroll-behavior: smooth;
+  scrollbar-gutter: stable;
 }
 
 .single-article-content h2,
