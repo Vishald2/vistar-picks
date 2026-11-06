@@ -108,6 +108,7 @@ const productData: Product[] = [
  lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
  experience: null,
+ productType: "Smart-phone",
   },
   {
  id: "25",
@@ -126,6 +127,7 @@ const productData: Product[] = [
  lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
  experience: null,
+ productType: "Smart-phone",
   },
   {
  id: "26",
@@ -144,6 +146,7 @@ const productData: Product[] = [
  lastVerifiedAt: "01 Nov 2026, 12:00 AM UTC",
  author: null,
  experience: null,
+productType: "Smart-phone",
   },
   {
  id: "106",
@@ -1027,6 +1030,7 @@ const productData: Product[] = [
  lastVerifiedAt: "29 Oct 2026, 02:59 PM UTC",
  author: null,
  experience: null,
+ productType: "Smart-phone",
   },
   {
  id: "79",
@@ -1712,6 +1716,7 @@ const productData: Product[] = [
  lastVerifiedAt: "26 Oct 2026, 12:00 AM UTC",
  author: null,
  experience: null,
+ productType: "Smart-phone",
   },
   {
  id: "13",
@@ -1730,6 +1735,7 @@ const productData: Product[] = [
  lastVerifiedAt: "24 Oct 2026, 12:00 AM UTC",
  author: null,
  experience: null,
+ productType: "Smart-phone",
   },
   {
  id: "14",

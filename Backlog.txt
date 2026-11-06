@@ -4,3 +4,6 @@
 article
 1. Fully automated washing machine - done.
 2. Mixer - done.
+3. Smart Tv - done.
+4. Air fryer - Done
+5. Smart Phone - Pending

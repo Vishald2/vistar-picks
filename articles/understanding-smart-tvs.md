@@ -145,12 +145,12 @@ compared with many conventional LED models.
 
 ### Quick Comparison
 
-  Technology   Main characteristic
-  ------------ -------------------------------------------------------
-  LED          Conventional LCD with LED backlighting
-  QLED         Quantum dots improve colour reproduction
-  OLED         Self-emitting pixels and excellent black levels
-  Mini LED     Smaller backlight LEDs and more precise local dimming
+| Technology | Main Characteristic |
+|---|---|
+| **LED** | Conventional LCD with LED backlighting |
+| **QLED** | Quantum dots improve colour reproduction |
+| **OLED** | Self-emitting pixels and excellent black levels |
+| **Mini LED** | Smaller backlight LEDs and more precise local dimming |
 
 **Buying tip:** Do not choose a television based only on the display
 technology name. Panel quality, brightness, contrast, processing and
@@ -345,22 +345,21 @@ policy.
 
 ## 11. Smart TV Buying Checklist
 
-Before making a purchase, use this checklist to compare different
-models.
+Before making a purchase, use this checklist to compare different models.
 
-  Feature              What to check
-  -------------------- --------------------------------------------------
-  Screen size          Suitable for your room and viewing distance
-  Resolution           Full HD, 4K or 8K
-  Display technology   LED, QLED, OLED or Mini LED
-  Operating system     Supported applications and ease of use
-  HDR                  Supported formats and actual display performance
-  Refresh rate         Native 60Hz or 120Hz
-  Sound                Speaker quality and supported audio formats
-  HDMI                 Number of ports and supported features
-  Connectivity         Wi-Fi, Ethernet, Bluetooth and USB
-  Software             Update support and manufacturer reliability
-  Warranty             Coverage and service availability
+| Feature | What to Check |
+|---|---|
+| **Screen Size** | Suitable for your room and viewing distance |
+| **Resolution** | Full HD, 4K or 8K |
+| **Display Technology** | LED, QLED, OLED or Mini LED |
+| **Operating System** | Supported applications and ease of use |
+| **HDR** | Supported formats and actual display performance |
+| **Refresh Rate** | Native 60Hz or 120Hz |
+| **Sound** | Speaker quality and supported audio formats |
+| **HDMI** | Number of ports and supported features |
+| **Connectivity** | Wi-Fi, Ethernet, Bluetooth and USB |
+| **Software** | Update support and manufacturer reliability |
+| **Warranty** | Coverage and service availability |
 
 Do not compare televisions on the basis of one specification alone.
 Consider the complete package and how you intend to use the television.

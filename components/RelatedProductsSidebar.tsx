@@ -14,6 +14,8 @@ export default function RelatedProductsSidebar({
   category,
   productType,
 }: Props) {
+
+  console.log("RelatedProductsSidebar props:", { category, productType });
   const availableProducts = useProducts();
 
   const productCategoryMap: Record<string, string> = {
@@ -22,12 +24,19 @@ export default function RelatedProductsSidebar({
     "home-living": "",
   };
 
+  
+
   // First, try to find products matching the article's productType.
   const productTypeMatches = productType
     ? availableProducts
         .filter((product) => product.productType === productType)
         .slice(0, 3)
     : [];
+
+    console.log("Available products:", availableProducts);
+    console.log("Product category map:", productCategoryMap);
+
+    console.log("Product type matches:", productTypeMatches);
 
   // If no productType match exists, use the existing category logic.
   const relatedProducts =
