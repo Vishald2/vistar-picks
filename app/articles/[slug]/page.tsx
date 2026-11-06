@@ -202,9 +202,12 @@ export default async function ArticlePage({
               <Link
                 key={category.id}
                 href={`/?category=${category.id}`}
-                className={`article-category ${
-                  article.category === category.id ? "active" : ""
-                }`}
+                  className={`article-category ${
+                    article.category === category.id ||
+                    (!article.category && category.id === "home-kitchen")
+                      ? "active"
+                      : ""
+                  }`}
               >
                 {category.name}
               </Link>
@@ -274,7 +277,7 @@ export default async function ArticlePage({
             general informational purposes. Product specifications,
             features and prices may change. Please verify details
             before making a purchase. Selective Kart may earn a
-            commission from qualifying purchases made through
+            small commission from qualifying purchases made through
             affiliate links, at no additional cost to you.
           </div>
 

@@ -1,11 +1,14 @@
 # How to Choose the Fully Automated Washing Machine
 
-Buying a fully automatic washing machine can make laundry easier, but
-choosing the right model requires more than comparing prices and
-capacities. Consider the machine type, family size, wash programs,
-motor, energy and water efficiency, dimensions and after-sales service.
+Laundry can become frustrating when clothes come out too wet, delicate fabrics get damaged, or water and electricity bills keep rising. A fully automatic washing machine can make the routine easier, but choosing the right one means looking beyond the brand name and advertised features.
 
-This guide explains the important points to check before buying.
+The right choice depends on your household size, the type of laundry you wash, available installation space, water conditions and after-sales support. This guide explains what to check before buying.
+
+> **Quick verdict**
+>
+> - **Choose a front-load machine if:** Water efficiency, higher spin speeds and gentler fabric handling are priorities.
+> - **Choose a top-load machine if:** You prefer easier loading without bending, a potentially lower purchase price or shorter cycles on selected models.
+> - **Golden rule:** Match the capacity to your usual laundry volume, with extra room for bulky items such as bedsheets and blankets.
 
 ## 1. Front Load or Top Load?
 
@@ -44,21 +47,24 @@ spin performance are priorities. Consider top load if easy loading, a
 simpler routine or a lower purchase price matters more. Compare the
 specifications of individual models because performance varies.
 
+<!-- Product recommendation slot: Add selected front-load and top-load product cards here when suitable products have been shortlisted. -->
+
 ## 2. Choose the Right Capacity
 
-Capacity is usually stated in kilograms and refers to the weight of dry
-laundry the machine is designed to wash in a cycle.
+Capacity is usually stated in kilograms and refers to the weight of dry laundry the machine is designed to wash in a cycle.
 
-  Household size       Capacity to consider
-  ------------------ ----------------------
-  1--2 people                       6--7 kg
-  3--4 people                       7--8 kg
-  4--5 people                       8--9 kg
-  5 or more people            9 kg or above
+| Household Size | Capacity to Consider |
+|---|---:|
+| 1–2 people | 6–7 kg |
+| 3–4 people | 7–8 kg |
+| 4–5 people | 8–9 kg |
+| 5 or more people | 9 kg or above |
 
 These are general starting points, not fixed rules. Consider how often
 you wash clothes and whether you regularly wash bedsheets, blankets or
 other bulky items. Check the manufacturer's guidance for bulky loads.
+
+<!-- Product recommendation slot: Add a suitable 7–8 kg option for small or medium households, if one has been independently shortlisted. -->
 
 ## 3. Check the Motor
 
@@ -177,6 +183,40 @@ For a front-load machine, leave enough room to open the door fully. For
 a top-load machine, check the clearance above the lid. Follow the
 manufacturer's installation requirements.
 
+### Check Your Water Quality
+
+If your home receives hard water, mineral deposits can build up inside
+the machine over time. Depending on the water hardness and the machine,
+this may affect parts such as heating elements, pipes and the drum.
+
+If hard water is a concern in your area, check the manufacturer's
+recommendations for water treatment, descaling and cleaning. Do not use
+water softeners or chemical treatments unless they are suitable for the
+machine.
+
+### Check Voltage Stability
+
+Frequent voltage fluctuations, low voltage or power surges can affect
+electronic components. Check the manufacturer's guidance on the
+permitted voltage range and whether the model includes suitable
+protection.
+
+If your area experiences unstable power, ask the manufacturer or an
+authorised installer whether a voltage stabiliser or other protection
+device is recommended for that particular model. Do not assume that
+every washing machine needs an external stabiliser.
+
+### Check Electrical Earthing
+
+A washing machine must be connected to a properly earthed electrical socket. Proper earthing helps protect users against electric shock if an electrical fault occurs.
+
+**Before installation**:
+- Ensure that the electrical socket has a proper earth connection.
+- Avoid using two-pin adapters or removing the earth connection.
+- Use a properly rated socket and wiring suitable for the machine's power requirements.
+- If you are unsure about the earthing condition, get it checked by a qualified electrician.
+**Important**: Never operate a washing machine with a damaged power cord or an improperly earthed connection.
+
 ## 9. Noise, Vibration and Installation
 
 Noise and vibration matter if the machine is near a living area or
@@ -191,7 +231,28 @@ overloading the drum.
 Incorrect installation can cause excessive vibration even in a
 well-designed machine.
 
-## 10. Warranty and After-Sales Service
+## 10. Basic Maintenance to Prevent Odour and Build-up
+
+A little routine care can help keep a washing machine clean and reduce
+unpleasant smells.
+
+- **Air out a front-load machine:** After a wash, leave the door slightly
+  open when it is safe to do so, allowing the drum and door seal to dry.
+- **Dry the detergent drawer:** Leave it slightly open after use if the
+  design allows, so moisture does not remain trapped.
+- **Clean the door seal:** Check the folds of the rubber seal and remove
+  lint, hair or trapped water.
+- **Run the drum-clean program:** Use the machine's Drum Clean cycle at
+  the interval recommended by the manufacturer.
+- **Descale when needed:** In hard-water areas, follow the manufacturer's
+  advice on descaling products and frequency. A monthly cleaning cycle
+  may be appropriate for some households, but the correct interval
+  depends on water hardness, usage and the machine's instructions.
+
+Avoid mixing cleaning chemicals or using products that the manufacturer
+does not recommend.
+
+## 11. Warranty and After-Sales Service
 
 Warranty coverage and service availability should be part of your buying
 decision.
@@ -204,28 +265,31 @@ period. - Availability and cost of spare parts.
 A long motor warranty does not necessarily mean the entire machine has
 the same warranty. Read the terms carefully.
 
-## 11. Washing Machine Buying Checklist
+## 12. Washing Machine Buying Checklist
 
-  Feature               What to check
-  --------------------- ---------------------------------------------------
-  Type                  Front load or top load
-  Capacity              Suitable for household size and laundry habits
-  Motor                 Motor type, performance and warranty
-  Wash programs         Programs relevant to your clothes
-  Steam                 What the feature does on that model
-  Load sensing          Whether water or cycle settings are adjusted
-  Energy rating         Current BEE label and annual consumption
-  Water use             Comparable consumption information
-  Spin speed            Maximum RPM and selectable speeds
-  Dimensions            Fit, door or lid clearance and installation space
-  Noise and vibration   Published noise figures and stability
-  Warranty              Product, motor, labour and parts coverage
-  Service               Authorised service availability nearby
+| Feature | What to check |
+|---|---|
+| Type | Front load or top load |
+| Capacity | Suitable for household size and laundry habits |
+| Motor | Motor type, performance and warranty |
+| Wash programs | Programs relevant to your clothes |
+| Steam | What the feature does on that model |
+| Load sensing | Whether water or cycle settings are adjusted |
+| Energy rating | Current BEE label and annual consumption |
+| Water use | Comparable consumption information |
+| Spin speed | Maximum RPM and selectable speeds |
+| Dimensions | Fit, door or lid clearance and installation space |
+| Water quality | Hard-water concerns and manufacturer-recommended care |
+| Voltage protection | Permitted voltage range and recommended protection |
+| Noise and vibration | Published noise figures and stability |
+| Maintenance | Drum cleaning, door seal and detergent drawer care |
+| Warranty | Product, motor, labour and parts coverage |
+| Service | Authorised service availability nearby |
 
 Do not compare machines on one specification alone. Consider the
 complete package and how you intend to use it.
 
-## 12. Frequently Asked Questions
+## 13. Frequently Asked Questions
 
 ### Is a front-load washing machine better than a top-load machine?
 
