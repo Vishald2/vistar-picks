@@ -1,5 +1,3 @@
-# Air Fryer Buying Guide: What Should You Check Before Buying?
-
 An air fryer has become a popular kitchen appliance for preparing food
 with little or no added oil. It can be used for foods such as French
 fries, samosas, paneer tikka and roasted vegetables. However, air-fried

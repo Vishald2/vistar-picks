@@ -11,6 +11,7 @@ import html from "remark-html";
 import RelatedProductsSidebar from "@/components/RelatedProductsSidebar";
 import { categories } from "@/lib/products";
 import GoToTop from "@/components/GoToTop";
+import remarkGfm from "remark-gfm";
 
 export const dynamicParams = false;
 
@@ -78,6 +79,21 @@ function getCategoryId(category: string): string {
     .toLowerCase()
     .replace(/\s*&\s*/g, "-")
     .replace(/\s+/g, "-");
+}
+
+function formatUpdatedDate(date: string): string {
+  const parsedDate = new Date(`${date}T00:00:00Z`);
+
+  if (Number.isNaN(parsedDate.getTime())) {
+    return date;
+  }
+
+  return parsedDate.toLocaleDateString("en-GB", {
+    day: "2-digit",
+    month: "short",
+    year: "numeric",
+    timeZone: "UTC",
+  });
 }
 
 export function generateStaticParams() {
@@ -164,6 +180,7 @@ export default async function ArticlePage({
   const headings: ArticleHeading[] = [];
 
   const processedContent = await remark()
+    .use(remarkGfm)
     .use(addHeadingIds(headings) as any)
     .use(html)
     .process(markdown);
@@ -204,9 +221,15 @@ export default async function ArticlePage({
 
           <div className="single-article-header">
             <h1>{article.title}</h1>
-            <p>{article.description}</p>
           </div>
 
+          {/* Author and Updated Date */}
+          <div className="article-author">
+            By {article.Author}
+            <span> | Updated: {formatUpdatedDate(article.updatedAt)}</span>
+          </div>
+
+          {/* Featured Image */}
           <div className="single-article-image">
             <Image
               src={article.image}
@@ -217,30 +240,45 @@ export default async function ArticlePage({
             />
           </div>
 
-          {headings.length > 0 && (
-            <nav className="article-toc" aria-label="Table of Contents">
-              <h2>Table of Contents</h2>
+          {/* Synopsis */}
+          <p className="article-synopsis">
+            {article.description}
+          </p>
 
-              <ul>
-                {headings.map((heading) => (
-                  <li
-                    key={heading.id}
-                    className={`toc-level-${heading.depth}`}
-                  >
-                    <a href={`#user-content-${heading.id}`}>
-                      {heading.text}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </nav>
-          )}
+{headings.filter((heading) => heading.depth === 2).length >= 5 && (
+  <nav className="article-toc" aria-label="Table of Contents">
+    <h2>Table of Contents</h2>
+
+    <ul>
+      {headings
+        .filter((heading) => heading.depth === 2)
+        .map((heading) => (
+          <li key={heading.id}>
+            <a href={`#user-content-${heading.id}`}>
+              {heading.text}
+            </a>
+          </li>
+        ))}
+    </ul>
+  </nav>
+)}
 
           <div
             className="single-article-content"
             dangerouslySetInnerHTML={{ __html: contentHtml }}
           />
 
+          {/* Disclaimer */}
+          <div className="article-disclaimer">
+            <strong>Disclaimer:</strong> This article is intended for
+            general informational purposes. Product specifications,
+            features and prices may change. Please verify details
+            before making a purchase. Selective Kart may earn a
+            commission from qualifying purchases made through
+            affiliate links, at no additional cost to you.
+          </div>
+
+          {/* Related Articles */}
           {relatedArticles.length > 0 && (
             <section className="related-articles-section">
               <h2>Related Articles</h2>
@@ -267,6 +305,7 @@ export default async function ArticlePage({
             </section>
           )}
 
+          {/* Previous / Next Article */}
           <nav className="article-navigation" aria-label="Article navigation">
 
             <div className="article-navigation-item previous">

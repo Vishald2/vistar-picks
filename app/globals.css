@@ -1586,8 +1586,8 @@ a {
   display: block;
   width: 100%;
   color: #334155;
-  font-size: 17px;
-  line-height: 1.85;
+  font-size: 16px;
+  line-height: 1.50;
   overflow-wrap: break-word;
 }
 
@@ -1900,4 +1900,84 @@ html {
   .curatedRibbonBanner {
     display: none;
   }
+}
+
+.article-author {
+  font-size: 13px;
+  color: #666;
+  margin: 10px 0 18px;
+}
+
+.article-synopsis {
+  color: #777;
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 12px 0 24px;
+}
+
+.article-disclaimer {
+  margin-top: 35px;
+  padding: 15px;
+  background: #f7f7f7;
+  border-left: 3px solid #ccc;
+  color: #666;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.single-article-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+}
+
+.single-article-content th,
+.single-article-content td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.single-article-content th {
+  background: #f1f5f9;
+  font-weight: 600;
+}
+
+.single-article-content tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* Article content typography */
+.single-article-content {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* H1 - if needed inside article content */
+.single-article-content h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin: 30px 0 20px;
+}
+
+/* H2 - Main sections */
+.single-article-content h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.4;
+  color: #172033;
+  margin: 35px 0 16px;
+}
+
+/* H3 - Subsections */
+.single-article-content h3 {
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.4;
+  color: #334155;
+  margin: 25px 0 12px;
 }

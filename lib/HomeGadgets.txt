@@ -1,0 +1,9 @@
+Fridge
+AC
+TV
+Washing machine
+Mixer
+Oven
+Dry frying
+Toaster
+Mobile Phone
