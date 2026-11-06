@@ -35,4 +35,13 @@ export const articles = [
   description: "Compare front-load and top-load washing machines, capacity, inverter motors, wash programs, energy efficiency and important features before buying.",
   image: "/images/articles/how-to-choose-the-fully-automated-washing-machine.jpg",
 },
+{
+  id: 5,
+  slug: "how-to-choose-a-mixer-grinder",
+  fileName: "how-to-choose-a-mixer-grinder.md",
+  category: "home-kitchen",
+  title: "How to Choose a Mixer Grinder?",
+  description: "Compare motor power, jar capacity, blades, speed settings, safety features and build quality to choose the right mixer grinder for your kitchen.",
+  image: "/images/articles/how-to-choose-a-mixer-grinder.jpg",
+},
 ];

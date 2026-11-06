@@ -28,7 +28,7 @@ export default function GoToTop() {
       onClick={() =>
         window.scrollTo({
           top: 0,
-          behavior: "smooth",
+          behavior: "auto",
         })
       }
       aria-label="Go to top"
