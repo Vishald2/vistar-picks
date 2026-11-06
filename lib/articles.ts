@@ -7,8 +7,8 @@ export const articles = [
     title: "How to Choose the Right Smartphone",
     description: "Understand the important features before buying a smartphone.",
     image: "/images/articles/smartphone.jpg",
-    Author: "John Doe",
-    updatedAt: "2023-08-15",
+    Author: "Team SelectiveKart",
+    updatedAt: "2026-11-06",
   },
   {
   id: 2,
@@ -18,8 +18,8 @@ export const articles = [
   title: "Understanding Smart TVs: Features, Display Technologies and What to Look For",
   description: "Understand Smart TV operating systems, LED, QLED and OLED displays, 4K resolution, HDR, refresh rates and connectivity before choosing your next television.",
   image: "/images/articles/understanding-smart-tvs.jpg",
-  Author: "Jane Smith",
-  updatedAt: "2023-08-10",
+  Author: "Team SelectiveKart",
+  updatedAt: "2026-11-06",
   },
   {
   id: 3,
@@ -29,8 +29,8 @@ export const articles = [
   title: "Air Fryer Buying Guide: What Should You Check Before Buying?",
   description: "Learn how to choose an air fryer by comparing capacity, wattage, temperature control, basket design, cleaning and safety features.",
   image: "/images/articles/air-fryer-buying-guide.jpg",
-  Author: "Jane Smith",
-  updatedAt: "2023-08-10",
+  Author: "Team SelectiveKart",
+  updatedAt: "2026-11-06",
 },
 {
   id: 4,
@@ -40,8 +40,8 @@ export const articles = [
   title: "How to Choose the Fully Automated Washing Machine",
   description: "Compare front-load and top-load washing machines, capacity, inverter motors, wash programs, energy efficiency and important features before buying.",
   image: "/images/articles/how-to-choose-the-fully-automated-washing-machine.jpg",
-  Author: "Jane Smith",
-  updatedAt: "2023-08-10",
+  Author: "Team SelectiveKart",
+  updatedAt: "2026-11-06",
 },
 {
   id: 5,
@@ -51,7 +51,7 @@ export const articles = [
   title: "How to Choose a Mixer Grinder?",
   description: "Compare motor power, jar capacity, blades, speed settings, safety features and build quality to choose the right mixer grinder for your kitchen.",
   image: "/images/articles/how-to-choose-a-mixer-grinder.jpg",
-  Author: "Jane Smith",
-  updatedAt: "2023-08-10",
+  Author: "Team SelectiveKart",
+  updatedAt: "2026-11-06",
 },
 ];
