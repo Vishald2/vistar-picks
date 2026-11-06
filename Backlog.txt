@@ -1,1 +1,6 @@
 1. Related product should be related to article
+
+
+article
+1. Fully automated washing machine - done.
+2. Mixer - done.

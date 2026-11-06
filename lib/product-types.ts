@@ -3,6 +3,7 @@ export type Product = {
   marketplace: string;
   name: string;
   category: string;
+  productType?: string | null;
   description?: string | null;
   image: string;
   slug: string;
@@ -16,4 +17,3 @@ export type Product = {
   author?: string | null;
   experience?: string | null;
 };
-

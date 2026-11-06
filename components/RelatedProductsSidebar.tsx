@@ -7,9 +7,13 @@ import { useProducts } from "@/lib/use-products";
 
 type Props = {
   category: string;
+  productType?: string;
 };
 
-export default function RelatedProductsSidebar({ category }: Props) {
+export default function RelatedProductsSidebar({
+  category,
+  productType,
+}: Props) {
   const availableProducts = useProducts();
 
   const productCategoryMap: Record<string, string> = {
@@ -18,11 +22,23 @@ export default function RelatedProductsSidebar({ category }: Props) {
     "home-living": "",
   };
 
-  const relatedProducts = availableProducts
-    .filter(
-      (product) => product.category === productCategoryMap[category]
-    )
-    .slice(0, 3);
+  // First, try to find products matching the article's productType.
+  const productTypeMatches = productType
+    ? availableProducts
+        .filter((product) => product.productType === productType)
+        .slice(0, 3)
+    : [];
+
+  // If no productType match exists, use the existing category logic.
+  const relatedProducts =
+    productTypeMatches.length > 0
+      ? productTypeMatches
+      : availableProducts
+          .filter(
+            (product) =>
+              product.category === productCategoryMap[category]
+          )
+          .slice(0, 3);
 
   return (
     <aside className="related-products-sidebar">

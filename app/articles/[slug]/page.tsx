@@ -334,7 +334,10 @@ export default async function ArticlePage({
         </section>
 
         {/* Right Sidebar */}
-        <RelatedProductsSidebar category={article.category} />
+        <RelatedProductsSidebar
+          category={article.category}
+          productType={article.productType}
+        />
 
         <GoToTop />
 
