@@ -10,7 +10,7 @@ cooking presets. Capacity, wattage, temperature control, basket design,
 cleaning and safety all affect everyday use.
 
 This guide explains the main points to check before choosing an air
-fryer. Test Change.
+fryer.
 
 ## 1. Understand How an Air Fryer Works
 
